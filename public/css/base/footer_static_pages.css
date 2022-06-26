@@ -1,0 +1,180 @@
+/****************************************************************************************/
+/*                                 Welcome(About)                                       */
+/****************************************************************************************/
+#about {
+	width: 960px;
+}
+
+/******************************************************************/
+/*                           Heading                              */
+/******************************************************************/
+#about .heading {
+	width: 960px; height: 70px; padding-top: 1px;
+}
+
+#about .heading .wrapper {
+	width: 930px; height: 60px; margin-top: 5px;
+	margin-left: 15px;
+}
+
+#about .heading .legend {
+	float: left; width: 660px; height: 60px; text-align: left;
+	border-left: 10px rgb(81,81,181) solid;
+}
+
+#about .heading .legend .label {
+	width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
+	font-size: 34px; font-weight: bold; letter-spacing: -2px;
+	margin-top: 2px;
+}
+
+#about .heading .legend .sublabel {
+	width: 650px; height: 18px; line-height: 18px;
+	padding-left: 10px; font-size: 18px;
+	color: rgb(110,110,110);
+}
+
+#about .heading .actions {
+	position: relative; float: left; width: 260px; height: 60px;
+}
+
+#about .heading .actions .button {
+	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+	left: 50%; margin-left: -90px; color: black;
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+#about .heading .actions .button:hover {
+	background: rgb(81,81,181); color: white; cursor: pointer;
+}
+
+#about .heading .actions .button .name {
+	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold;
+}
+
+#about .heading .actions a {
+	text-decoration: none;
+}
+
+/******************************************************************/
+/*                           Block                                */
+/******************************************************************/
+#about .block {
+	margin: 10px 15px; width: 930px; background: rgb(220,220,220); clear: both;
+	overflow: auto;
+}
+
+#about .block .wrapper {
+	width: 880px; margin: 10px 25px; overflow: auto; text-align: left;
+}
+
+#about .block .heading-label {
+	width: 880px; height: 40px; line-height: 40px; font-weight: bold;
+	font-size: 32px; letter-spacing: -2px;
+}
+
+#about .block .heading-sublabel {
+	width: 880px; height: 18px; line-height: 18px; color: rgb(81,81,181);
+	font-weight: bold;
+}
+
+#about .block .description {
+	font-size: 18px; margin-top: 5px; margin-bottom: 10px;
+}
+
+#about .block .description .bold {
+	color: rgb(81,81,181); font-weight: bold;
+}
+
+#about .block .welcome1-img {
+	width: 880px; height: 400px;
+	background: url(../../img/welcome_1.png);
+}
+
+#about .block .welcome2-img {
+	width: 880px; height: 400px;
+	background: url(../../img/welcome_2.png);
+}
+
+/******************************************************************/
+/*                       Register button                          */
+/******************************************************************/
+#about .register-button-wrapper {
+	position: relative; width: 960px; height: 60px; clear: both;
+}
+
+#about .register-button {
+	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+	left: 50%; margin-left: -90px; color: black;
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+#about .register-button:hover {
+	background: rgb(81,81,181); color: white; cursor: pointer;
+}
+
+#about .register-button .name {
+	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold;
+}
+
+/****************************************************************************************/
+/*                                   Info page                                          */
+/****************************************************************************************/
+#info {
+	width: 960px;
+}
+
+/******************************************************************/
+/*                           Heading                              */
+/******************************************************************/
+#info .heading {
+	width: 960px; height: 70px; padding-top: 1px;
+}
+
+#info .heading .wrapper {
+	width: 930px; height: 60px; margin-top: 5px;
+	margin-left: 15px;
+}
+
+#info .heading .legend {
+	float: left; width: 660px; height: 60px; text-align: left;
+	border-left: 10px rgb(81,81,181) solid;
+}
+
+#info .heading .legend .label {
+	width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
+	font-size: 34px; font-weight: bold; letter-spacing: -2px;
+	margin-top: 2px;
+}
+
+#info .heading .legend .sublabel {
+	width: 650px; height: 18px; line-height: 18px;
+	padding-left: 10px; font-size: 18px;
+	color: rgb(110,110,110);
+}
+
+/******************************************************************/
+/*                           Block                                */
+/******************************************************************/
+#info .block {
+	margin: 10px 15px; width: 930px; background: rgb(220,220,220); clear: both;
+	overflow: auto;
+}
+
+#info .block .wrapper {
+	width: 880px; margin: 10px 25px; overflow: auto; text-align: left;
+}
+
+#info .block .heading-label {
+	width: 880px; height: 40px; line-height: 40px; font-weight: bold;
+	font-size: 32px; letter-spacing: -2px;
+}
+
+#info .block .description {
+	font-size: 18px; margin-top: 5px; margin-bottom: 10px;
+}
+
+#info .block .description .bold {
+	color: rgb(81,81,181); font-weight: bold;
+}

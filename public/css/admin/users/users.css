@@ -1,0 +1,195 @@
+#users {
+	width: 960px;
+}
+
+#users .top-spacer {
+	width: 960px; height: 10px; clear: both;
+}
+
+#users .users-table {
+	width: 960px; display: block; clear: both;
+	border-bottom: 1px rgb(222,222,222) solid;
+}
+
+#users .users-table #heading {
+	background: rgb(228,228,228); border-bottom: 1px rgb(220,220,220) solid;
+}
+
+#users .users-table th {
+	text-align: center; font-size: 12px; height: 40px;
+	color: rgb(60,60,60);
+}
+
+#users .users-table #overall {
+	width: 400px;
+}
+
+#users .users-table #statistics {
+	width: 140px;
+}
+
+#users .users-table #registred {
+	width: 120px;
+}
+
+#users .users-table #actions {
+	width: 140px;
+}
+
+#users .users-table #rank {
+	width: 160px;
+}
+
+#users .users-table .highlight-row {
+	background: rgb(222,222,222);
+}
+
+#users .users-table td {
+	font-size: 14px; height: 100px;
+}
+
+#users .users-table .overall-cell {
+	width: 400px;
+}
+
+#users .users-table .overall-cell .wrapper {
+	width: 380px; height: 80px; margin-left: 20px;
+}
+
+#users .users-table .overall-cell .avatar {
+	position: relative; float: left; width: 80px; height: 80px;
+}
+
+#users .users-table .overall-cell .avatar img {
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+   -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	border-collapse: separate;
+}
+
+#users .users-table .overall-cell .avatar .no-avatar {
+	width: 80px; height: 80px;
+	background: url(../../../img/admin/noavatar_80_80_with_limits.jpg) no-repeat;
+}
+
+#users .users-table .overall-cell .avatar .status {
+	position: absolute; width: 80px; height: 15px; line-height: 15px;
+	top: 65px; left: 0px; text-align: center;
+	font-size: 11px; font-weight: bold;
+	background: rgb(81,81,181); color: white;
+}
+
+#users .users-table .overall-cell .avatar .status .activated-icon {
+	width: 80px; height: 15px;
+	background: url(../../../img/admin/users_activated_80_15.png) no-repeat;
+}
+
+#users .users-table .overall-cell .avatar .status .waiting-icon {
+	width: 80px; height: 15px;
+	background: url(../../../img/admin/users_waiting_80_15.png) no-repeat;
+}
+
+#users .users-table .overall-cell .overall {
+	float: left; width: 300px; height: 80px;
+}
+
+#users .users-table .overall-cell .heading {
+	width: 300px; height: 38px; line-height: 38px;
+	text-align: left; overflow: hidden;
+}
+
+#users .users-table .overall-cell .heading h3 {
+	font-size: 34px; font-weight: bold; letter-spacing: -2px;
+	padding-left: 15px; display: inline;
+}
+
+#users .users-table .overall-cell .heading h3:hover {
+	color: rgb(81,81,181);
+}
+
+#users .users-table .overall-cell .heading a {
+	text-decoration: none;
+}
+
+#users .users-table .overall-cell .subheading {
+	width: 285px; height: 16px; line-height: 16px;
+	text-align: left; padding-left: 15px; font-size: 14px;
+	color: rgb(90,90,90);
+}
+
+#users .users-table .statistics-cell {
+	width: 140px;
+}
+
+#users .users-table .statistics-cell .item {
+	width: 110px; height: 20px; line-height: 20px;
+	text-align: left; font-size: 14px; font-weight: bold;
+	letter-spacing: -1px; padding-left: 30px;
+}
+
+#users .users-table .statistics-cell .item .count {
+	color: rgb(81,81,181);
+}
+
+#users .users-table .statistics-cell .spacer {
+	width: 140px; height: 5px;
+}
+
+#users .users-table .registred-cell {
+	width: 120px; font-size: 12px;
+}
+
+#users .users-table .actions-cell {
+	width: 140px; font-size: 12px;
+}
+
+#users .users-table .actions-cell .action:hover {
+	cursor: pointer; text-decoration: underline;
+}
+
+#users .users-table .actions-cell .left {
+	float: left; width: 60px; text-align: right;
+	padding-right: 10px;
+}
+
+#users .users-table .actions-cell .right {
+	float: left; width: 60px; text-align: left;
+	padding-left: 10px;
+}
+
+#users .users-table .rank-cell {
+	width: 160px; font-weight: bold;
+}
+
+#users .users-table .rank-cell .number {
+	width: 160px; height: 32px; line-height: 32px;
+	font-size: 32px; color: rgb(81,81,181);
+	letter-spacing: -2px;
+}
+
+#users .users-table .rank-cell .label {
+	width: 160px; height: 20px; line-height: 20px;
+	font-size: 20px; letter-spacing: -1px;
+}
+
+/* No users */
+#users .no-users {
+	width: 960px; height: 500px; padding-top: 1px;
+}
+
+#users .no-users .message {
+	width: 820px; height: 100px; margin-top: 170px;
+	margin-left: 70px; background: rgb(222,222,222);
+}
+
+#users .no-users .icon {
+	float: left; width: 120px; height: 100px; margin-left: 250px;
+	background: url(../../../img/admin/no_users.png);
+}
+
+#users .no-users .label {
+	float: left; width: 450px; height: 100px; line-height: 100px;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+	text-align: left;
+}

@@ -1,0 +1,658 @@
+/* Page heading */
+.page-heading {
+	width: 960px; height: 80px; position: relative;
+	text-align: left; border-bottom: 1px rgb(210,210,210) solid; 
+}
+
+.page-heading .wrapper {
+	position: absolute; width: 960px; height: 56px;
+	background: none; margin-top: 12px;
+}
+
+.page-heading .legend {
+	float: left; width: 400px; height: 56px;
+	margin-left: 45px;
+}
+
+.page-heading .legend .name {
+	width: 400px; height: 40px; font-size: 36px;
+	font-weight: bold; letter-spacing: -2px;
+}
+
+.page-heading .legend .subname {
+	width: 400px; height: 14px; font-size: 14px;
+	color: rgb(100,100,100);
+}
+
+.page-heading .legend .subname a {
+	font-size: 14px; color: rgb(100,100,100);
+}
+
+.page-heading .legend .subname a:hover {
+	text-decoration: underline;
+}
+
+.page-heading .legend .subname .padding {
+	padding-left: 5px;
+}
+
+.page-heading .legend .subname .separator {
+	font-size: 12px; color: rgb(100,100,100);
+}
+
+.page-heading .settings {
+	float: left; width: 500px; height: 56px; margin-left: 15px;
+}
+
+.page-heading .settings .item-big {
+	float: left; width: 190px; height: 56px;
+	border-right: 1px rgb(210,210,210) solid;
+}
+
+.page-heading .settings .item-big .name {
+	width: 180px; height: 26px; margin-top: 8px;
+	font-weight: bold; font-size: 24px; letter-spacing: -2px;
+	padding-left: 10px;
+}
+
+.page-heading .settings .item-big .subname {
+	width: 180px; height: 14px; padding-left: 10px;
+	font-size: 14px; color: rgb(120,120,120);
+}
+
+.page-heading .settings .item-small {
+	float: left; width: 100px; height: 56px; text-align: center;
+}
+
+.page-heading .settings .item-small .name {
+	width: 100px; height: 26px; margin-top: 8px;
+	font-size: 26px; font-weight: bold; letter-spacing: -2px;
+}
+
+.page-heading .settings .item-small .subname {
+	width: 100px; height: 18px; font-size: 18px; font-weight: bold;
+	color: rgb(81,81,181); letter-spacing: -1px;
+}
+
+.page-heading .settings .name-over {
+	color: rgb(81,81,181);
+}
+
+.page-heading .settings .item-over {
+	cursor: pointer;
+}
+
+/* Page controls */
+.page-controls {
+	width: 960px; height: 60px; 
+}
+
+.page-controls .pagination {
+	position: relative; float: left; width: 320px; height: 60px;
+}
+
+.page-controls .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+	left: 40px; 
+}
+
+.page-controls .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+.page-controls .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .pagination .active {
+	background: rgb(240,240,240); 
+}
+
+.page-controls .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .pagination .number {
+	font-size: 16px; font-weight: bold; 
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+.page-controls .sorting {
+	float: left; width: 380px; height: 60px; 
+}
+
+.page-controls .sorting .heading {
+	float: left; width: 80px; height: 60px; line-height: 60px; text-align: right;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px; 
+}
+
+.page-controls .sorting .wrapper {
+	position: relative; float: left; width: 100px; height: 60px; 
+}
+
+.page-controls .sorting .item {
+	position: absolute; left: 50%; margin-left: -45px; top: 50%; margin-top: -12px;
+	width: 90px; height: 25px; line-height: 25px; text-align: center;
+	font-size: 16px; font-weight: bold; letter-spacing: -1px;
+	border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+.page-controls .sorting .active {
+	background: rgb(240,240,240); 
+}
+
+.page-controls .sorting .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .sorting .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .add-button {
+	position: relative; float: left; width: 260px; height: 60px; 
+}
+
+.page-controls .add-button .wrapper {
+	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+	left: 50%; margin-left: -90px; 
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+.page-controls .add-button .wrapper:hover {
+	background: rgb(81,81,181); color: white; cursor: pointer; 
+}
+
+.page-controls .add-button .name {
+	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold;
+}
+
+.page-controls .add-button .add-char {
+	font-size: 16px; 
+}
+
+.page-controls .add-button a {
+	text-decoration: none;
+}
+
+/* Dashboard events_to_show select */
+.page-controls .events-to-show {
+	float: left; width: 260px; height: 60px;
+}
+
+.page-controls .events-to-show .select-button {
+	width: 160px; height: 25px; 
+	margin-top: 17px; margin-left: 50px; 
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+.page-controls .events-to-show .select-button .icon {
+	float: left; width: 55px; height: 25px;
+	background: url(../../../img/admin/selectlist_arrow.png) no-repeat; 
+}
+
+.page-controls .events-to-show .select-button .label {
+	float: left; width: 105px; height: 25px; line-height: 25px;
+	text-align: left; font-weight: bold; font-size: 16px;
+	letter-spacing: -1px;
+}
+
+/* Dashboard events_to_show select list */
+.page-controls #events-to-show-list {
+	position: absolute; left: 50%; margin-left: 170px; top: 90px; 
+	z-index: 500; width: 275px; height: 200px;
+	border: 1px rgb(210,210,210) solid;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	background: rgb(222,222,222); display: none;	
+}
+
+.page-controls #events-to-show-list .item {
+	float: left; width: 137px; height: 50px;
+}
+
+.page-controls #events-to-show-list .item .spacer {
+	float: left; width: 20px; height: 40px; 
+	margin-top: 5px;
+}
+
+.page-controls #events-to-show-list .item .legend {
+	float: left; width: 105px; height: 40px; text-align: left; 
+	margin-top: 5px;
+}
+
+.page-controls #events-to-show-list .item .heading {
+	width: 105px; height: 24px; font-size: 24px; 
+	font-weight: bold; color: black; letter-spacing: -2px;
+}
+
+.page-controls #events-to-show-list .item .subheading {
+	width: 105px; height: 16px; font-size: 14px; 
+	letter-spacing: -1px; font-weight: bold; 
+	color: rgb(81,81,181); 
+}
+
+.page-controls #events-to-show-list .item .selected {
+	color: rgb(81,81,181);
+}
+
+.page-controls #events-to-show-list .highlight {
+	background: rgb(235,235,235);
+}
+
+.page-controls #events-to-show-list a:hover {
+	text-decoration: none; 
+}
+
+/* Users list username prefix */
+.page-controls .prefixes {
+	clear: both; width: 960px; height: 20px; background: rgb(222,222,222);
+}
+
+.page-controls .prefixes .prefix {
+	float: left; height: 20px; font-size: 14px; font-weight: bold;
+	margin-left: 8px;
+}
+
+.page-controls .prefixes .prefix .spacer {
+	float: left; width: 8px; height: 20px;
+}
+
+.page-controls .prefixes .prefix .text {
+	float: left; height: 20px; line-height: 20px;
+	letter-spacing: -1px;
+}
+
+.page-controls .prefixes .selected,
+.page-controls .prefixes .active:hover {
+	background: rgb(81,81,181); color: white;
+}
+
+/* Items and categories containers(shared between modules) */
+.page-content {
+	width: 960px;
+}
+
+.page-content .module-items-wrapper {
+	float: left; width: 840px;
+}
+
+.page-content .module-items {
+	float: left; width: 840px;
+}
+
+.page-content .module-categories {
+	float: left; width: 120px;
+}
+
+/* Items table(shared between modules) */
+.items-table {
+	width: 840px; display: block; border-bottom: 1px rgb(222,222,222) solid; 
+}
+
+.items-table #heading {
+	background: rgb(228,228,228); border-bottom: 1px rgb(220,220,220) solid; 
+}
+
+.items-table th {
+	text-align: center; font-size: 12px; height: 40px;
+	color: rgb(60,60,60); 
+}
+
+.items-table #overall {
+	width: 550px;
+}
+
+.items-table #likes {
+	width: 90px;
+}
+
+.items-table #status {
+	width: 80px; 
+}
+
+.items-table #actions {
+	width: 120px;
+}
+
+.items-table .highlight {
+	background: rgb(222,222,222);
+}
+
+.items-table td {
+	font-size: 14px; height: 80px; 
+}
+
+.items-table .overall-cell {
+	width: 550px;
+}
+
+.items-table .overall-cell .wrapper {
+	width: 530px; height: 60px; margin-left: 20px;
+}
+
+.items-table .overall-cell .photo {
+	position: relative; float: left; width: 80px; height: 60px;
+}
+
+.items-table .overall-cell .photo img {
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+   -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25); 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	border-collapse:separate;
+}
+
+.items-table .overall-cell .photo .adddate {
+	position: absolute; width: 80px; height: 15px; line-height: 15px; 
+	top: 45px; left: 0px; background: rgb(81,81,181); color: white;
+	text-align: center; font-size: 10px; font-weight: bold; letter-spacing: -1px;
+}
+
+.items-table .overall-cell .photo .video { 
+	position: absolute; top: 0px; left: 0px; width: 80px; height: 60px;
+	background: url(../../../img/admin/play.png) no-repeat; 
+}
+
+.items-table .overall-cell .overall {
+	float: left; width: 450px; height: 60px;
+}
+
+.items-table .overall-cell .heading {
+	float: left; width: 450px; height: 30px; line-height: 30px;
+	text-align: left; overflow: hidden; 
+}
+
+.items-table .overall-cell .heading h3 {
+	font-size: 24px; font-weight: bold; letter-spacing: -1px;
+	padding-left: 15px; display: inline;
+}
+
+.items-table .overall-cell .heading h3:hover {
+	color: rgb(81,81,181);
+}
+
+.items-table .overall-cell .heading a { 
+	text-decoration: none; 
+}
+
+.items-table .overall-cell .info {
+	clear: both; float: left; width: 450px; height: 30px; line-height: 30px;
+	text-align: left;  
+}
+
+.items-table .overall-cell .info .label {
+	font-size: 18px; padding-left: 15px;  
+}
+
+.items-table .overall-cell .info .message {
+	font-size: 18px; color: rgb(81,81,181);
+}
+
+.items-table .overall-cell .info .message:hover {
+	text-decoration: underline; cursor: pointer;
+}
+
+.items-table .likes-cell {
+	width: 90px;
+}
+
+.items-table .likes-cell .likes {
+	width: 60px; height: 50px; margin-left: auto; margin-right: auto;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	position: relative; background: rgb(81,81,181);
+}
+
+.items-table .likes-cell .wrapper {
+	position: absolute; top: 7px; width: 60px; height: 34px; 
+}
+
+.items-table .likes-cell .count {
+	width: 60px; height: 18px; line-height: 18px; font-size: 18px;
+	font-weight: bold; color: white; letter-spacing: -1px;
+}
+
+.items-table .likes-cell .label {
+	width: 60px; height: 16px; line-height: 16px; font-size: 16px;
+	font-weight: bold; color: white; letter-spacing: -1px;
+}
+
+.items-table .status-cell {
+	width: 80px; font-size: 12px;
+}
+
+.items-table .status-cell .status:hover {
+	text-decoration: underline; cursor: pointer;
+}
+
+.items-table .actions-cell {
+	width: 120px;
+}
+
+.items-table .actions-cell .wrapper {
+	 width: 120px; height: 12px; font-size: 12px; 
+	 margin-left: auto; margin-right: auto;
+}
+
+.items-table .actions-cell .edit {
+	float: left; width: 55px;
+}
+
+.items-table .actions-cell .delete {
+	float: left; width: 55px;
+}
+
+.items-table .actions-cell .delete:hover {
+	text-decoration: underline; cursor: pointer;
+}
+
+.items-table .no-items {
+	width: 840px; height: 500px; text-align: center;
+}
+
+.items-table .no-items div {
+	width: 820px; height: 100px; line-height: 100px; background: rgb(222,222,222);
+	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+	margin-left: auto; margin-right: auto;
+}
+
+/* Bottom controls */
+.bottom-controls {
+	clear: both; width: 840px; height: 60px;
+}
+
+.bottom-controls .pagination {
+	position: relative; float: left; width: 320px; height: 60px;
+}
+
+.bottom-controls .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+	left: 40px;
+}
+
+.bottom-controls .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+.bottom-controls .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.bottom-controls .pagination .active {
+	background: rgb(240,240,240);
+}
+
+.bottom-controls .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.bottom-controls .pagination .number {
+	font-size: 16px; font-weight: bold;
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+/* Categories table(shared between modules) */
+.categories {
+	width: 120px; display: block;  
+}
+
+.categories a {
+	text-decoration: none;
+}
+
+.categories #heading {
+	background: rgb(228,228,228); border-bottom: 1px rgb(220,220,220) solid; 
+}
+
+.categories th {
+	text-align: center; font-size: 12px; height: 40px;
+	color: rgb(60,60,60);
+}
+
+.categories #categories {
+	width: 120px;
+}
+
+.categories .highlight {
+	background: rgb(222,222,222);
+}
+
+.categories .category-cell {
+	width: 120px; 
+}
+
+.categories .category-cell .wrapper {
+	width: 120px; height: 25px; line-height: 25px; font-size: 14px; font-weight: bold;
+	text-align: left; letter-spacing: -1px; color: rgb(60,60,60);
+}
+
+.categories .category-cell .active:hover,
+.categories .category-cell .selected {
+	background: rgb(81,81,181); color: white; 
+}
+
+.categories .category-cell .text {
+	padding-left: 15px;
+}
+
+.categories .subcategory-cell {
+	width: 120px; background: rgb(222,222,222); 
+}
+
+.categories .subcategory-cell .wrapper {
+	width: 120px; height: 25px; line-height: 25px; font-size: 14px; font-weight: bold;
+	text-align: left; letter-spacing: -1px; color: rgb(60,60,60);
+}
+
+.categories .subcategory-cell .active:hover,
+.categories .subcategory-cell .selected {
+	background: rgb(81,81,181); color: white;
+}
+
+.categories .subcategory-cell .text {
+	padding-left: 15px;
+}
+
+.categories .subcategory-cell .separator {
+	width: 120px; height: 5px; background: rgb(222,222,222); 
+}
+
+/* Photo gallery */
+#gallery {
+	position: absolute; width: 800px; height: 600px; 
+	left: 50%; margin-left: -400px; z-index: 30000; display: none;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+   -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	background: rgb(235,235,235);
+}
+
+#gallery .photo {
+	position: relative; width: 800px; height: 520px;
+}
+
+#gallery .photo .image img {
+	width: 800px; height: 520px;
+}
+
+#gallery .photo .previous {
+	position: absolute; left: 0px; top: 0px; width: 100px; height: 520px; 
+	background: url(../../../img/admin/gallery_filler.png) no-repeat;
+}
+
+#gallery .photo .show-previous {
+	cursor: pointer; background: url(../../../img/admin/gallery_left.png) no-repeat;
+}
+
+#gallery .photo .next {
+	position: absolute;  left: 700px; top: 0px; width: 100px; height: 520px; 
+	background: url(../../../img/admin/gallery_filler.png) no-repeat;
+}
+
+#gallery .photo .show-next {
+	cursor: pointer; background: url(../../../img/admin/gallery_right.png) no-repeat;
+}
+
+#gallery .panel {
+	width: 800px; height: 80px;
+}
+
+#gallery .panel .current {
+	float: left; width: 90px; height: 80px; line-height: 80px; text-align: right;
+}
+
+#gallery .panel .current .count {
+	font-size: 24px; font-weight: bold;
+}
+
+#gallery .panel .current .of {
+	font-size: 18px; 
+}
+
+#gallery .panel .total {
+	float: left; width: 70px; height: 80px; line-height: 80px;
+	color: white; font-weight: bold; font-size: 24px;
+	background: url(../../../img/admin/photo_total_count_bg.png) no-repeat;
+}
+
+#gallery .panel .description {
+	position: relative; float: left; width: 275px; height: 80px;
+}
+
+#gallery .panel .description .wrapper {
+	position: absolute; width: 275px; height: 60px; left: 0px; top: 50%;
+	margin-top: -30px; 
+}
+
+#gallery .panel .description .heading {
+	width: 275px; height: 28px; padding-left: 10px; text-align: left;
+	font-weight: bold; font-size: 24px; letter-spacing: -1px;
+}
+
+#gallery .panel .description .subheading {
+	width: 275px; height: 32px; padding-left: 10px; text-align: left;
+	font-size: 12px; 
+}
+
+#gallery .panel .content {
+	float: left; width: 275px; height: 80px;
+}
+
+#gallery .panel .close {
+	float: left; width: 90px; height: 80px;
+	background: url(../../../img/admin/gallery_close.png) no-repeat;
+}
+
+#gallery .panel .close:hover {
+	cursor: pointer; background: url(../../../img/admin/gallery_close_over.png) no-repeat;
+}

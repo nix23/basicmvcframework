@@ -1,0 +1,71 @@
+/******************************************************************/
+/*                         Reset styles                           */
+/******************************************************************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0; margin: 0;
+}
+
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-weight: normal; font-style: normal;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal; font-size: 100%;
+}
+
+q:before,q:after {
+	content:'';
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+html,body {
+	font-family: Arial;
+}
+
+/******************************************************************/
+/*                         Generate photo                         */
+/******************************************************************/
+#generate-photo {
+	background: rgb(222,222,222);
+}
+
+#generate-photo .prompt {
+	position: absolute; left: 50%; top: 50%;
+	width: 430px; height: 240px;
+	margin-left: -215px; margin-top: -120px;
+}
+
+#generate-photo .prompt .loading-animation {
+	width: 150px; height: 150px; margin-left: 140px;
+	background: url(../../img/loading_big.gif);
+}
+
+#generate-photo .prompt .logo {
+	width: 270px; height: 32px; margin-left: 80px; margin-top: 5px;
+	background: url(../../img/fdrive_logo_white.png);
+}
+
+#generate-photo .prompt .legend {
+	width: 430px; font-weight: bold; font-size: 18px;
+	letter-spacing: -1px; text-align: center; margin-top: 10px;
+}

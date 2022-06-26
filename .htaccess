@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule    robots.txt robots.txt [L]
+	RewriteCond %{HTTP_USER_AGENT} (alltheweb|baidu|bingbot|msnbot|slurp) [NC]
+	RewriteRule ^(services/.*|uploads/cache/*) - [F,L]
+	RewriteRule    ^$    public/    [L]
+	RewriteRule    (.*) public/$1    [L]
+</IfModule>
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 119.63.196.
+deny from 157.56.93.
+deny from 157.55.35.
+deny from 157.55.32.
+deny from 157.55.33.

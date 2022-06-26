@@ -1,0 +1,68 @@
+
+2013-06-16 18:40:54 ***** Most active posts profiling results: 0.04s.
+2013-06-16 18:40:56 ***** Last items profiling results: 2.02s.
+2013-06-16 18:40:58 ***** Top users profiling results: 1.98s.
+2013-06-16 18:40:58 ***** Last activities profiling results: 0.01s.
+2013-06-16 18:49:13 ***** Most active posts profiling results: 0.04s.
+2013-06-16 18:49:15 ***** Last items profiling results: 2.10s.
+2013-06-16 18:49:17 ***** Top users profiling results: 2.09s.
+2013-06-16 18:49:17 ***** Last activities profiling results: 0.02s.
+2013-06-16 19:09:37 ***** Most active posts profiling results: 0.05s.
+2013-06-16 19:18:18 ***** Most active posts profiling results: 0.02s.
+2013-06-16 19:24:13 ***** Most active posts profiling results: 0.02s.
+2013-06-16 19:25:30 ***** Most active posts profiling results: 0.02s.
+2013-06-16 19:25:30 ***** Last items profiling results: 0.09s.
+2013-06-16 19:25:30 ***** Top users profiling results: 0.03s.
+2013-06-16 19:25:30 ***** Last activities profiling results: 0.05s.
+2013-06-16 19:30:02 ***** Most active posts profiling results: 0.02s.
+2013-06-16 19:30:02 ***** Last items profiling results: 0.06s.
+2013-06-16 19:30:02 ***** Top users profiling results: 0.01s.
+2013-06-16 19:30:02 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:30:06 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:30:06 ***** Last items profiling results: 0.07s.
+2013-06-16 19:30:06 ***** Top users profiling results: 0.01s.
+2013-06-16 19:30:06 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:35:51 ***** Most active posts profiling results: 0.05s.
+2013-06-16 19:35:51 ***** Last items profiling results: 0.09s.
+2013-06-16 19:35:51 ***** Top users profiling results: 0.01s.
+2013-06-16 19:35:52 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:37:08 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:37:08 ***** Last items profiling results: 0.06s.
+2013-06-16 19:37:08 ***** Top users profiling results: 0.01s.
+2013-06-16 19:37:08 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:37:24 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:37:24 ***** Last items profiling results: 0.06s.
+2013-06-16 19:37:24 ***** Top users profiling results: 0.01s.
+2013-06-16 19:37:24 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:47:39 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:47:39 ***** Last items profiling results: 0.06s.
+2013-06-16 19:47:39 ***** Top users profiling results: 0.01s.
+2013-06-16 19:47:39 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:47:46 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:47:46 ***** Last items profiling results: 0.06s.
+2013-06-16 19:47:46 ***** Top users profiling results: 0.01s.
+2013-06-16 19:47:46 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:49:49 ***** Most active posts profiling results: 0.04s.
+2013-06-16 19:49:49 ***** Last items profiling results: 0.06s.
+2013-06-16 19:49:49 ***** Top users profiling results: 0.01s.
+2013-06-16 19:49:49 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:55:34 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:55:34 ***** Last items profiling results: 0.12s.
+2013-06-16 19:55:34 ***** Top users profiling results: 0.01s.
+2013-06-16 19:55:34 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:55:39 ***** Most active posts profiling results: 0.04s.
+2013-06-16 19:55:39 ***** Last items profiling results: 0.06s.
+2013-06-16 19:55:39 ***** Top users profiling results: 0.01s.
+2013-06-16 19:55:39 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:56:00 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:56:00 ***** Last items profiling results: 0.05s.
+2013-06-16 19:56:00 ***** Top users profiling results: 0.01s.
+2013-06-16 19:56:00 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:56:11 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:56:11 ***** Last items profiling results: 0.06s.
+2013-06-16 19:56:11 ***** Top users profiling results: 0.01s.
+2013-06-16 19:56:11 ***** Last activities profiling results: 0.01s.
+2013-06-16 19:57:52 ***** Most active posts profiling results: 0.03s.
+2013-06-16 19:57:52 ***** Last items profiling results: 0.06s.
+2013-06-16 19:57:52 ***** Top users profiling results: 0.01s.
+2013-06-16 19:57:52 ***** Last activities profiling results: 0.00s.

@@ -1,0 +1,10 @@
+RewriteEngine On
+Options +FollowSymLinks
+RewriteRule ^(.*)uploads/images/([^-]*)([-].)([^-]*).jpg$ index.php?url=404_not_found [PT,L,QSA]
+RewriteRule    robots.txt robots.txt [L]
+RewriteCond %{HTTP_USER_AGENT} (alltheweb|baidu|bingbot|msnbot|slurp) [NC]
+RewriteRule ^(services/.*|uploads/cache/*) - [F,L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [PT,L,QSA]
+

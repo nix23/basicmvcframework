@@ -1,0 +1,12 @@
+/* Div trimmer line-height fix */
+.module-items .item .info .heading .wrapper {
+	height: 35px;
+}
+
+#content {
+	overflow: hidden;
+}
+
+A:hover, A:visited, A:active, A:link {
+	text-decoration: none;
+}

@@ -1,0 +1,1568 @@
+/****************************************************************************************/
+/*                           Shared css between modules                                 */
+/****************************************************************************************/
+
+/****************************************************************************************/
+/*                                 Page controls                                        */
+/****************************************************************************************/
+.page-controls {
+	width: 960px; height: 60px; 
+}
+
+/******************************************************************/
+/*                        Pagination                              */
+/******************************************************************/
+.page-controls .pagination {
+	position: relative; float: left; width: 300px; height: 60px;
+}
+
+.page-controls .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+	left: 20px; 
+}
+
+.page-controls .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+.page-controls .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .pagination .active {
+	background: rgb(240,240,240); color: black;
+}
+
+.page-controls .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .pagination .number {
+	font-size: 16px; font-weight: bold; 
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+/******************************************************************/
+/*                        Sorting                                 */
+/******************************************************************/
+.page-controls .sorting {
+	float: left; width: 400px; height: 60px; 
+}
+
+.page-controls .sorting .heading {
+	float: left; width: 80px; height: 60px; line-height: 60px; text-align: right;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px; 
+}
+
+.page-controls .sorting .wrapper {
+	position: relative; float: left; width: 100px; height: 60px; 
+}
+
+.page-controls .sorting .item {
+	position: absolute; left: 50%; margin-left: -45px; top: 50%; margin-top: -12px;
+	width: 90px; height: 25px; line-height: 25px; text-align: center;
+	font-size: 16px; font-weight: bold; letter-spacing: -1px;
+	border: 1px rgb(210,210,210) solid; color: black;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+.page-controls .sorting .active {
+	background: rgb(240,240,240); 
+}
+
+.page-controls .sorting .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .sorting .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.page-controls .sorting a {
+	text-decoration: none;
+}
+
+/******************************************************************/
+/*                        Add button                              */
+/******************************************************************/
+.page-controls .add-button {
+	position: relative; float: left; width: 260px; height: 60px; 
+}
+
+.page-controls .add-button .wrapper {
+	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+	left: 50%; margin-left: -90px; color: black; 
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+.page-controls .add-button .wrapper:hover {
+	background: rgb(81,81,181); color: white; cursor: pointer; 
+}
+
+.page-controls .add-button .name {
+	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.page-controls .add-button .add-char {
+	font-size: 16px; 
+}
+
+.page-controls .add-button a {
+	text-decoration: none;
+}
+
+/****************************************************************************************/
+/*                                 Module items(catalog)                                */
+/****************************************************************************************/
+.page-content {
+	width: 960px;
+}
+
+.page-content .module-items {
+	float: left; width: 840px; 
+}
+
+.page-content .module-categories {
+	float: left; width: 120px; 
+}
+
+/****************************************************************************************/
+/*                                 Module items(list item)                              */
+/****************************************************************************************/
+.module-items .item {
+	float: left; width: 280px; height: 190px;
+}
+
+.module-items .item a {
+	text-decoration: none; 
+}
+
+.module-items .item .item-wrapper {
+	position: relative; width: 270px; height: 180px; 
+	margin-left: 5px; margin-top: 5px;
+}
+
+/******************************************************************/
+/*                            Likes                               */
+/******************************************************************/
+.module-items .item .likes {
+	position: absolute; left: 0px; top: 0px; width: 50px; height: 50px;
+	background: rgb(81,81,181); color: white;
+}
+
+.module-items .item .likes .count {
+	width: 50px; height: 24px; margin-top: 2px; font-size: 24px;
+	font-weight: bold; letter-spacing: -2px;
+}
+
+.module-items .item .likes .label {
+	width: 50px; height: 16px; font-size: 16px;
+	font-weight: bold; letter-spacing: -1px;
+}
+
+/******************************************************************/
+/*                 Info small(Right container)                    */
+/******************************************************************/
+.module-items .item .info-small {
+	position: absolute; left: 220px; top: 0px; width: 50px; height: 50px;
+	background: rgb(81,81,181); color: white;
+}
+
+.module-items .item .info-small .top {
+	width: 50px; height: 24px; margin-top: 2px; font-size: 24px;
+	font-weight: bold; letter-spacing: -2px;
+}
+
+.module-items .item .info-small .top-small {
+	width: 50px; height: 20px; margin-top: 6px; font-size: 18px;
+	font-weight: bold; letter-spacing: -1px;
+}
+
+.module-items .item .info-small .bottom {
+	width: 50px; height: 16px; font-size: 16px;
+	font-weight: bold; letter-spacing: -1px;
+}
+
+.module-items .item .info-small .top .play-video-icon {
+	width: 50px; height: 24px;
+	background: url(../../img/video_play_icon_small4.jpg) no-repeat;
+}
+
+/******************************************************************/
+/*                     Info (Bottom container)                    */
+/******************************************************************/
+.module-items .item .info {
+	position: absolute; left: 0px; top: 130px; width: 270px; height: 50px;
+	background: url(../../img/item_bg_light.png);
+}
+
+.module-items .item .info-selected {
+	background: rgb(81,81,181);
+}
+
+.module-items .item .info .heading {
+	float: left; width: 195px; height: 50px;
+}
+
+.module-items .item .info .heading .wrapper {
+	margin-left: 10px; margin-top: 9px; overflow: hidden;
+	width: 185px; height: 32px; text-align: left; line-height: 16px;
+}
+
+.module-items .item .info .heading h3 {
+	color: white; font-weight: bold; font-size: 14px;
+	letter-spacing: -1px;
+}
+
+.module-items .item .info .comments {
+	float: left; width: 75px; height: 50px;
+	color: white; font-weight: bold;
+}
+
+.module-items .item .info .comments .count {
+	width: 75px; height: 24px; line-height: 24px;
+	margin-top: 6px; font-size: 24px; letter-spacing: -1px;
+}
+
+.module-items .item .info .comments .label {
+	width: 75px; height: 14px; line-height: 14px;
+	font-size: 14px; font-weight: bold; letter-spacing: -1px;
+}
+
+/******************************************************************/
+/*                        Pagination                              */
+/******************************************************************/
+.module-items .bottom-controls {
+	clear: both; padding-top: 1px; width: 840px; height: 60px;
+}
+
+.module-items .bottom-controls .pagination {
+	position: relative; float: left; width: 300px; height: 60px;
+}
+
+.module-items .bottom-controls .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+	left: 20px;
+}
+
+.module-items .bottom-controls .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+.module-items .bottom-controls .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.module-items .bottom-controls .pagination .active {
+	background: rgb(240,240,240); color: black;
+}
+
+.module-items .bottom-controls .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.module-items .bottom-controls .pagination .number {
+	font-size: 16px; font-weight: bold;
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+/****************************************************************************************/
+/*                                 Module items(categories)                             */
+/****************************************************************************************/
+.module-categories .separator-light {
+	width: 120px; height: 5px; background: rgb(235,235,235);
+}
+
+.module-categories a {
+	text-decoration: none;
+}
+
+.module-categories .category {
+	width: 120px; height: 25px; line-height: 25px; font-size: 14px; 
+	font-weight: bold; text-align: left; letter-spacing: -1px; 
+	color: rgb(60,60,60);
+}
+
+.module-categories .category .text {
+	padding-left: 15px;
+}
+
+.module-categories .selected,
+.module-categories .active:hover {
+	background: rgb(81,81,181); color: white; 
+}
+
+.module-categories .highlight {
+	background: rgb(222,222,222);
+}
+
+.module-categories .separator {
+	width: 120px; height: 5px; background: rgb(222,222,222);
+}
+
+/****************************************************************************************/
+/*                                 View item(item stuff)                                */
+/****************************************************************************************/
+.view-item {
+	width: 960px;
+}
+
+.view-item .backlink {
+	width: 960px; height: 35px; line-height: 35px; text-align: left; 
+	font-size: 16px; background: rgb(222,222,222); font-weight: bold;
+	letter-spacing: -1px; margin-bottom: 5px;
+}
+
+.view-item .backlink a {
+	padding-left: 30px; color: rgb(60,60,60);
+}
+
+.view-item .backlink a:hover {
+	color: rgb(81,81,181); text-decoration: none;
+}
+
+/******************************************************************/
+/*                      Unavailable item                          */
+/******************************************************************/
+.view-item .unavailable-item {
+	width: 960px; height: 500px; padding-top: 1px;
+}
+
+.view-item .unavailable-item .message {
+	width: 820px; height: 100px; margin-top: 170px;
+	margin-left: 70px; background: rgb(222,222,222);
+}
+
+.view-item .unavailable-item .icon {
+	float: left; width: 120px; height: 100px; margin-left: 150px;
+	background: url(../../img/unavailable_icon4.png);
+}
+
+.view-item .unavailable-item .label {
+	float: left; width: 500px; height: 100px; line-height: 100px;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+	text-align: left;
+}
+
+/******************************************************************/
+/*             Item header(Heading and comments count)            */
+/******************************************************************/
+.view-item .header-table .heading-cell {
+	width: 790px; vertical-align: top; 
+}
+
+.view-item .header-table .heading-cell .heading {
+	text-align: left; margin-left: 10px; margin-right: 15px;
+}
+
+.view-item .header-table .heading-cell .heading h1 {
+	font-size: 38px; font-weight: bold; letter-spacing: -3px; 
+	line-height: 40px;
+}
+
+.view-item .header-table .heading-cell .panel {
+	width: 760px; height: 20px;
+	margin-top: 5px; margin-left: 10px;
+}
+
+.view-item .header-table .heading-cell .panel .highlight {
+	color: rgb(81,81,181);
+}
+
+.view-item .header-table .heading-cell .panel .item {
+	height: 20px; line-height: 20px; font-size: 18px;
+	font-weight: bold; letter-spacing: -1px;
+}
+
+.view-item .header-table .heading-cell .panel .margin-left {
+	margin-left: 20px;
+}
+
+.view-item .header-table .heading-cell .panel .float-left {
+	float: left;
+}
+
+.view-item .header-table .heading-cell .panel .float-right {
+	float: right;
+}
+
+.view-item .header-table .heading-cell .panel .newline {
+	clear: both;
+}
+
+.view-item .header-table .info-cell {
+	width: 169px; border-left: 1px rgb(210,210,210) solid;
+}
+
+.view-item .header-table .info-cell .comment {
+	width: 169px; height: 68px; 
+}
+
+.view-item .header-table .info-cell .comment .count {
+	width: 169px; height: 44px; font-size: 44px; font-weight: bold; 
+	letter-spacing: -4px; color: rgb(81,81,181);
+}
+
+.view-item .header-table .info-cell .comment .label {
+	width: 169px; height: 24px; line-height: 24px; font-size: 24px; 
+	font-weight: bold; letter-spacing: -2px; 
+}
+
+.view-item .header-table .separator {
+	width: 790px; height: 10px;
+}
+
+/******************************************************************/
+/*               Item data and categories wrappers                */
+/******************************************************************/
+.view-item .item-content {
+	width: 960px;
+}
+
+.view-item .item-content .item-data {
+	float: left; width: 840px;
+}
+
+.view-item .item-content .item-categories {
+	float: left; width: 120px;
+}
+
+/******************************************************************/
+/*                          Item data                             */
+/******************************************************************/
+.item-data .overall {
+	width: 840px;
+}
+
+/******************************************************************/
+/*                       Item main photo                          */
+/******************************************************************/
+.item-data .overall .main-photo {
+	float: left; width: 390px; height: 245px; 
+}
+
+.item-data .overall .main-photo a {
+	text-decoration: none;
+}
+
+.item-data .overall .main-photo .wrapper {
+	position: relative; width: 380px; height: 245px; 
+	margin-left: 5px; 
+}
+
+.item-data .overall .main-photo img {
+	display: block;
+}
+
+.item-data .overall .main-photo img:hover {
+	cursor: pointer;
+}
+
+.item-data .overall .main-photo .wallpapers {
+	position: absolute; left: 0px; top: 195px; width: 380px; 
+	height: 50px; background: url(../../img/item_bg_dark.png);
+}
+
+.item-data .overall .main-photo .wallpapers .count {
+	float: left; width: 30px; height: 50px; line-height: 50px;
+	color: rgb(81,81,181); font-size: 32px; font-weight: bold;
+	text-align: right;
+}
+
+.item-data .overall .main-photo .wallpapers .hrphotos-icon-singular {
+	float: left; width: 150px; height: 50px;
+	background: url(../../img/hrlabel_135_50_singular.png) no-repeat;
+}
+
+.item-data .overall .main-photo .wallpapers .hrphotos-icon-plural {
+	float: left; width: 150px; height: 50px;
+	background: url(../../img/hrlabel_135_50_plural.png) no-repeat;
+}
+
+.item-data .overall .main-photo .wallpaper {
+	float: left; width: 50px; height: 50px;
+}
+
+.item-data .overall .main-photo .wallpaper .wrapper {
+	width: 40px; height: 40px; margin-left: 5px; margin-top: 5px; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+.item-data .overall .main-photo .wallpaper .spacer {
+	width: 40px; height: 2px;
+}
+
+.item-data .overall .main-photo .wallpaper .size {
+	width: 40px; height: 18px; font-weight: bold;
+	letter-spacing: -2px; font-size: 16px;
+}
+
+.item-data .overall .main-photo .wallpaper .width {
+	color: white;
+}
+
+.item-data .overall .main-photo .wallpaper .height {
+	color: rgb(81,81,181);
+}
+
+/******************************************************************/
+/*                        Item information                        */
+/******************************************************************/
+.item-data .overall .info {
+	float: left; width: 450px; height: 245px;
+}
+
+.item-data .overall .info .header {
+	width: 380px; height: 70px; margin-left: 35px;
+}
+
+.item-data .overall .info .header .avatar {
+	float: left; width: 70px; height: 70px; position: relative;
+}
+
+.item-data .overall .info .header .no-avatar {
+	width: 70px; height: 70px;
+	background: url(../../img/noavatar_70_70.jpg);
+}
+
+.item-data .overall .info .header .avatar .you-label {
+	position: absolute; left: 0px; top: 0px;
+	width: 70px; height: 70px;
+	background: url(../../img/you_label_70_70.png);
+}
+
+.item-data .overall .info .header .legend {
+	float: left; width: 310px; height: 70px; text-align: left;
+}
+
+.item-data .overall .info .header .legend .label {
+	width: 300px; margin-left: 10px; overflow: hidden; 
+	height: 38px; line-height: 38px; font-weight: bold; font-size: 36px;
+	letter-spacing: -2px; position: relative;
+}
+
+.item-data .overall .info .header .legend .label .row {
+	width: 1000px; height: 38px;
+}
+
+.item-data .overall .info .header .legend .label .trimmer {
+	position: absolute; top: 0px; left: 262px; width: 38px; height: 38px;
+	background: url(../../img/login_trimmer_38_38.png);
+}
+
+.item-data .overall .info .header .legend a {
+	color: black; text-decoration: none;
+}
+
+.item-data .overall .info .header .legend .link:hover {
+	color: rgb(81,81,181);
+}
+
+.item-data .overall .info .header .legend .sublabel {
+	width: 300px; margin-left: 10px; overflow: hidden;
+	height: 32px; margin-top: 0px; font-size: 16px;
+	letter-spacing: 0px; color: rgb(110,110,110);
+}
+
+.item-data .overall .info .list-item {
+	clear: both; width: 380px; height: 50px; 
+	padding-top: 1px; margin-top: 5px; margin-left: 35px;
+}
+
+.item-data .overall .info .double-margin {
+	margin-top: 10px;
+}
+
+.item-data .overall .info .list-item .panel {
+	float: left; width: 50px; height: 50px;
+	background: rgb(81,81,181); color: white;
+	font-weight: bold;
+}
+
+.item-data .overall .info .list-item .panel .count {
+	width: 50px; height: 24px; margin-top: 2px; 
+	font-size: 24px; letter-spacing: -2px;
+}
+
+.item-data .overall .info .list-item .panel .singular-caption {
+	width: 50px; height: 16px; margin-top: 1px;
+	background: url(../../img/panel_singular_caption.jpg);
+}
+
+.item-data .overall .info .list-item .panel .plural-caption {
+	width: 50px; height: 16px; margin-top: 1px;
+	background: url(../../img/panel_plural_caption.jpg);
+}
+
+.item-data .overall .info .list-item .legend {
+	float: left; width: 180px; height: 50px; text-align: left;
+}
+
+.item-data .overall .info .list-item .legend .label {
+	width: 175px; height: 28px; font-size: 26px; font-weight: bold;
+	letter-spacing: -2px; margin-left: 5px; margin-top: 2px;
+}
+
+.item-data .overall .info .list-item .legend .sublabel {
+	width: 175px; height: 18px; line-height: 16px; font-size: 12px;
+	margin-left: 5px; color: rgb(100,100,100);
+}
+
+.item-data .overall .info .list-item .action {
+	float: left; width: 150px; height: 50px;
+}
+
+.item-data .overall .info .list-item .action .button {
+	width: 150px; height: 26px; line-height: 26px; margin-top: 12px;
+	font-size: 16px; font-weight: bold; letter-spacing: -1px;
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+.item-data .overall .info .list-item .action .disabled {
+	background: rgb(222,222,222); color: rgb(110,110,110);
+}
+
+.item-data .overall .info .list-item .action .over {
+	background: rgb(81,81,181); color: white; cursor: pointer;
+}
+
+.item-data .overall .info .list-item .action .selected {
+	background: rgb(81,81,181); color: white;
+}
+
+.item-data .overall .info .list-item .action .button .wrapper {
+	width: 150px; height: 26px;
+} 
+
+.item-data .overall .info .list-item .action .like-bg {
+	width: 150px; height: 26px;
+	background: url(../../img/panel_likes_button_bg.png);
+}
+
+.item-data .overall .info .list-item .action .like-bg:hover,
+.item-data .overall .info .list-item .action .selected-like-bg {
+	width: 150px; height: 26px;
+	background: url(../../img/panel_likes_button_bg_over.png);
+}
+
+.item-data .overall .info .list-item .action .follow-bg {
+	width: 150px; height: 26px;
+	background: url(../../img/panel_follow_button_bg.png);
+}
+
+.item-data .overall .info .list-item .action .follow-bg:hover,
+.item-data .overall .info .list-item .action .selected-follow-bg {
+	width: 150px; height: 26px;
+	background: url(../../img/panel_follow_button_bg_over.png);
+}
+
+.item-data .overall .info .list-item .action .favorite-bg {
+	width: 150px; height: 26px;
+	background: url(../../img/panel_favorite_button_bg.png);
+}
+
+.item-data .overall .info .list-item .action .favorite-bg:hover,
+.item-data .overall .info .list-item .action .selected-favorite-bg {
+	width: 150px; height: 26px;
+	background: url(../../img/panel_favorite_button_bg_over.png);
+}
+
+/******************************************************************/
+/*                         Description                            */
+/******************************************************************/
+/*
+.item-data .description {
+	width: 835px; clear: both; padding-top: 1px;
+}
+
+.item-data .description p {
+	margin-top: 10px; margin-left: 5px; padding: 10px; font-size: 18px; 
+	color: rgb(30,30,30); line-height: 25px; background: rgb(222,222,222); 
+	text-align: left; 
+}
+
+.item-data .description .first:first-letter {
+	font-size: 22px; font-weight: bold; color: rgb(81,81,181);
+}
+
+.item-data .description .bold {
+	color: rgb(81,81,181); letter-spacing: -1px; font-weight: bold;
+}
+
+.item-data .description a {
+	color: rgb(81,81,181); text-decoration: underline; letter-spacing: -1px;
+	font-weight: bold;
+}
+*/
+
+/******************************************************************/
+/*                          Article                               */
+/******************************************************************/
+.item-data .article {
+	width: 835px; clear: both; padding-top: 1px; 
+}
+
+.item-data .article .heading {
+	width: 810px; border-left: 20px rgb(81,81,181) solid; margin-top: 10px; 
+	margin-left: 5px; 
+}
+
+.item-data .article .heading h2 {
+	margin-left: 20px; margin-right: 20px; font-size: 22px; font-weight: bold;
+	text-align: left; letter-spacing: -1px; color: rgb(30,30,30);
+}
+
+.item-data .article p {
+	margin-top: 10px; margin-left: 5px; padding: 10px; font-size: 18px; 
+	color: rgb(30,30,30); line-height: 25px; background: rgb(222,222,222);
+	text-align: left; 
+}
+
+.item-data .article .first:first-letter {
+	font-size: 22px; font-weight: bold; color: rgb(81,81,181);
+}
+
+.item-data .article .bold {
+	color: rgb(81,81,181); letter-spacing: -1px; font-weight: bold;
+}
+
+.item-data .article .link {
+	color: rgb(81,81,181); text-decoration: underline; letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.item-data .article .article-photos {
+	width: 840px; clear: both; 
+}
+
+.item-data .article .article-photos a {
+	text-decoration: none;
+}
+
+.item-data .article .article-photos img {
+	display: block; 
+}
+
+.item-data .article .article-photos img:hover {
+	cursor: pointer;
+}
+
+.item-data .article .article-photos-bottom-separator {
+	width: 840px; height: 0px; clear: both; padding-top: 1px;
+}
+
+.item-data .article .article-photos .caption-top-spacer {
+	clear: both; width: 840px; height: 10px;
+}
+
+.item-data .article .article-photos .caption {
+	clear: both; width: 825px; border-left: 10px rgb(81,81,181) solid;
+	margin-left: 5px; 
+}
+
+.item-data .article .article-photos .caption .wrapper {
+	margin-left: 20px; margin-right: 20px; font-size: 18px; font-weight: bold;
+	color: rgb(30,30,30); text-align: left; letter-spacing: -1px;
+}
+
+.item-data .article .article-photo {
+	float: left; width: 280px; height: 190px; 
+}
+
+.item-data .article .article-photo .item-wrapper {
+	position: relative; width: 270px; height: 180px; 
+	margin-left: 5px; margin-top: 10px;
+}
+
+.item-data .article .article-photo .hr-photos {
+	position: absolute; width: 270px; height: 40px;
+	left: 0px; top: 140px;
+	background: url(../../img/item_bg_dark.png);
+}
+
+.item-data .article .article-photo .hr-photos .count {
+	float: left; width: 30px; height: 40px; line-height: 40px;
+	color: rgb(81,81,181); font-size: 24px; font-weight: bold;
+}
+
+.item-data .article .article-photo .hr-photos .hrphotos-icon-singular {
+	float: left; width: 88px; height: 40px;
+	background: url(../../img/hrlabel_88_40_singular3.png) no-repeat;
+}
+
+.item-data .article .article-photo .hr-photos .hrphotos-icon-plural {
+	float: left; width: 88px; height: 40px;
+	background: url(../../img/hrlabel_88_40_plural3.png) no-repeat;
+}
+
+.item-data .article .article-photo .hr-photo {
+	float: left; width: 38px; height: 40px;
+}
+
+.item-data .article .article-photo .hr-photo .wrapper {
+	width: 32px; height: 32px; margin-left: 3px; margin-top: 4px;
+}
+
+.item-data .article .article-photo .hr-photo .spacer {
+	width: 32px; height: 2px;
+}
+
+.item-data .article .article-photo .hr-photo .size {
+	width: 30px; height: 14px; font-size: 14px; font-weight: bold;
+	letter-spacing: -2px;
+}
+
+.item-data .article .article-photo .hr-photo .width {
+	color: white;
+}
+
+.item-data .article .article-photo .hr-photo .height {
+	color: rgb(81,81,181);
+}
+
+/******************************************************************/
+/*                             Video                              */
+/******************************************************************/
+.item-data .video {
+	width: 830px; height: 380px; clear: both; background: rgb(222,222,222); 
+	margin-left: 5px; margin-top: 10px; position: relative;
+}
+
+.item-data .video .player {
+	width: 640px; height: 360px; margin-top: 10px; 
+}
+
+.item-data .video .pause {
+	position: absolute; width: 640px; height: 360px; left: 95px; top: 10px;
+	background: rgb(235,235,235); display: none;
+}
+
+.item-data .video .pause .icon {
+	position: absolute; left: 170px; top: 30px;
+	width: 300px; height: 300px; background: url(../../img/video_pause.png);
+}
+
+.item-data .video .pause .label {
+	position: absolute; left: 15px; top: 10px; font-size: 18px; 
+	font-weight: bold; color: rgb(160,160,160); letter-spacing: -1px;
+}
+
+/******************************************************************/
+/*                             Photos                             */
+/******************************************************************/
+.item-data .photos {
+	width: 840px; clear: both; padding-top: 1px; margin-top: 5px; 
+}
+
+.item-data .photos a {
+	text-decoration: none;
+}
+
+.item-data .photos img {
+	display: block; 
+}
+
+.item-data .photos img:hover {
+	cursor: pointer;
+}
+
+/******************************************************************/
+/*                     Photos large photo                         */
+/******************************************************************/
+.item-data .photos .small-letter-spacing {
+	letter-spacing: -1px;
+}
+
+.item-data .photos .large {
+	float: left; width: 280px; height: 190px;
+}
+
+.item-data .photos .large .item-wrapper {
+	position: relative; width: 270px; height: 180px; 
+	margin-left: 5px; margin-top: 5px;
+}
+
+.item-data .photos .large .wallpapers {
+	position: absolute; width: 270px; height: 40px;
+	left: 0px; top: 140px;
+	background: url(../../img/item_bg_dark.png);
+}
+
+.item-data .photos .large .wallpapers .count {
+	float: left; width: 30px; height: 40px; line-height: 40px;
+	color: rgb(81,81,181); font-size: 24px; font-weight: bold;
+}
+
+.item-data .photos .large .wallpapers .hrphotos-icon-singular {
+	float: left; width: 88px; height: 40px;
+	background: url(../../img/hrlabel_88_40_singular3.png) no-repeat;
+}
+
+.item-data .photos .large .wallpapers .hrphotos-icon-plural {
+	float: left; width: 88px; height: 40px;
+	background: url(../../img/hrlabel_88_40_plural3.png) no-repeat;
+}
+
+.item-data .photos .large .wallpaper {
+	float: left; width: 38px; height: 40px;
+}
+
+.item-data .photos .large .wallpaper .wrapper {
+	width: 32px; height: 32px; margin-left: 3px; margin-top: 4px;
+}
+
+.item-data .photos .large .wallpaper .spacer {
+	width: 32px; height: 2px;
+}
+
+.item-data .photos .large .wallpaper .size {
+	width: 30px; height: 14px; font-size: 14px; font-weight: bold;
+	letter-spacing: -2px;
+}
+
+.item-data .photos .large .wallpaper .width {
+	color: white;
+}
+
+.item-data .photos .large .wallpaper .height {
+	color: rgb(81,81,181);
+}
+
+/******************************************************************/
+/*                     Photos small photo                         */
+/******************************************************************/
+.item-data .photos .small {
+	float: left; width: 140px; height: 100px;
+}
+
+.item-data .photos .small .item-wrapper {
+	position: relative; width: 130px; height: 90px; 
+	margin-left: 5px; margin-top: 5px;
+}
+
+.item-data .photos .small .item-wrapper .wallpapers-count {
+	position: absolute; width: 130px; height: 25px; line-height: 25px;
+	left: 0px; top: 65px; background: url(../../img/item_bg_dark.png);
+	color: rgb(81,81,181); font-weight: bold; letter-spacing: -1px;
+	font-size: 16px;
+}
+
+.item-data .photos .small .item-wrapper .wallpapers-count .count {
+	float: left; width: 25px; height: 25px;
+}
+
+.item-data .photos .small .item-wrapper .wallpapers-count .hrphotos-icon-plural {
+	float: left; width: 105px; height: 25px;
+	background: url(../../img/hrlabel_105_25_plural2.png);
+}
+
+.item-data .photos .small .item-wrapper .wallpapers-count .hrphotos-icon-singular {
+	float: left; width: 105px; height: 25px;
+	background: url(../../img/hrlabel_105_25_singular2.png);
+}
+/******************************************************************/
+/*                         Source                                 */
+/******************************************************************/
+.item-data .source-spacer {
+	width: 840px; clear: both; height: 5px;
+}
+
+.item-data .source {
+	width: 840px; clear: both; height: 25px; 
+	line-height: 25px; background: rgb(222,222,222);
+}
+
+.item-data .source .item {
+	float: left; margin-left: 20px; font-size: 14px; font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.item-data .source .item a {
+	color: black;
+}
+
+.item-data .source .item a:hover {
+	text-decoration: none;
+}
+
+.item-data .source .item .highlight {
+	color: rgb(81,81,181);
+}
+
+/******************************************************************/
+/*                          Feed items                            */
+/******************************************************************/
+.item-data .insideFeedItems {
+	width: 840px; clear: both; padding-top: 1px;
+}
+
+.item-data .insideFeedItems .heading {
+	width: 840px; height: 60px; margin-top: 5px;
+	border-bottom: 2px rgb(81,81,181) solid;
+}
+
+.item-data .insideFeedItems .heading .count {
+	float: left; margin-left: 20px; width: 60px; height: 60px; line-height: 60px; 
+	background: rgb(81,81,181); color: white;
+	font-size: 38px; font-weight: bold; letter-spacing: -3px;
+}
+
+.item-data .insideFeedItems .heading .label {
+	float: left; width: 500px; height: 60px;
+}
+
+.item-data .insideFeedItems .heading .label .big {
+	width: 485px; height: 32px; margin-left: 15px; margin-top: 4px;
+	text-align: left; font-size: 32px; font-weight: bold;
+	letter-spacing: -2px;
+}
+
+.item-data .insideFeedItems .heading .label .small {
+	width: 485px; height: 15px; margin-left: 15px;
+	text-align: left; font-size: 14px; color: rgb(60,60,60);
+}
+
+.item-data .insideFeedItems .items {
+	width: 840px; clear: both; padding-top: 1px;
+}
+
+/******************************************************************/
+/*                         Comments                               */
+/******************************************************************/
+.item-data .comments {
+	width: 840px; clear: both; padding-top: 1px;
+}
+
+/******************************************************************/
+/*                     Comments Heading                           */
+/******************************************************************/
+.item-data .comments .heading {
+	width: 840px; height: 60px; margin-top: 5px;
+	border-bottom: 2px rgb(81,81,181) solid;
+}
+
+.item-data .comments .heading .count {
+	float: left; margin-left: 20px; width: 60px; height: 60px; line-height: 60px; 
+	background: rgb(81,81,181); color: white;
+	font-size: 38px; font-weight: bold; letter-spacing: -3px;
+}
+
+.item-data .comments .heading .label {
+	float: left; width: 500px; height: 60px;
+}
+
+.item-data .comments .heading .label .big {
+	width: 485px; height: 32px; margin-left: 15px; margin-top: 4px;
+	text-align: left; font-size: 32px; font-weight: bold;
+	letter-spacing: -2px;
+}
+
+.item-data .comments .heading .label .small {
+	width: 485px; height: 15px; margin-left: 15px;
+	text-align: left; font-size: 14px; color: rgb(60,60,60);
+}
+
+.item-data .comments .add-button {
+	position: relative; float: left; width: 260px; height: 60px; 
+}
+
+.item-data .comments .add-button .wrapper {
+	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+	left: 50%; margin-left: -90px; color: black; 
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+.item-data .comments .add-button .wrapper:hover {
+	background: rgb(81,81,181); color: white; cursor: pointer;
+}
+
+.item-data .comments .add-button .name {
+	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold; 
+}
+
+.item-data .comments .add-button .add-char {
+	font-size: 16px; 
+}
+
+.item-data .comments .add-button a {
+	text-decoration: none;
+}
+
+/******************************************************************/
+/*                         Comments controls                      */
+/******************************************************************/
+.item-data .comments .controls {
+	width: 840px; height: 50px; clear: both;
+}
+
+.item-data .comments .controls .pagination {
+	position: relative; float: left; width: 300px; height: 50px;
+}
+
+.item-data .comments .controls .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; 
+	margin-top: -15px; left: 20px; 
+}
+
+.item-data .comments .controls .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+.item-data .comments .controls .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+.item-data .comments .controls .pagination .active {
+	background: rgb(240,240,240); 
+}
+
+.item-data .comments .controls .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+	cursor: pointer;
+}
+
+.item-data .comments .controls .pagination .number {
+	font-size: 16px; font-weight: bold; 
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+.item-data .comments .controls .refresh {
+	position: relative;
+	float: left; width: 180px; height: 40px; 
+	margin-top: 5px; margin-left: 30px;
+}
+
+.item-data .comments .controls .refresh:hover {
+	color: rgb(81,81,181); cursor: pointer;
+}
+
+.item-data .comments .controls .refresh .message {
+	float: left; width: 140px; height: 40px; line-height: 40px;
+	font-weight: bold; letter-spacing: -1px;
+}
+
+.item-data .comments .controls .refresh .icon {
+	float: left; width: 40px; height: 40px;
+	background: url(../../img/refresh.png);
+}
+
+.item-data .comments .controls .refresh .active-icon {
+	position: absolute; left: 140px; top: 0px;
+	width: 40px; height: 40px; display: none;
+	background: rgb(235,235,235);
+}
+
+.item-data .comments .controls .refresh .active-icon .wrapper {
+	background: url(../../img/refresh_active.gif);
+	width: 40px; height: 40px;
+}
+
+/******************************************************************/
+/*                   Comments items & comment                     */
+/******************************************************************/
+.item-data .comments .items {
+	width: 840px;
+}
+
+.item-data .comments .small-margin {
+	margin-top: 5px;
+}
+
+.item-data .comment {
+	width: 840px; margin-top: 15px; padding-top: 1px; 
+	padding-bottom: 1px; background: rgb(222,222,222);
+}
+
+.item-data .comment .comment-wrapper {
+	width: 800px; margin-left: 20px; margin-right: 20px;
+	margin-top: 5px; margin-bottom: 0px;
+}
+
+.item-data .comment .header {
+	width: 800px;
+}
+
+.item-data .comment .header .avatar {
+	float: left; width: 70px; height: 70px; position: relative;
+}
+
+.item-data .comment .header .no-avatar {
+	width: 70px; height: 70px;
+	background: url(../../img/noavatar_70_70.jpg);
+}
+
+.item-data .comment .header .avatar .you-label {
+	position: absolute; left: 0px; top: 0px;
+	width: 70px; height: 70px;
+	background: url(../../img/you_label_70_70.png);
+}
+
+.item-data .comment .header .legend {
+	float: left; width: 575px; text-align: left; 
+}
+
+.item-data .comment .header .legend .label {
+	width: 575px; margin-left: 15px; overflow: hidden;
+	font-weight: bold; font-size: 36px; letter-spacing: -2px;
+}
+
+.item-data .comment .header .legend a {
+	color: black; text-decoration: none;
+}
+
+.item-data .comment .header .legend .link:hover {
+	color: rgb(81,81,181);
+}
+
+.item-data .comment .header .legend .sublabel {
+	width: 575px; margin-left: 15px; margin-top: 0px; line-height: 18px;
+	font-size: 18px; letter-spacing: -1px; color: rgb(110,110,110);
+}
+
+.item-data .comment .header .postdate {
+	float: right; width: 130px; height: 70px;
+}
+
+.item-data .comment .header .postdate .wrapper {
+	float: right; width: 130px; height: 70px;
+}
+
+.item-data .comment .header .postdate .label {
+	width: 130px; height: 36px; font-size: 36px; font-weight: bold; 
+	letter-spacing: -3px; color: rgb(81,81,181); margin-top: 5px;
+}
+
+.item-data .comment .header .postdate .label-small {
+	width: 130px; height: 36px; font-size: 32px; font-weight: bold; 
+	letter-spacing: -2px; color: rgb(81,81,181); margin-top: 5px;
+}
+
+.item-data .comment .header .postdate .sublabel {
+	width: 130px; height: 24px; line-height: 24px; font-size: 20px; 
+	font-weight: bold; letter-spacing: -1px; 
+}
+
+.item-data .comment .message {
+	padding: 5px 10px; font-size: 18px; clear: both;
+	color: rgb(30,30,30); line-height: 25px; text-align: left;
+}
+
+.item-data .comment .message .newparagraph {
+	margin-top: 10px;
+}
+
+.item-data .comment .footer {
+	width: 840px; height: 25px; text-align: left;
+	font-size: 16px; font-weight: bold; letter-spacing: -1px; 
+	border-top: 1px rgb(210,210,210) solid; font-size: 16px;
+}
+
+.item-data .comment .footer .left {
+	float: left; width: 150px; height: 25px; line-height: 25px; 
+	margin-left: 40px;
+}
+
+.item-data .comments .footer .center {
+	float: left; width: 515px; height: 25px; line-height: 25px;
+	text-align: center;
+}
+
+.item-data .comments .footer .center .highlight {
+	color: rgb(81,81,181);
+}
+
+.item-data .comments .footer .center .text:hover {
+	color: rgb(81,81,181); cursor: pointer;
+}
+
+.item-data .comment .footer .right {
+	float: right; width: 135px; height: 25px; line-height: 25px;
+}
+
+.item-data .comment .footer .right:hover {
+	color: rgb(81,81,181); cursor: pointer;
+}
+
+.item-data .comment .footer .highlight {
+	color: rgb(81,81,181);
+}
+
+/******************************************************************/
+/*                        Comments answer                         */
+/******************************************************************/
+.item-data .answers {
+	width: 840px; margin-top: 10px;
+}
+
+.item-data .answer {
+	margin-left: 70px; width: 760px; 
+	border-left: 10px rgb(81,81,181) solid;
+}
+
+.item-data .answer .answer-wrapper {
+	width: 745px; margin-left: 15px; padding-top: 5px;
+	border-bottom: 1px rgb(210,210,210) solid;
+}
+
+.item-data .answer .header {
+	width: 745px; 
+}
+
+.item-data .answer .header .avatar {
+	float: left; width: 70px; height: 70px; position: relative;
+}
+
+.item-data .answer .header .no-avatar {
+	width: 70px; height: 70px;
+	background: url(../../img/noavatar_70_70.jpg);
+}
+
+.item-data .answer .header .avatar .you-label {
+	position: absolute; left: 0px; top: 0px;
+	width: 70px; height: 70px;
+	background: url(../../img/you_label_70_70.png);
+}
+
+.item-data .answer .header .legend {
+	float: left; width: 525px; text-align: left;
+}
+
+.item-data .answer .header .legend .label {
+	width: 510px; margin-left: 15px; overflow: hidden;
+	font-weight: bold; font-size: 36px; letter-spacing: -2px;
+}
+
+.item-data .answer .header .legend a {
+	color: black; text-decoration: none;
+}
+
+.item-data .answer .header .legend .link:hover {
+	color: rgb(81,81,181);
+}
+
+.item-data .answer .header .legend .sublabel {
+	width: 510px; margin-left: 15px; margin-top: 0px; line-height: 18px;
+	font-size: 18px; letter-spacing: -1px; color: rgb(110,110,110);
+}
+
+.item-data .answer .header .postdate {
+	float: left; width: 130px; height: 70px;
+}
+
+.item-data .answer .header .postdate .label {
+	width: 130px; height: 36px; font-size: 36px; font-weight: bold; 
+	letter-spacing: -3px; color: rgb(81,81,181); margin-top: 5px;
+}
+
+.item-data .answer .header .postdate .label-small {
+	width: 130px; height: 36px; font-size: 32px; font-weight: bold; 
+	letter-spacing: -2px; color: rgb(81,81,181); margin-top: 5px;
+}
+
+.item-data .answer .header .postdate .sublabel {
+	width: 130px; height: 24px; line-height: 24px; font-size: 20px; 
+	font-weight: bold; letter-spacing: -1px; 
+}
+
+.item-data .answer .message {
+	padding: 5px 10px; font-size: 18px; clear: both;
+	color: rgb(30,30,30); line-height: 25px; text-align: left;
+}
+
+.item-data .answer .message .newparagraph {
+	margin-top: 10px;
+}
+
+.item-data .answer .delete {
+	width: 745px; height: 25px; line-height: 25px;
+	text-align: center; background: rgb(222,222,222);
+	font-weight: bold; font-size: 16px; letter-spacing: -1px;
+}
+
+.item-data .answer .delete .highlight {
+	color: rgb(81,81,181);
+}
+
+.item-data .answer .delete .text:hover {
+	color: rgb(81,81,181); cursor: pointer;
+}
+
+/******************************************************************/
+/*                         No comments                            */
+/******************************************************************/
+.item-data .comments .no-comments {
+	width: 840px; height: 250px; padding-top: 1px;
+}
+
+.item-data .comments .no-comments .message {
+	width: 830px; height: 100px; margin-top: 90px; 
+	background: rgb(222,222,222); margin-left: 5px;
+}
+
+.item-data .comments .no-comments .icon {
+	float: left; width: 120px; height: 100px; margin-left: 170px;
+	background: url(../../img/nocomments.png);
+}
+
+.item-data .comments .no-comments .label {
+	float: left; width: 530px; height: 100px; line-height: 100px;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+	text-align: left;
+}
+
+/****************************************************************************************/
+/*                                 View item(categories)                                */
+/****************************************************************************************/
+.item-categories a {
+	text-decoration: none;
+}
+
+.item-categories .category {
+	width: 120px; height: 25px; line-height: 25px; font-size: 14px; 
+	font-weight: bold; text-align: left; letter-spacing: -1px; 
+	color: rgb(60,60,60);
+}
+
+.item-categories .category .text {
+	padding-left: 15px;
+}
+
+.item-categories .selected,
+.item-categories .active:hover {
+	background: rgb(81,81,181); color: white; 
+}
+
+.item-categories .highlight {
+	background: rgb(222,222,222);
+}
+
+.item-categories .separator {
+	width: 120px; height: 5px; background: rgb(222,222,222);
+}
+
+/****************************************************************************************/
+/*                                     Add comment                                      */
+/****************************************************************************************/
+#newcomment-form {
+	position: absolute; left: 50%; width: 570px; height: 400px;
+	z-index: 7000; margin-left: -285px; display: none;
+}
+
+#newcomment-form .newcomment-form {
+	background: rgb(235,235,235); 
+	border-radius: 15px; -moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	border: 1px rgb(220,220,220) solid;
+}
+
+#newcomment-form-spinner {
+	width: 0px; height: 0px; position: absolute; left: 285px; top: 200px;
+	overflow: hidden; visibility: hidden;
+}
+
+#newcomment-form .spinner-wrapper {
+	position: relative; width: 570px; height: 400px; 
+	left: -285px; top: -200px;
+}
+
+#newcomment-form .heading {
+	position: relative; width: 570px; height: 70px; 
+	border-bottom: 1px rgb(215,215,215) solid;
+}
+
+#newcomment-form .heading .info {
+	float: left; width: 500px; height: 48px; margin-top: 11px;
+}
+
+#newcomment-form .heading .label {
+	width: 500px; height: 36px; font-size: 34px; font-weight: bold; 
+	text-align: left; padding-left: 25px; letter-spacing: -2px;
+}
+
+#newcomment-form .heading .sublabel {
+	width: 500px; height: 12px; font-size: 12px; text-align: left; 
+	padding-left: 25px; color: rgb(110,110,110);
+}
+
+#newcomment-form .heading .close {
+	float: left; width: 70px; height: 70px; 
+	background: url(../../img/registration_form_close.png) no-repeat;
+}
+
+#newcomment-form .heading .close:hover {
+	cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
+}
+
+#newcomment-form .item {
+	width: 570px; clear: both; overflow: hidden;
+}
+
+#newcomment-form .legend {
+	float: left; width: 260px; margin-top: 20px; text-align: right;
+}
+
+#newcomment-form .legend .name {
+	margin-right: 20px; font-size: 24px; font-weight: bold; 
+	color: rgb(60,60,60); letter-spacing: -1px;
+}
+
+#newcomment-form .legend .required {
+	font-size: 24px; color: rgb(81,81,181);
+}
+
+#newcomment-form .legend .description {
+	margin-right: 20px; font-size: 11px; color: rgb(130,130,130); 
+	text-align: right;
+}
+
+#newcomment-form .element {
+	float: left; width: 310px; text-align: left; margin-top: 20px;
+}
+
+#newcomment-form .textarea {
+	width: 290px; height: 200px; font-family: Arial; font-size: 18px; resize: none;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; 
+}
+
+#newcomment-form .input-border {
+	border: thin solid #CCCCCC; outline: none;
+}
+
+#newcomment-form .input-over {
+	border: thin solid rgb(180,180,180);
+}
+
+#newcomment-form .input-focus {
+	border: 1px solid rgb(81,81,181);
+}
+
+#newcomment-form .save {
+	float: left; text-align: right; width: 390px; height: 60px;
+	margin-top: 15px; 
+}
+
+#newcomment-form .submit {
+	margin-top: 10px; margin-right: 5px; width: 190px; height: 40px; line-height: 1;
+	font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
+}
+
+#newcomment-form .loading {
+	float: left; width: 180px; height: 60px; margin-top: 15px; display: none;
+	background: url(../../../img/loading_middle.gif) no-repeat;
+}

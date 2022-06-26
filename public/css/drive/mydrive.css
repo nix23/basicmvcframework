@@ -1,0 +1,573 @@
+#mydrive {
+	width: 960px;
+}
+
+/******************************************************************/
+/*                           Heading                              */
+/******************************************************************/
+#mydrive .heading {
+	width: 960px; height: 70px; padding-top: 1px;
+}
+
+#mydrive .heading .wrapper {
+	width: 930px; height: 60px; margin-top: 5px;
+	margin-left: 15px;
+}
+
+#mydrive .heading .legend {
+	float: left; width: 660px; height: 60px; text-align: left;
+	border-left: 10px rgb(81,81,181) solid;
+}
+
+#mydrive .heading .legend .label {
+	width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
+	font-size: 34px; font-weight: bold; letter-spacing: -2px; 
+	margin-top: 2px;
+}
+
+#mydrive .heading .legend .sublabel {
+	width: 650px; height: 18px; line-height: 18px; 
+	padding-left: 10px; font-size: 18px; 
+	color: rgb(110,110,110);
+}
+
+#mydrive .heading .actions {
+	position: relative; float: left; width: 260px; height: 60px;
+}
+
+#mydrive .heading .actions .edit-button {
+	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+	left: 50%; margin-left: -90px; color: black; 
+	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+#mydrive .heading .actions .edit-button:hover {
+	background: rgb(81,81,181); color: white; cursor: pointer; 
+}
+
+#mydrive .heading .actions .edit-button .name {
+	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold; 
+}
+
+#mydrive .heading .actions a {
+	text-decoration: none;
+}
+
+/******************************************************************/
+/*                             Info                               */
+/******************************************************************/
+#mydrive .info {
+	width: 960px; height: 85px; margin-top: 10px;
+}
+
+#mydrive .info .avatar {
+	position: relative; float: left; width: 85px; height: 85px;
+	margin-left: 15px;
+}
+
+#mydrive .info .avatar .no-avatar {
+	width: 85px; height: 85px;
+	background: url(../../img/noavatar_85_85.jpg);
+}
+
+#mydrive .info .avatar .you-label {
+	position: absolute; left: 0px; top: 0px;
+	width: 85px; height: 85px;
+	background: url(../../img/you_label_85_85.png);
+}
+
+#mydrive .info .legend {
+	float: left; width: 264px; height: 85px;
+	margin-left: 10px; text-align: left; border-right: 1px rgb(210,210,210) solid;
+}
+
+#mydrive .info .legend .label {
+	width: 254px; height: 40px; line-height: 40px; overflow: hidden;
+	font-weight: bold; letter-spacing: -2px; font-size: 34px; position: relative;
+}
+
+#mydrive .info .legend .label .row {
+	width: 1000px; height: 40px;
+}
+
+#mydrive .info .legend .label .trimmer {
+	position: absolute; top: 0px; left: 214px; width: 40px; height: 40px;
+	background: url(../../img/login_trimmer_40_40.png);
+}
+
+#mydrive .info .legend .sublabel {
+	width: 254px; height: 45px; font-size: 18px; line-height: 18px;
+	color: rgb(110,110,110); letter-spacing: -1px; overflow: hidden;
+}
+
+#mydrive .info .description {
+	float: left; width: 275px; height: 80px; margin-top: 5px;
+	margin-left: 20px; text-align: left; overflow: hidden;
+}
+
+#mydrive .info .description .label {
+	width: 275px; height: 35px; line-height: 35px;
+	font-weight: bold; letter-spacing: -2px; font-size: 34px;
+}
+
+#mydrive .info .description .sublabel {
+	width: 275px; height: 45px; color: rgb(100,100,100);
+	font-size: 12px; font-weight: bold;
+}
+
+#mydrive .info .trimmed-description:hover {
+	color: rgb(81,81,181); cursor: pointer;
+}
+
+#mydrive .info .rating {
+	float: left; width: 264px; height: 85px;
+	margin-left: 20px;  border-left: 1px rgb(210,210,210) solid;
+}
+
+#mydrive .info .rating .rank {
+	float: left; width: 130px; height: 85px;
+}
+
+#mydrive .info .rating .rank .number {
+	width: 130px; height: 34px; line-height: 34px;
+	margin-top: 14px; font-size: 34px; font-weight: bold;
+	color: rgb(81,81,181); letter-spacing: -2px;
+}
+
+#mydrive .info .rating .rank .label {
+	width: 130px; height: 24px; line-height: 24px;
+	font-size: 24px; font-weight: bold; letter-spacing: -2px;
+}
+
+#mydrive .info .rating .stats {
+	float: left; width: 134px; height: 85px;
+	font-weight: bold; letter-spacing: -1px;
+}
+
+#mydrive .info .rating .stats .item {
+	width: 134px; height: 16px; margin-top: 5px;
+	text-align: left; font-size: 16px;
+}
+
+#mydrive .info .rating .stats .item .left {
+	float: left; width: 85px; height: 16px;
+}
+
+#mydrive .info .rating .stats .item .right {
+	float: left; width: 49px; height: 16px;
+	color: rgb(81,81,181);
+}
+
+/******************************************************************/
+/*                          Controls                              */
+/******************************************************************/
+#mydrive .controls {
+	width: 960px; height: 60px;
+}
+
+#mydrive .pagination {
+	position: relative; float: left; width: 300px; height: 60px;
+}
+
+#mydrive .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+	left: 20px;
+}
+
+#mydrive .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+#mydrive .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+#mydrive .pagination .active {
+	background: rgb(240,240,240); color: black;
+}
+
+#mydrive .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+#mydrive .pagination .number {
+	font-size: 16px; font-weight: bold;
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+#mydrive .module-select {
+	float: left; width: 660px; height: 60px;
+}
+
+#mydrive .module-select .heading {
+	float: left; width: 100px; height: 60px; line-height: 60px; text-align: right;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+}
+
+#mydrive .module-select .wrapper {
+	float: left; width: 130px; height: 60px; 
+}
+
+#mydrive .module-select .item {
+	width: 120px; height: 25px; line-height: 25px; color: black;
+	margin-left: 5px; margin-top: 18px; border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+#mydrive .module-select .item:hover,
+#mydrive .module-select .selected {
+	background: rgb(81,81,181); color: white;
+}
+
+#mydrive .module-select .item .label {
+	float: left; width: 80px; height: 25px; line-height: 25px;
+	margin-left: 10px;
+	font-size: 16px; font-weight: bold; letter-spacing: -1px;
+	text-align: left; 
+}
+
+#mydrive .module-select .item .count {
+	float: left; width: 30px; height: 25px; text-align: center;
+	background: rgb(81,81,181); color: white; font-size: 16px;
+	font-weight: bold; letter-spacing: -2px;
+	-moz-border-radius-bottomright: 5px; 
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px; 
+	border-bottom-right-radius: 5px;
+}
+
+#mydrive a {
+	text-decoration: none;
+}
+
+/****************************************************************************************/
+/*                                       Content                                        */
+/****************************************************************************************/
+#mydrive .content {
+	width: 960px;
+}
+
+#mydrive .items-wrapper {
+	float: left; width: 840px;
+}
+
+#mydrive .items {
+	float: left; width: 840px;
+}
+
+#mydrive .categories {
+	float: left; width: 120px;
+}
+
+/****************************************************************************************/
+/*                                 Content - Items                                      */
+/****************************************************************************************/
+#mydrive .items .item {
+	float: left; width: 280px; height: 190px;
+}
+
+#mydrive .items .item a {
+	text-decoration: none;
+}
+
+#mydrive .items .item .item-wrapper {
+	position: relative; width: 270px; height: 180px; 
+	margin-left: 5px; margin-top: 5px;
+}
+
+/******************************************************************/
+/*                            Top panel                           */
+/******************************************************************/
+#mydrive .items .item .top-panel {
+	position: absolute; left: 0px; top: 0px;
+	width: 270px; height: 50px;
+	background: url(../../img/item_bg_light.png);
+}
+
+#mydrive .items .item .top-panel .likes {
+	float: left; color: white;
+	width: 50px; height: 50px; background: rgb(81,81,181); 
+}
+
+#mydrive .items .item .top-panel .likes .count {
+	width: 50px; height: 24px; margin-top: 2px; font-size: 24px; 
+	font-weight: bold; letter-spacing: -2px;
+}
+
+#mydrive .items .item .top-panel .likes .label {
+	width: 50px; height: 16px; font-size: 16px; 
+	font-weight: bold; letter-spacing: -1px;
+}
+
+#mydrive .items .item .top-panel .item,
+#mydrive .items .item .top-panel .spacer {
+	float: left; width: 55px; height: 50px;
+}
+
+#mydrive .items .item .top-panel .item:hover {
+	cursor: pointer; background: rgb(81,81,181);
+}
+
+#mydrive .items .item .top-panel .item .status-enabled-icon {
+	width: 55px; height: 50px;
+	background: url(../../img/panel_enabled.png);
+}
+
+#mydrive .items .item .top-panel .item .status-disabled-icon {
+	width: 55px; height: 50px;
+	background: url(../../img/panel_disabled.png);
+}
+
+#mydrive .items .item .top-panel .item .edit-icon {
+	width: 55px; height: 50px;
+	background: url(../../img/panel_edit.png);
+}
+
+#mydrive .items .item .top-panel .item .delete-icon {
+	width: 55px; height: 50px;
+	background: url(../../img/panel_delete.png);
+}
+
+/******************************************************************/
+/*                   Bottom and middle panel                      */
+/******************************************************************/
+#mydrive .items .item .link-filler {
+	position: absolute; top: 50px; left: 0px;
+	width: 270px; height: 80px; 
+	background: url(../../img/transparent_overlay_bg.png);
+}
+
+#mydrive .items .item .middle-panel {
+	position: absolute; top: 50px; left: 0px;
+	width: 270px; height: 80px;
+	background: url(../../img/item_bg_light.png);
+}
+
+#mydrive .items .item .middle-panel .item-locked-bg {
+	float: left; width: 80px; height: 80px;
+	background: url(../../img/item_blocked.png);
+}
+
+#mydrive .items .item .middle-panel .message {
+	float: left; width: 190px; height: 80px;
+	color: white; text-align: left; font-weight: bold;
+}
+
+#mydrive .items .item .middle-panel .message .label {
+	width: 190px; height: 24px; line-height: 24px;
+	font-size: 20px; letter-spacing: -1px; margin-top: 10px;
+}
+
+#mydrive .items .item .middle-panel .message .sublabel {
+	width: 185px; height: 46px; font-size: 12px;
+}
+
+#mydrive .items .item .bottom-panel {
+	position: absolute; top: 130px; left: 0px;
+	width: 270px; height: 50px;
+	background: url(../../img/item_bg_light.png);
+}
+
+#mydrive .items .item .bottom-panel-selected {
+	background: rgb(81,81,181);
+}
+
+#mydrive .items .item .bottom-panel .heading {
+	float: left; width: 195px; height: 50px;
+}
+
+#mydrive .items .item .bottom-panel .heading .wrapper {
+	margin-left: 10px; margin-top: 9px; overflow: hidden;
+	width: 185px; height: 32px; text-align: left; line-height: 16px;
+}
+
+#mydrive .items .item .bottom-panel .heading h3 {
+	color: white; font-weight: bold; font-size: 14px;
+	letter-spacing: -1px;
+}
+
+#mydrive .items .item .bottom-panel .comments {
+	float: left; width: 75px; height: 50px;
+	color: white; font-weight: bold;
+}
+
+#mydrive .items .item .bottom-panel .comments .count {
+	width: 75px; height: 24px; line-height: 24px;
+	margin-top: 6px; font-size: 24px; letter-spacing: -1px;
+}
+
+#mydrive .items .item .bottom-panel .comments .label {
+	width: 75px; height: 14px; line-height: 14px;
+	font-size: 14px; font-weight: bold; letter-spacing: -1px;
+}
+
+/******************************************************************/
+/*                            No uploads                          */
+/******************************************************************/
+#mydrive .items .no-uploads {
+	width: 840px; height: 500px; padding-top: 1px;
+}
+
+#mydrive .items .no-uploads .message {
+	width: 820px; height: 100px; margin-top: 200px; 
+	background: rgb(222,222,222);
+}
+
+#mydrive .items .no-uploads .icon {
+	float: left; width: 120px; height: 100px; margin-left: 170px;
+	background: url(../../img/no_uploads.png);
+}
+
+#mydrive .items .no-uploads .label {
+	float: left; width: 530px; height: 100px; line-height: 100px;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+	text-align: left;
+}
+
+/******************************************************************/
+/*                       Bottom Controls                          */
+/******************************************************************/
+#mydrive .bottom-controls {
+	width: 840px; height: 60px;
+}
+
+#mydrive .bottom-controls .pagination {
+	position: relative; float: left; width: 300px; height: 60px;
+}
+
+#mydrive .bottom-controls .pagination .wrapper {
+	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+	left: 20px;
+}
+
+#mydrive .bottom-controls .pagination .page {
+	float: left; margin-left: 5px; width: 30px; height: 30px;
+	border: 1px rgb(210,210,210) solid;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	line-height: 30px; text-align: center;
+}
+
+#mydrive .bottom-controls .pagination .selected {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+#mydrive .bottom-controls .pagination .active {
+	background: rgb(240,240,240); color: black;
+}
+
+#mydrive .bottom-controls .pagination .active:hover {
+	background: rgb(81,81,181); color: rgb(255,255,255);
+}
+
+#mydrive .bottom-controls .pagination .number {
+	font-size: 16px; font-weight: bold;
+	letter-spacing: -2px; padding-right: 1px;
+}
+
+/****************************************************************************************/
+/*                              Content - Categories                                    */
+/****************************************************************************************/
+#mydrive .categories .separator-light {
+	width: 120px; height: 5px; background: rgb(235,235,235);
+}
+
+#mydrive .categories a {
+	text-decoration: none;
+}
+
+#mydrive .categories .category {
+	width: 120px; height: 25px; line-height: 25px; font-size: 14px; 
+	font-weight: bold; text-align: left; letter-spacing: -1px; 
+	color: rgb(60,60,60);
+}
+
+#mydrive .categories .category .text {
+	padding-left: 15px;
+}
+
+#mydrive .categories .selected,
+#mydrive .categories .active:hover {
+	background: rgb(81,81,181); color: white; 
+}
+
+#mydrive .categories .highlight {
+	background: rgb(222,222,222);
+}
+
+#mydrive .categories .separator {
+	width: 120px; height: 5px; background: rgb(222,222,222);
+}
+
+/******************************************************************/
+/*                      Description form                          */
+/******************************************************************/
+#description-form {
+	position: absolute; left: 50%; width: 500px; height: 320px;
+	z-index: 5000; margin-left: -250px; display: none;
+}
+
+#description-form .description-form {
+	background: rgb(235,235,235); 
+	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+#description-form-spinner {
+	width: 0px; height: 0px; position: absolute; left: 250px; top: 160px;
+	overflow: hidden; visibility: hidden;
+}
+
+#description-form .spinner-wrapper {
+	position: relative; width: 500px; height:320px; 
+	left: -250px; top: -160px;
+}
+
+#description-form .form-heading {
+	width: 500px; height: 70px; 
+	border-bottom: 1px rgb(215,215,215) solid;
+	position: relative;
+}
+
+#description-form .form-heading .info {
+	float: left; width: 430px; height: 50px; margin-top: 10px;
+}
+
+#description-form .form-heading .label {
+	width: 430px; height: 38px; font-size: 34px; font-weight: bold; 
+	text-align: left; padding-left: 25px; letter-spacing: -2px;
+}
+
+#description-form .form-heading .sublabel {
+	width: 430px; height: 12px; font-size: 12px; text-align: left; 
+	padding-left: 25px; color: rgb(110,110,110);
+}
+
+#description-form .form-heading .close {
+	float: left; width: 70px; height: 70px; 
+	background: url(../../img/registration_form_close.png) no-repeat;
+}
+
+#description-form .form-heading .close:hover {
+	cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
+}
+
+#description-form .content {
+	width: 500px; height: 250px; overflow-y: scroll;
+}
+
+#description-form .content p {
+	text-align: left; font-size: 14px; padding-left: 15px;
+	padding-right: 15px; padding-top: 10px; color: rgb(60,60,60);
+}
+
+#description-form .content .spacer {
+	width: 480px; height: 15px;
+}
