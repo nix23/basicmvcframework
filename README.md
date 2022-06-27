@@ -3,10 +3,10 @@
 <!-- INTRO -->
 <br />
 <div align="center">
-  <h3 align="center">Basic MVC framework + website about cars</h3>
+  <h3 align="center">(DEPRECATED) Basic MVC framework + website about cars</h3>
 
   <p align="center">
-    One of my prev projects which I have successfully developed and used in 2012-2013. I have created basic MVC framework in plain PHP and released 5 commercial projects for my clients on top of it. This repo contains framework code + last project I have developed.(Automotive website with user-generated content)
+    One of my prev projects which I have successfully developed and used in 2012-2013. I have created basic MVC framework in plain PHP and released 5 commercial projects for my clients on top of it. This repo contains framework code + last project I have developed.(Automotive website with user-generated content) Later I have switched to Symfony framework instead of development own.
   </p>
 </div>
 
