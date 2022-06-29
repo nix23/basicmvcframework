@@ -302,6 +302,9 @@ Contains application views. Example, file with list items:
   <h3 align="center">Website homepage</h3>
 </div>
 
+<p align="center">
+  <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
+</p>
 ![Alt text](public/img/screen/1.jpg?raw=true | width=100)
 ![Alt text](public/img/screen/1.jpg?raw=true "Title")
 ![alt text](public/img/screen/1.jpg)
