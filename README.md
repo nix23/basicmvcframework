@@ -304,7 +304,7 @@ Contains application views. Example, file with list items:
 
 <a href="public/img/screen/1.jpg?raw=true">
   <p align="center">
-    <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
+    <img src="public/img/screen/1.jpg" width="50%">
   </p>
 </a>
 
@@ -314,7 +314,7 @@ Contains application views. Example, file with list items:
 
 <a href="public/img/screen/2.jpg?raw=true">
   <p align="center">
-    <img src="public/img/screen/2.jpg" width="50%" title="Github Logo">
+    <img src="public/img/screen/2.jpg" width="50%">
   </p>
 </a>
 
@@ -324,7 +324,7 @@ Contains application views. Example, file with list items:
 
 <a href="public/img/screen/3.jpg?raw=true">
   <p align="center">
-    <img src="public/img/screen/3.jpg" width="50%" title="Github Logo">
+    <img src="public/img/screen/3.jpg" width="50%">
   </p>
 </a>
 
@@ -334,7 +334,7 @@ Contains application views. Example, file with list items:
 
 <a href="public/img/screen/4.jpg?raw=true">
   <p align="center">
-    <img src="public/img/screen/4.jpg" width="50%" title="Github Logo">
+    <img src="public/img/screen/4.jpg" width="50%">
   </p>
 </a>
 
@@ -344,7 +344,7 @@ Contains application views. Example, file with list items:
 
 <a href="public/img/screen/5.jpg?raw=true">
   <p align="center">
-    <img src="public/img/screen/5.jpg" width="50%" title="Github Logo">
+    <img src="public/img/screen/5.jpg" width="50%">
   </p>
 </a>
 
