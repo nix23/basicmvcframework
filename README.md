@@ -302,12 +302,12 @@ Contains application views. Example, file with list items:
   <h3 align="center">Website homepage</h3>
 </div>
 
-<a href="public/img/screen/1.jpg" target="_blank">
+<a href="public/img/screen/1.jpg?raw=true" target="_blank">
 <p align="center">
   <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
 </p>
 </a>
-<a href="public/img/screen/1.jpg" target="_blank" align="center">
+<a href="public/img/screen/1.jpg?raw=true" target="_blank" align="center">
   <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
 </a>
 ![Alt text](public/img/screen/1.jpg?raw=true | width=100)
