@@ -302,40 +302,50 @@ Contains application views. Example, file with list items:
   <h3 align="center">Website homepage</h3>
 </div>
 
-<a href="public/img/screen/1.jpg?raw=true" target="_blank">
-<p align="center">
-  <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
-</p>
+<a href="public/img/screen/1.jpg?raw=true">
+  <p align="center">
+    <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
+  </p>
 </a>
-<a href="public/img/screen/1.jpg?raw=true" target="_blank" align="center">
-  <img src="public/img/screen/1.jpg" width="50%" title="Github Logo">
-</a>
-![Alt text](public/img/screen/1.jpg?raw=true | width=100)
-![Alt text](public/img/screen/1.jpg?raw=true "Title")
-![alt text](public/img/screen/1.jpg)
 
 <div align="center">
   <h3 align="center">One of the main modules</h3>
 </div>
 
-![alt text](public/img/screen/2.jpg)
+<a href="public/img/screen/2.jpg?raw=true">
+  <p align="center">
+    <img src="public/img/screen/2.jpg" width="50%" title="Github Logo">
+  </p>
+</a>
 
 <div align="center">
   <h3 align="center">View article page</h3>
 </div>
 
-![alt text](public/img/screen/3.jpg)
+<a href="public/img/screen/3.jpg?raw=true">
+  <p align="center">
+    <img src="public/img/screen/3.jpg" width="50%" title="Github Logo">
+  </p>
+</a>
 
 <div align="center">
   <h3 align="center">Manage post page</h3>
 </div>
 
-![alt text](public/img/screen/4.jpg)
+<a href="public/img/screen/4.jpg?raw=true">
+  <p align="center">
+    <img src="public/img/screen/4.jpg" width="50%" title="Github Logo">
+  </p>
+</a>
 
 <div align="center">
   <h3 align="center">Manage article admin page</h3>
 </div>
 
-![alt text](public/img/screen/5.jpg)
+<a href="public/img/screen/5.jpg?raw=true">
+  <p align="center">
+    <img src="public/img/screen/5.jpg" width="50%" title="Github Logo">
+  </p>
+</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
