@@ -1,164 +1,164 @@
 .categories-table {
-	width: 960px; display: block; 
+    width: 960px; display: block; 
 }
 
 .categories-table .hidden {
-	display: none;
+    display: none;
 }
 
 .categories-table #heading {
-	background: rgb(228,228,228); border-bottom: 1px rgb(220,220,220) solid; 
+    background: rgb(228,228,228); border-bottom: 1px rgb(220,220,220) solid; 
 }
 
 .categories-table th {
-	text-align: center; font-size: 12px; height: 40px;
-	color: rgb(60,60,60); 
+    text-align: center; font-size: 12px; height: 40px;
+    color: rgb(60,60,60); 
 }
 
 .categories-table #name {
-	width: 350px; 
+    width: 350px; 
 }
 
 .categories-table #show-in-modules {
-	width: 200px; 
+    width: 200px; 
 }
 
 .categories-table #status {
-	width: 160px; 
+    width: 160px; 
 }
 
 .categories-table #actions {
-	width: 250px; 
+    width: 250px; 
 }
 
 .categories-table .highlight {
-	background: rgb(222,222,222);
+    background: rgb(222,222,222);
 }
 
 .categories-table .active, .category:hover {
-	background: rgb(81,81,181); color: white;
+    background: rgb(81,81,181); color: white;
 }
 
 .categories-table td {
-	font-size: 14px; height: 60px;
+    font-size: 14px; height: 60px;
 }
 
 .categories-table .name-cell {
-	width: 350px;
+    width: 350px;
 }
 
 .categories-table .name-cell .wrapper {
-	width: 300px; margin-left: 40px; margin-right: 10px;
+    width: 300px; margin-left: 40px; margin-right: 10px;
 }
 
 .categories-table .name-cell .name {
-	width: 300px; font-size: 24px; font-weight: bold; letter-spacing: -1px; text-align: left;
+    width: 300px; font-size: 24px; font-weight: bold; letter-spacing: -1px; text-align: left;
 }
 
 .categories-table .name-cell .name:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .categories-table .name-cell .subcategories-count {
-	width: 300px; height: 16px; text-align: left; font-size: 12px; 
+    width: 300px; height: 16px; text-align: left; font-size: 12px; 
 }
 
 .categories-table .show-in-modules-cell {
-	width: 200px; font-size: 12px;
+    width: 200px; font-size: 12px;
 }
 
 .categories-table .status-cell {
-	width: 160px; font-size: 12px;
+    width: 160px; font-size: 12px;
 }
 
 .categories-table .status-cell .status:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 .categories-table .actions-cell {
-	width: 250px; text-align: center;
+    width: 250px; text-align: center;
 }
 
 .categories-table .actions-cell .wrapper {
-	 width: 120px; height: 12px; font-size: 12px; 
-	 margin-left: auto; margin-right: auto;
+     width: 120px; height: 12px; font-size: 12px; 
+     margin-left: auto; margin-right: auto;
 }
 
 .categories-table .actions-cell .edit {
-	float: left; 
+    float: left; 
 }
 
 .categories-table .actions-cell .delete {
-	float: left; margin-left: 60px;
+    float: left; margin-left: 60px;
 }
 
 .categories-table .actions-cell .delete:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 /* Subcategories */
 .categories-table .no-subcategories {
-	width: 960px; height: 60px; line-height: 60px; font-weight: bold; background: white; 
+    width: 960px; height: 60px; line-height: 60px; font-weight: bold; background: white; 
 }
 
 .subcategories-wrapper {
-	height: 40px !important;
+    height: 40px !important;
 }
 
 .subcategories-table {
-	width: 960px; display: block; background: white;
+    width: 960px; display: block; background: white;
 }
 
 .subcategories-table .subcategory {
-	border-bottom: 1px rgb(240,240,240) solid;
+    border-bottom: 1px rgb(240,240,240) solid;
 }
 
 .subcategories-table td {
-	font-size: 14px; height: 40px;
+    font-size: 14px; height: 40px;
 }
 
 .subcategories-table .name-cell {
-	width: 350px; 
+    width: 350px; 
 }
 
 .subcategories-table .name-cell .name {
-	width: 285px; font-size: 20px; font-weight: bold; letter-spacing: -1px;
-	text-align: left; margin-left: 55px; margin-right: 10px;
+    width: 285px; font-size: 20px; font-weight: bold; letter-spacing: -1px;
+    text-align: left; margin-left: 55px; margin-right: 10px;
 }
 
 .subcategories-table .name-cell .name:hover {
-	cursor: auto;
+    cursor: auto;
 }
 
 .subcategories-table .show-in-modules-cell {
-	width: 200px; font-size: 12px;
+    width: 200px; font-size: 12px;
 }
 
 .subcategories-table .status-cell {
-	width: 160px; font-size: 12px;
+    width: 160px; font-size: 12px;
 }
 
 .subcategories-table .status-cell .status:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 .subcategories-table .actions-cell {
-	width: 250px; text-align: center;
+    width: 250px; text-align: center;
 }
 
 .subcategories-table .actions-cell .wrapper {
-	 width: 120px; height: 12px; font-size: 12px; 
-	 margin-left: auto; margin-right: auto;
+     width: 120px; height: 12px; font-size: 12px; 
+     margin-left: auto; margin-right: auto;
 }
 
 .subcategories-table .actions-cell .edit {
-	float: left; 
+    float: left; 
 }
 
 .subcategories-table .actions-cell .delete {
-	float: left; margin-left: 60px;
+    float: left; margin-left: 60px;
 }
 
 .subcategories-table .actions-cell .delete:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }

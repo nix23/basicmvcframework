@@ -1,525 +1,525 @@
 #profile {
-	width: 960px;
+    width: 960px;
 }
 
 /******************************************************************/
 /*                           Heading                              */
 /******************************************************************/
 #profile .heading {
-	width: 960px; height: 70px; padding-top: 1px;
+    width: 960px; height: 70px; padding-top: 1px;
 }
 
 #profile .heading .wrapper {
-	width: 930px; height: 60px; margin-top: 5px;
-	margin-left: 15px;
+    width: 930px; height: 60px; margin-top: 5px;
+    margin-left: 15px;
 }
 
 #profile .heading .legend {
-	float: left; width: 660px; height: 60px; text-align: left;
-	border-left: 10px rgb(81,81,181) solid;
+    float: left; width: 660px; height: 60px; text-align: left;
+    border-left: 10px rgb(81,81,181) solid;
 }
 
 #profile .heading .legend .label {
-	width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
-	font-size: 34px; font-weight: bold; letter-spacing: -2px;
-	margin-top: 2px;
+    width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
+    font-size: 34px; font-weight: bold; letter-spacing: -2px;
+    margin-top: 2px;
 }
 
 #profile .heading .legend .sublabel {
-	width: 650px; height: 18px; line-height: 18px;
-	padding-left: 10px; font-size: 18px;
-	color: rgb(110,110,110);
+    width: 650px; height: 18px; line-height: 18px;
+    padding-left: 10px; font-size: 18px;
+    color: rgb(110,110,110);
 }
 
 #profile .heading .actions {
-	position: relative; float: left; width: 260px; height: 60px;
+    position: relative; float: left; width: 260px; height: 60px;
 }
 
 #profile .heading .actions .follow-button {
-	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
-	left: 50%; margin-left: -90px; color: black;
-	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+    left: 50%; margin-left: -90px; color: black;
+    background: rgb(240,240,240); border: 1px rgb(210,210,210) solid;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
 }
 
 #profile .heading .actions .follow-button:hover {
-	background: rgb(81,81,181); color: white; cursor: pointer;
+    background: rgb(81,81,181); color: white; cursor: pointer;
 }
 
 #profile .heading .actions .follow-button .name {
-	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold;
+    height: 30px; line-height: 30px; font-size: 16px; font-weight: bold;
 }
 
 #profile .heading .actions a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /******************************************************************/
 /*                             Info                               */
 /******************************************************************/
 #profile .info {
-	width: 960px; height: 85px; margin-top: 10px;
+    width: 960px; height: 85px; margin-top: 10px;
 }
 
 #profile .info .avatar {
-	position: relative; float: left; width: 85px; height: 85px;
-	margin-left: 15px;
+    position: relative; float: left; width: 85px; height: 85px;
+    margin-left: 15px;
 }
 
 #profile .info .avatar .no-avatar {
-	width: 85px; height: 85px;
-	background: url(../../img/noavatar_85_85.jpg);
+    width: 85px; height: 85px;
+    background: url(../../img/noavatar_85_85.jpg);
 }
 
 #profile .info .legend {
-	float: left; width: 264px; height: 85px;
-	margin-left: 10px; text-align: left; border-right: 1px rgb(210,210,210) solid;
+    float: left; width: 264px; height: 85px;
+    margin-left: 10px; text-align: left; border-right: 1px rgb(210,210,210) solid;
 }
 
 #profile .info .legend .label {
-	width: 254px; height: 40px; line-height: 40px; overflow: hidden;
-	font-weight: bold; letter-spacing: -2px; font-size: 34px; position: relative;
+    width: 254px; height: 40px; line-height: 40px; overflow: hidden;
+    font-weight: bold; letter-spacing: -2px; font-size: 34px; position: relative;
 }
 
 #profile .info .legend .label .row {
-	width: 1000px; height: 40px;
+    width: 1000px; height: 40px;
 }
 
 #profile .info .legend .label .trimmer {
-	position: absolute; top: 0px; left: 214px; width: 40px; height: 40px;
-	background: url(../../img/login_trimmer_40_40.png);
+    position: absolute; top: 0px; left: 214px; width: 40px; height: 40px;
+    background: url(../../img/login_trimmer_40_40.png);
 }
 
 #profile .info .legend .sublabel {
-	width: 264px; height: 45px; font-size: 18px; line-height: 18px;
-	color: rgb(110,110,110); letter-spacing: -1px; overflow: hidden;
+    width: 264px; height: 45px; font-size: 18px; line-height: 18px;
+    color: rgb(110,110,110); letter-spacing: -1px; overflow: hidden;
 }
 
 #profile .info .description {
-	float: left; width: 275px; height: 80px; margin-top: 5px;
-	margin-left: 20px; text-align: left;
+    float: left; width: 275px; height: 80px; margin-top: 5px;
+    margin-left: 20px; text-align: left;
 }
 
 #profile .info .description .label {
-	width: 275px; height: 35px; line-height: 35px;
-	font-weight: bold; letter-spacing: -2px; font-size: 34px;
+    width: 275px; height: 35px; line-height: 35px;
+    font-weight: bold; letter-spacing: -2px; font-size: 34px;
 }
 
 #profile .info .description .sublabel {
-	width: 275px; height: 45px; color: rgb(100,100,100);
-	font-size: 12px; font-weight: bold;
+    width: 275px; height: 45px; color: rgb(100,100,100);
+    font-size: 12px; font-weight: bold;
 }
 
 #profile .info .trimmed-description:hover {
-	color: rgb(81,81,181); cursor: pointer;
+    color: rgb(81,81,181); cursor: pointer;
 }
 
 #profile .info .rating {
-	float: left; width: 264px; height: 85px;
-	margin-left: 20px;  border-left: 1px rgb(210,210,210) solid;
+    float: left; width: 264px; height: 85px;
+    margin-left: 20px;  border-left: 1px rgb(210,210,210) solid;
 }
 
 #profile .info .rating .rank {
-	float: left; width: 130px; height: 85px;
+    float: left; width: 130px; height: 85px;
 }
 
 #profile .info .rating .rank .number {
-	width: 130px; height: 34px; line-height: 34px;
-	margin-top: 14px; font-size: 34px; font-weight: bold;
-	color: rgb(81,81,181); letter-spacing: -2px;
+    width: 130px; height: 34px; line-height: 34px;
+    margin-top: 14px; font-size: 34px; font-weight: bold;
+    color: rgb(81,81,181); letter-spacing: -2px;
 }
 
 #profile .info .rating .rank .label {
-	width: 130px; height: 24px; line-height: 24px;
-	font-size: 24px; font-weight: bold; letter-spacing: -2px;
+    width: 130px; height: 24px; line-height: 24px;
+    font-size: 24px; font-weight: bold; letter-spacing: -2px;
 }
 
 #profile .info .rating .stats {
-	float: left; width: 134px; height: 85px;
-	font-weight: bold; letter-spacing: -1px;
+    float: left; width: 134px; height: 85px;
+    font-weight: bold; letter-spacing: -1px;
 }
 
 #profile .info .rating .stats .item {
-	width: 134px; height: 16px; margin-top: 5px;
-	text-align: left; font-size: 16px;
+    width: 134px; height: 16px; margin-top: 5px;
+    text-align: left; font-size: 16px;
 }
 
 #profile .info .rating .stats .item .left {
-	float: left; width: 85px; height: 16px;
+    float: left; width: 85px; height: 16px;
 }
 
 #profile .info .rating .stats .item .right {
-	float: left; width: 49px; height: 16px;
-	color: rgb(81,81,181);
+    float: left; width: 49px; height: 16px;
+    color: rgb(81,81,181);
 }
 
 /******************************************************************/
 /*                          Controls                              */
 /******************************************************************/
 #profile .controls {
-	width: 960px; height: 60px;
+    width: 960px; height: 60px;
 }
 
 #profile .controls .pagination {
-	position: relative; float: left; width: 300px; height: 60px;
+    position: relative; float: left; width: 300px; height: 60px;
 }
 
 #profile .controls .pagination .wrapper {
-	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
-	left: 20px;
+    position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+    left: 20px;
 }
 
 #profile .controls .pagination .page {
-	float: left; margin-left: 5px; width: 30px; height: 30px;
-	border: 1px rgb(210,210,210) solid;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-	line-height: 30px; text-align: center; color: black;
+    float: left; margin-left: 5px; width: 30px; height: 30px;
+    border: 1px rgb(210,210,210) solid;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    line-height: 30px; text-align: center; color: black;
 }
 
 #profile .controls .pagination .selected {
-	background: rgb(81,81,181); color: rgb(255,255,255);
+    background: rgb(81,81,181); color: rgb(255,255,255);
 }
 
 #profile .controls .pagination .active {
-	background: rgb(240,240,240);
+    background: rgb(240,240,240);
 }
 
 #profile .controls .pagination .active:hover {
-	background: rgb(81,81,181); color: rgb(255,255,255);
+    background: rgb(81,81,181); color: rgb(255,255,255);
 }
 
 #profile .controls .pagination .number {
-	font-size: 16px; font-weight: bold;
-	letter-spacing: -2px; padding-right: 1px;
+    font-size: 16px; font-weight: bold;
+    letter-spacing: -2px; padding-right: 1px;
 }
 
 #profile .module-select {
-	float: left; width: 660px; height: 60px;
+    float: left; width: 660px; height: 60px;
 }
 
 #profile .module-select .heading {
-	float: left; width: 100px; height: 60px; line-height: 60px; text-align: right;
-	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+    float: left; width: 100px; height: 60px; line-height: 60px; text-align: right;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px;
 }
 
 #profile .module-select .wrapper {
-	float: left; width: 130px; height: 60px;
+    float: left; width: 130px; height: 60px;
 }
 
 #profile .module-select .item {
-	width: 120px; height: 25px; line-height: 25px; color: black;
-	margin-left: 5px; margin-top: 18px; border: 1px rgb(210,210,210) solid;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    width: 120px; height: 25px; line-height: 25px; color: black;
+    margin-left: 5px; margin-top: 18px; border: 1px rgb(210,210,210) solid;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
 }
 
 #profile .module-select .item:hover,
 #profile .module-select .selected {
-	background: rgb(81,81,181); color: white;
+    background: rgb(81,81,181); color: white;
 }
 
 #profile .module-select .item .label {
-	float: left; width: 80px; height: 25px; line-height: 25px;
-	margin-left: 10px;
-	font-size: 16px; font-weight: bold; letter-spacing: -1px;
-	text-align: left;
+    float: left; width: 80px; height: 25px; line-height: 25px;
+    margin-left: 10px;
+    font-size: 16px; font-weight: bold; letter-spacing: -1px;
+    text-align: left;
 }
 
 #profile .module-select .item .count {
-	float: left; width: 30px; height: 25px; text-align: center;
-	background: rgb(81,81,181); color: white; font-size: 16px;
-	font-weight: bold; letter-spacing: -2px;
-	-moz-border-radius-bottomright: 5px;
-	-moz-border-radius-topright: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+    float: left; width: 30px; height: 25px; text-align: center;
+    background: rgb(81,81,181); color: white; font-size: 16px;
+    font-weight: bold; letter-spacing: -2px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #profile a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /****************************************************************************************/
 /*                                       Content                                        */
 /****************************************************************************************/
 #profile .content {
-	width: 960px;
+    width: 960px;
 }
 
 #profile .items {
-	float: left; width: 840px;
+    float: left; width: 840px;
 }
 
 #profile .categories {
-	float: left; width: 120px;
+    float: left; width: 120px;
 }
 
 /****************************************************************************************/
 /*                                 Content - Items                                      */
 /****************************************************************************************/
 #profile .items .item {
-	float: left; width: 280px; height: 190px;
+    float: left; width: 280px; height: 190px;
 }
 
 #profile .items .item a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #profile .items .item .item-wrapper {
-	position: relative; width: 270px; height: 180px;
-	margin-left: 5px; margin-top: 5px;
+    position: relative; width: 270px; height: 180px;
+    margin-left: 5px; margin-top: 5px;
 }
 
 /******************************************************************/
 /*                             Likes                              */
 /******************************************************************/
 #profile .items .item .likes {
-	position: absolute; left: 0px; top: 0px;
-	float: left; color: white;
-	width: 50px; height: 50px; background: rgb(81,81,181);
+    position: absolute; left: 0px; top: 0px;
+    float: left; color: white;
+    width: 50px; height: 50px; background: rgb(81,81,181);
 }
 
 #profile .items .item .likes .count {
-	width: 50px; height: 24px; margin-top: 2px; font-size: 24px;
-	font-weight: bold; letter-spacing: -2px;
+    width: 50px; height: 24px; margin-top: 2px; font-size: 24px;
+    font-weight: bold; letter-spacing: -2px;
 }
 
 #profile .items .item .likes .label {
-	width: 50px; height: 16px; font-size: 16px;
-	font-weight: bold; letter-spacing: -1px;
+    width: 50px; height: 16px; font-size: 16px;
+    font-weight: bold; letter-spacing: -1px;
 }
 
 /******************************************************************/
 /*                   Bottom and middle panel                      */
 /******************************************************************/
 #profile .items .item .bottom-panel {
-	position: absolute; top: 130px; left: 0px;
-	width: 270px; height: 50px;
-	background: url(../../img/item_bg_light.png);
+    position: absolute; top: 130px; left: 0px;
+    width: 270px; height: 50px;
+    background: url(../../img/item_bg_light.png);
 }
 
 #profile .items .item .bottom-panel-selected {
-	background: rgb(81,81,181);
+    background: rgb(81,81,181);
 }
 
 #profile .items .item .bottom-panel .heading {
-	float: left; width: 195px; height: 50px;
+    float: left; width: 195px; height: 50px;
 }
 
 #profile .items .item .bottom-panel .heading .wrapper {
-	margin-left: 10px; margin-top: 9px; overflow: hidden;
-	width: 185px; height: 32px; text-align: left; line-height: 16px;
+    margin-left: 10px; margin-top: 9px; overflow: hidden;
+    width: 185px; height: 32px; text-align: left; line-height: 16px;
 }
 
 #profile .items .item .bottom-panel .heading h3 {
-	color: white; font-weight: bold; font-size: 14px;
-	letter-spacing: -1px;
+    color: white; font-weight: bold; font-size: 14px;
+    letter-spacing: -1px;
 }
 
 #profile .items .item .bottom-panel .comments {
-	float: left; width: 75px; height: 50px;
-	color: white; font-weight: bold;
+    float: left; width: 75px; height: 50px;
+    color: white; font-weight: bold;
 }
 
 #profile .items .item .bottom-panel .comments .count {
-	width: 75px; height: 24px; line-height: 24px;
-	margin-top: 6px; font-size: 24px; letter-spacing: -1px;
+    width: 75px; height: 24px; line-height: 24px;
+    margin-top: 6px; font-size: 24px; letter-spacing: -1px;
 }
 
 #profile .items .item .bottom-panel .comments .label {
-	width: 75px; height: 14px; line-height: 14px;
-	font-size: 14px; font-weight: bold; letter-spacing: -1px;
+    width: 75px; height: 14px; line-height: 14px;
+    font-size: 14px; font-weight: bold; letter-spacing: -1px;
 }
 
 /******************************************************************/
 /*                            No uploads                          */
 /******************************************************************/
 #profile .items .no-uploads {
-	width: 840px; height: 500px; padding-top: 1px;
+    width: 840px; height: 500px; padding-top: 1px;
 }
 
 #profile .items .no-uploads .message {
-	width: 820px; height: 100px; margin-top: 200px;
-	background: rgb(222,222,222);
+    width: 820px; height: 100px; margin-top: 200px;
+    background: rgb(222,222,222);
 }
 
 #profile .items .no-uploads .icon {
-	float: left; width: 120px; height: 100px; margin-left: 170px;
-	background: url(../../img/no_uploads.png);
+    float: left; width: 120px; height: 100px; margin-left: 170px;
+    background: url(../../img/no_uploads.png);
 }
 
 #profile .items .no-uploads .label {
-	float: left; width: 530px; height: 100px; line-height: 100px;
-	font-size: 18px; font-weight: bold; letter-spacing: -1px;
-	text-align: left;
+    float: left; width: 530px; height: 100px; line-height: 100px;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px;
+    text-align: left;
 }
 
 /******************************************************************/
 /*                       Bottom Controls                          */
 /******************************************************************/
 #profile .bottom-controls {
-	width: 840px; height: 60px;
+    width: 840px; height: 60px;
 }
 
 #profile .bottom-controls .pagination {
-	position: relative; float: left; width: 300px; height: 60px;
+    position: relative; float: left; width: 300px; height: 60px;
 }
 
 #profile .bottom-controls .pagination .wrapper {
-	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
-	left: 20px;
+    position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+    left: 20px;
 }
 
 #profile .bottom-controls .pagination .page {
-	float: left; margin-left: 5px; width: 30px; height: 30px;
-	border: 1px rgb(210,210,210) solid; color: black;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-	line-height: 30px; text-align: center;
+    float: left; margin-left: 5px; width: 30px; height: 30px;
+    border: 1px rgb(210,210,210) solid; color: black;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    line-height: 30px; text-align: center;
 }
 
 #profile .bottom-controls .pagination .selected {
-	background: rgb(81,81,181); color: rgb(255,255,255);
+    background: rgb(81,81,181); color: rgb(255,255,255);
 }
 
 #profile .bottom-controls .pagination .active {
-	background: rgb(240,240,240); color: black;
+    background: rgb(240,240,240); color: black;
 }
 
 #profile .bottom-controls .pagination .active:hover {
-	background: rgb(81,81,181); color: rgb(255,255,255);
+    background: rgb(81,81,181); color: rgb(255,255,255);
 }
 
 #profile .bottom-controls .pagination .number {
-	font-size: 16px; font-weight: bold;
-	letter-spacing: -2px; padding-right: 1px;
+    font-size: 16px; font-weight: bold;
+    letter-spacing: -2px; padding-right: 1px;
 }
 
 /****************************************************************************************/
 /*                              Content - Categories                                    */
 /****************************************************************************************/
 #profile .categories .separator-light {
-	width: 120px; height: 5px; background: rgb(235,235,235);
+    width: 120px; height: 5px; background: rgb(235,235,235);
 }
 
 #profile .categories a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #profile .categories .category {
-	width: 120px; height: 25px; line-height: 25px; font-size: 14px;
-	font-weight: bold; text-align: left; letter-spacing: -1px;
-	color: rgb(60,60,60);
+    width: 120px; height: 25px; line-height: 25px; font-size: 14px;
+    font-weight: bold; text-align: left; letter-spacing: -1px;
+    color: rgb(60,60,60);
 }
 
 #profile .categories .category .text {
-	padding-left: 15px;
+    padding-left: 15px;
 }
 
 #profile .categories .selected,
 #profile .categories .active:hover {
-	background: rgb(81,81,181); color: white;
+    background: rgb(81,81,181); color: white;
 }
 
 #profile .categories .highlight {
-	background: rgb(222,222,222);
+    background: rgb(222,222,222);
 }
 
 #profile .categories .separator {
-	width: 120px; height: 5px; background: rgb(222,222,222);
+    width: 120px; height: 5px; background: rgb(222,222,222);
 }
 
 /******************************************************************/
 /*                      Unavailable account                       */
 /******************************************************************/
 #profile .unavailable-account {
-	width: 960px; height: 500px; padding-top: 1px;
+    width: 960px; height: 500px; padding-top: 1px;
 }
 
 #profile .unavailable-account .message {
-	width: 820px; height: 100px; margin-top: 170px;
-	margin-left: 70px; background: rgb(222,222,222);
+    width: 820px; height: 100px; margin-top: 170px;
+    margin-left: 70px; background: rgb(222,222,222);
 }
 
 #profile .unavailable-account .icon {
-	float: left; width: 120px; height: 100px; margin-left: 200px;
-	background: url(../../img/account_not_available_120_100.png);
+    float: left; width: 120px; height: 100px; margin-left: 200px;
+    background: url(../../img/account_not_available_120_100.png);
 }
 
 #profile .unavailable-account .label {
-	float: left; width: 450px; height: 75px; padding-top: 25px;
-	font-size: 18px; font-weight: bold; letter-spacing: -1px;
-	text-align: left;
+    float: left; width: 450px; height: 75px; padding-top: 25px;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px;
+    text-align: left;
 }
 
 #profile .unavailable-account .label .highlight {
-	color: rgb(81,81,181);
+    color: rgb(81,81,181);
 }
 
 /******************************************************************/
 /*                      Description form                          */
 /******************************************************************/
 #description-form {
-	position: absolute; left: 50%; width: 500px; height: 320px;
-	z-index: 5000; margin-left: -250px; display: none;
+    position: absolute; left: 50%; width: 500px; height: 320px;
+    z-index: 5000; margin-left: -250px; display: none;
 }
 
 #description-form .description-form {
-	background: rgb(235,235,235); 
-	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    background: rgb(235,235,235); 
+    border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
 #description-form-spinner {
-	width: 0px; height: 0px; position: absolute; left: 250px; top: 160px;
-	overflow: hidden; visibility: hidden;
+    width: 0px; height: 0px; position: absolute; left: 250px; top: 160px;
+    overflow: hidden; visibility: hidden;
 }
 
 #description-form .spinner-wrapper {
-	position: relative; width: 500px; height:320px; 
-	left: -250px; top: -160px;
+    position: relative; width: 500px; height:320px; 
+    left: -250px; top: -160px;
 }
 
 #description-form .form-heading {
-	width: 500px; height: 70px; 
-	border-bottom: 1px rgb(215,215,215) solid;
-	position: relative;
+    width: 500px; height: 70px; 
+    border-bottom: 1px rgb(215,215,215) solid;
+    position: relative;
 }
 
 #description-form .form-heading .info {
-	float: left; width: 430px; height: 50px; margin-top: 10px;
+    float: left; width: 430px; height: 50px; margin-top: 10px;
 }
 
 #description-form .form-heading .label {
-	width: 430px; height: 38px; font-size: 34px; font-weight: bold; 
-	text-align: left; padding-left: 25px; letter-spacing: -2px;
+    width: 430px; height: 38px; font-size: 34px; font-weight: bold; 
+    text-align: left; padding-left: 25px; letter-spacing: -2px;
 }
 
 #description-form .form-heading .sublabel {
-	width: 430px; height: 12px; font-size: 12px; text-align: left; 
-	padding-left: 25px; color: rgb(110,110,110);
+    width: 430px; height: 12px; font-size: 12px; text-align: left; 
+    padding-left: 25px; color: rgb(110,110,110);
 }
 
 #description-form .form-heading .close {
-	float: left; width: 70px; height: 70px; 
-	background: url(../../img/registration_form_close.png) no-repeat;
+    float: left; width: 70px; height: 70px; 
+    background: url(../../img/registration_form_close.png) no-repeat;
 }
 
 #description-form .form-heading .close:hover {
-	cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
+    cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
 }
 
 #description-form .content {
-	width: 500px; height: 250px; overflow-y: scroll;
+    width: 500px; height: 250px; overflow-y: scroll;
 }
 
 #description-form .content p {
-	text-align: left; font-size: 14px; padding-left: 15px;
-	padding-right: 15px; padding-top: 10px; color: rgb(60,60,60);
+    text-align: left; font-size: 14px; padding-left: 15px;
+    padding-right: 15px; padding-top: 10px; color: rgb(60,60,60);
 }
 
 #description-form .content .spacer {
-	width: 480px; height: 15px;
+    width: 480px; height: 15px;
 }

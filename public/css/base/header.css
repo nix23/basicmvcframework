@@ -2,309 +2,309 @@
 /*                    Header common layout                        */
 /******************************************************************/
 #header .wrapper {
-	width: 960px; margin-left: auto; margin-right: auto; height: 120px; overflow: hidden;
+    width: 960px; margin-left: auto; margin-right: auto; height: 120px; overflow: hidden;
 }
 
 #header .logo {
-	float: left; width: 270px; height: 60px; margin-top: 30px; 
-	background: url(../../img/fordrive_logo.jpg) no-repeat;
+    float: left; width: 270px; height: 60px; margin-top: 30px; 
+    background: url(../../img/fordrive_logo.jpg) no-repeat;
 }
 
 #header .intro {
-	float: left; width: 450px; height: 120px; 
+    float: left; width: 450px; height: 120px; 
 }
 
 #header .intro .wrapper {
-	margin-top: 20px; width: 430px; height: 80px; font-size: 12px; 
-	text-align: left; color: white; font-weight: bold; 
+    margin-top: 20px; width: 430px; height: 80px; font-size: 12px; 
+    text-align: left; color: white; font-weight: bold; 
 }
 
 #header .actions {
-	float: left; width: 240px; height: 120px; line-height: 120px;
-	font-size: 14px; color: white; font-weight: bold; letter-spacing: -1px;
-	position: relative;
+    float: left; width: 240px; height: 120px; line-height: 120px;
+    font-size: 14px; color: white; font-weight: bold; letter-spacing: -1px;
+    position: relative;
 }
 
 #header .actions .enter {
-	position: absolute; left: 75px; top: 0px; z-index: 10; height: 14px;
+    position: absolute; left: 75px; top: 0px; z-index: 10; height: 14px;
 }
 
 #header .actions .register {
-	position: absolute; left: 134px; top: 0px; z-index: 10; height: 14px;
+    position: absolute; left: 134px; top: 0px; z-index: 10; height: 14px;
 }
 
 #header .actions .link:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 #header .actions .fb-login-wrapper {
-	position: absolute; width: 70px; height: 25px;
-	left: 92px; top: -28px; z-index: 1;
+    position: absolute; width: 70px; height: 25px;
+    left: 92px; top: -28px; z-index: 1;
 }
 
 /******************************************************************/
 /*                         Login form                             */
 /******************************************************************/
 #login-form {
-	position: absolute; left: 50%; width: 550px; height: 290px;
-	z-index: 5000; margin-left: -275px; display: none;
+    position: absolute; left: 50%; width: 550px; height: 290px;
+    z-index: 5000; margin-left: -275px; display: none;
 }
 
 #login-form .login-form {
-	background: rgb(235,235,235); 
-	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border: 1px rgb(220,220,220) solid;
+    background: rgb(235,235,235); 
+    border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    border: 1px rgb(220,220,220) solid;
 }
 
 #login-form-spinner {
-	width: 0px; height: 0px; position: absolute; left: 275px; top: 145px;
-	overflow: hidden; visibility: hidden;
+    width: 0px; height: 0px; position: absolute; left: 275px; top: 145px;
+    overflow: hidden; visibility: hidden;
 }
 
 #login-form .spinner-wrapper {
-	position: relative; width: 550px; height: 290px; 
-	left: -275px; top: -145px;
+    position: relative; width: 550px; height: 290px; 
+    left: -275px; top: -145px;
 }
 
 #login-form .heading {
-	position: relative; width: 550px; height: 70px; 
-	border-bottom: 1px rgb(215,215,215) solid;
+    position: relative; width: 550px; height: 70px; 
+    border-bottom: 1px rgb(215,215,215) solid;
 }
 
 #login-form .heading .info {
-	float: left; width: 480px; height: 48px; margin-top: 11px;
+    float: left; width: 480px; height: 48px; margin-top: 11px;
 }
 
 #login-form .heading .label {
-	width: 480px; height: 36px; font-size: 34px; font-weight: bold; 
-	text-align: left; padding-left: 25px; letter-spacing: -2px;
+    width: 480px; height: 36px; font-size: 34px; font-weight: bold; 
+    text-align: left; padding-left: 25px; letter-spacing: -2px;
 }
 
 #login-form .heading .sublabel {
-	width: 480px; height: 12px; font-size: 12px; text-align: left; 
-	padding-left: 25px; color: rgb(110,110,110);
+    width: 480px; height: 12px; font-size: 12px; text-align: left; 
+    padding-left: 25px; color: rgb(110,110,110);
 }
 
 #login-form .heading .close {
-	float: left; width: 70px; height: 70px; 
-	background: url(../../img/registration_form_close.png) no-repeat;
+    float: left; width: 70px; height: 70px; 
+    background: url(../../img/registration_form_close.png) no-repeat;
 }
 
 #login-form .heading .close:hover {
-	cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
+    cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
 }
 
 #login-form .item {
-	width: 550px; clear: both; overflow: hidden;
+    width: 550px; clear: both; overflow: hidden;
 }
 
 #login-form .legend {
-	float: left; width: 260px; margin-top: 20px; text-align: right;
+    float: left; width: 260px; margin-top: 20px; text-align: right;
 }
 
 #login-form .legend .name {
-	margin-right: 20px; font-size: 24px; font-weight: bold; 
-	color: rgb(60,60,60); letter-spacing: -1px;
+    margin-right: 20px; font-size: 24px; font-weight: bold; 
+    color: rgb(60,60,60); letter-spacing: -1px;
 }
 
 #login-form .legend .required {
-	font-size: 24px; color: rgb(81,81,181);
+    font-size: 24px; color: rgb(81,81,181);
 }
 
 #login-form .legend .description {
-	margin-right: 20px; font-size: 11px; color: rgb(130,130,130); 
-	text-align: right;
+    margin-right: 20px; font-size: 11px; color: rgb(130,130,130); 
+    text-align: right;
 }
 
 #login-form .element {
-	float: left; width: 290px; text-align: left; margin-top: 20px;
+    float: left; width: 290px; text-align: left; margin-top: 20px;
 }
 
 #login-form .input {
-	font-family: Arial; font-size: 24px; 
-	width: 230px; height: 35px; line-height: 35px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px; border-radius: 5px;
+    font-family: Arial; font-size: 24px; 
+    width: 230px; height: 35px; line-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; border-radius: 5px;
 }
 
 #login-form .input-border {
-	border: thin solid #CCCCCC; outline: none;
+    border: thin solid #CCCCCC; outline: none;
 }
 
 #login-form .input-over {
-	border: thin solid rgb(180,180,180);
+    border: thin solid rgb(180,180,180);
 }
 
 #login-form .input-focus {
-	border: 1px solid rgb(81,81,181);
+    border: 1px solid rgb(81,81,181);
 }
 
 #login-form .save {
-	float: left; text-align: right; width: 370px; height: 60px;
-	margin-top: 15px; 
+    float: left; text-align: right; width: 370px; height: 60px;
+    margin-top: 15px; 
 }
 
 #login-form .submit {
-	margin-top: 10px; margin-right: 5px; width: 170px; height: 40px; line-height: 1;
-	font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
+    margin-top: 10px; margin-right: 5px; width: 170px; height: 40px; line-height: 1;
+    font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
 }
 
 #login-form .loading {
-	float: left; width: 180px; height: 60px; margin-top: 15px; display: none;
-	background: url(../../../img/loading_middle.gif) no-repeat;
+    float: left; width: 180px; height: 60px; margin-top: 15px; display: none;
+    background: url(../../../img/loading_middle.gif) no-repeat;
 }
 
 /******************************************************************/
 /*                      Registration form                         */
 /******************************************************************/
 #registration-form {
-	position: absolute; left: 50%; width: 600px; height: 460px; 
-	z-index: 5000; margin-left: -300px; display: none;
+    position: absolute; left: 50%; width: 600px; height: 460px; 
+    z-index: 5000; margin-left: -300px; display: none;
 }
 
 #registration-form .registration-form {
-	background: rgb(235,235,235); 
-	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border: 1px rgb(220,220,220) solid;
+    background: rgb(235,235,235); 
+    border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    border: 1px rgb(220,220,220) solid;
 }
 
 #registration-form-spinner {
-	width: 0px; height: 0px; position: absolute; left: 300px; top: 230px; 
-	overflow: hidden; visibility: hidden;
+    width: 0px; height: 0px; position: absolute; left: 300px; top: 230px; 
+    overflow: hidden; visibility: hidden;
 }
 
 #registration-form .spinner-wrapper {
-	position: relative; width: 600px; height: 460px; left: -300px; top: -230px;
+    position: relative; width: 600px; height: 460px; left: -300px; top: -230px;
 }
 
 #registration-form .activation-sent {
-	position: relative; width: 600px; height: 460px; 
+    position: relative; width: 600px; height: 460px; 
 }
 
 #registration-form .activation-sent:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 #registration-form .activation-sent .wrapper {
-	position: absolute; width: 540px; height: 180px; 
-	background: rgb(81,81,181); text-align: left;
-	left: 50%; top: 50%; margin-left: -270px; margin-top: -90px; 
-	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    position: absolute; width: 540px; height: 180px; 
+    background: rgb(81,81,181); text-align: left;
+    left: 50%; top: 50%; margin-left: -270px; margin-top: -90px; 
+    border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
 }
 
 #registration-form .activation-sent .confirmation-heading {
-	width: 540px; height: 60px; line-height: 60px; color: white;
-	font-size: 32px; font-weight: bold; letter-spacing: -2px;
+    width: 540px; height: 60px; line-height: 60px; color: white;
+    font-size: 32px; font-weight: bold; letter-spacing: -2px;
 }
 
 #registration-form .activation-sent span {
-	padding-left: 15px;
+    padding-left: 15px;
 }
 
 #registration-form .activation-sent .message {
-	margin-left: 15px; margin-right: 15px; padding-top: 1px;
-	color: white; text-align: left; 
-	font-size: 20px; font-weight: bold; letter-spacing: -1px;
+    margin-left: 15px; margin-right: 15px; padding-top: 1px;
+    color: white; text-align: left; 
+    font-size: 20px; font-weight: bold; letter-spacing: -1px;
 }
 
 #registration-form .heading {
-	position: relative; width: 600px; height: 70px; 
-	border-bottom: 1px rgb(215,215,215) solid;
+    position: relative; width: 600px; height: 70px; 
+    border-bottom: 1px rgb(215,215,215) solid;
 }
 
 #registration-form .heading .info {
-	float: left; width: 530px; height: 48px; margin-top: 11px;
+    float: left; width: 530px; height: 48px; margin-top: 11px;
 }
 
 #registration-form .heading .label {
-	width: 530px; height: 36px; font-size: 34px; font-weight: bold; 
-	text-align: left; padding-left: 25px; letter-spacing: -2px;
+    width: 530px; height: 36px; font-size: 34px; font-weight: bold; 
+    text-align: left; padding-left: 25px; letter-spacing: -2px;
 }
 
 #registration-form .heading .sublabel {
-	width: 530px; height: 12px; font-size: 12px; text-align: left; 
-	padding-left: 25px; color: rgb(110,110,110);
+    width: 530px; height: 12px; font-size: 12px; text-align: left; 
+    padding-left: 25px; color: rgb(110,110,110);
 }
 
 #registration-form .heading .close {
-	float: left; width: 70px; height: 70px; 
-	background: url(../../img/registration_form_close.png) no-repeat;
+    float: left; width: 70px; height: 70px; 
+    background: url(../../img/registration_form_close.png) no-repeat;
 }
 
 #registration-form .heading .close:hover {
-	cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
+    cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
 }
 
 #registration-form .item {
-	width: 600px; clear: both; overflow: hidden;
+    width: 600px; clear: both; overflow: hidden;
 }
 
 #registration-form .legend {
-	float: left; width: 280px; margin-top: 20px; text-align: right;
+    float: left; width: 280px; margin-top: 20px; text-align: right;
 }
 
 #registration-form .legend .name {
-	margin-right: 20px; font-size: 24px; font-weight: bold; 
-	color: rgb(60,60,60); letter-spacing: -1px;
+    margin-right: 20px; font-size: 24px; font-weight: bold; 
+    color: rgb(60,60,60); letter-spacing: -1px;
 }
 
 #registration-form .legend .required {
-	font-size: 24px; color: rgb(81,81,181);
+    font-size: 24px; color: rgb(81,81,181);
 }
 
 #registration-form .legend .description {
-	margin-right: 20px; font-size: 11px; color: rgb(130,130,130); 
-	text-align: right;
+    margin-right: 20px; font-size: 11px; color: rgb(130,130,130); 
+    text-align: right;
 }
 
 #registration-form .element {
-	float: left; width: 320px; text-align: left; margin-top: 20px;
+    float: left; width: 320px; text-align: left; margin-top: 20px;
 }
 
 #registration-form .input {
-	font-family: Arial; font-size: 24px; 
-	width: 230px; height: 35px; line-height: 35px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px; border-radius: 5px;
+    font-family: Arial; font-size: 24px; 
+    width: 230px; height: 35px; line-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; border-radius: 5px;
 }
 
 #registration-form .input-border {
-	border: thin solid #CCCCCC; outline: none;
+    border: thin solid #CCCCCC; outline: none;
 }
 
 #registration-form .input-over {
-	border: thin solid rgb(180,180,180);
+    border: thin solid rgb(180,180,180);
 }
 
 #registration-form .input-focus {
-	border: 1px solid rgb(81,81,181);
+    border: 1px solid rgb(81,81,181);
 }
 
 #registration-form .license {
-	width: 600px; margin-top: 20px; font-weight: bold; letter-spacing: -1px;
+    width: 600px; margin-top: 20px; font-weight: bold; letter-spacing: -1px;
 }
 
 #registration-form .highlight {
-	color: rgb(81,81,181); text-decoration: underline;
+    color: rgb(81,81,181); text-decoration: underline;
 }
 
 #registration-form .save {
-	float: left; text-align: right; width: 390px; height: 60px;
-	margin-top: 15px; 
+    float: left; text-align: right; width: 390px; height: 60px;
+    margin-top: 15px; 
 }
 
 #registration-form .submit {
-	margin-top: 10px; margin-right: 5px; width: 170px; height: 40px; line-height: 1;
-	font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
+    margin-top: 10px; margin-right: 5px; width: 170px; height: 40px; line-height: 1;
+    font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
 }
 
 #registration-form .loading {
-	float: left; width: 210px; height: 60px; margin-top: 15px; display: none;
-	background: url(../../../img/loading_middle.gif) no-repeat;
+    float: left; width: 210px; height: 60px; margin-top: 15px; display: none;
+    background: url(../../../img/loading_middle.gif) no-repeat;
 }

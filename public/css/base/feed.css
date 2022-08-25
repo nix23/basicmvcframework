@@ -1,12 +1,12 @@
 .feedItemVerticalSpacer {
-	clear: both;
-	width: 270px;
-	height: 15px;
+   clear: both;
+   width: 270px;
+   height: 15px;
 }
 
 .feedItem {
-	-webkit-transform: scale(0.1);
-	-moz-transform: scale(0.1);  
+   -webkit-transform: scale(0.1);
+   -moz-transform: scale(0.1);  
       -ms-transform: scale(0.1);  
        -o-transform: scale(0.1);  
           transform: scale(0.1);
@@ -19,109 +19,109 @@
           transition: transform .3s;
 
   -webkit-transform: scale(1);
-	-moz-transform: scale(1);  
+   -moz-transform: scale(1);  
       -ms-transform: scale(1);  
        -o-transform: scale(1);  
           transform: scale(1);
 }
 
 .feedItemClear {
-	clear: both;
+   clear: both;
 }
 
 .feedItemFloat {
-	float: left;
+   float: left;
 }
 
 .feedItemHorizontalSpacer {
-	margin-left: 10px;
+   margin-left: 10px;
 }
 
 .feedItemSmallHorizontalSpacer {
-	margin-left: 5px;
+   margin-left: 5px;
 }
 
 .feedItemVerticalMargin {
-	margin-top: 10px;
+   margin-top: 10px;
 }
 
 .feedItemBottomSpacer {
-	clear: both;
-	width: 270px;
-	height: 5px;
+   clear: both;
+   width: 270px;
+   height: 5px;
 }
 
 .feedItem .left {
-	float: left;
-	position: relative;
-	width: 135px;
-	height: 100px;
+   float: left;
+   position: relative;
+   width: 135px;
+   height: 100px;
 }
 
 .feedItem .left img {
-	width: 135px;
-	height: 100px;
+   width: 135px;
+   height: 100px;
 }
 
 .feedItem .left .label {
-	position: absolute;
-	left: 0px;
-	top: 75px;
-	width: 135px;
-	height: 25px;
-	line-height: 25px;
-	background: rgb(81,81,181);
-	color: white;
-	text-align: left;
-	font-size: 14px;
-	font-weight: bold;
-	letter-spacing: -1px;
+   position: absolute;
+   left: 0px;
+   top: 75px;
+   width: 135px;
+   height: 25px;
+   line-height: 25px;
+   background: rgb(81,81,181);
+   color: white;
+   text-align: left;
+   font-size: 14px;
+   font-weight: bold;
+   letter-spacing: -1px;
 }
 
 .feedItem .left .label span {
-	margin-left: 12px;
+   margin-left: 12px;
 }
 
 .feedItem .right {
-	float: left;
-	width: 135px;
-	height: 100px;
-	background: rgb(220,220,220);
+   float: left;
+   width: 135px;
+   height: 100px;
+   background: rgb(220,220,220);
 }
 
 .feedItem .right .top {
-	width: 115px;
-	height: 75px;
-	margin-left: 10px;
-	overflow: hidden;
+   width: 115px;
+   height: 75px;
+   margin-left: 10px;
+   overflow: hidden;
 }
 
 .feedItem .right .top div {
-	width: 115px;
-	margin-top: 5px;
-	height: 70px;
-	text-align: left;
-	font-size: 16px;
-	color: rgb(60,60,60);
-	font-weight: bold;
-	letter-spacing: -1px; 
+   width: 115px;
+   margin-top: 5px;
+   height: 70px;
+   text-align: left;
+   font-size: 16px;
+   color: rgb(60,60,60);
+   font-weight: bold;
+   letter-spacing: -1px; 
 }
 
 .feedItem .right .bottom {
-	clear: both;
-	width: 135px;
-	height: 25px;
-	text-align: right;
+   clear: both;
+   width: 135px;
+   height: 25px;
+   text-align: right;
 }
 
 .feedItem .right .text {
-	margin-right: 10px;
-	color: rgb(60,60,60);
-	font-weight: bold;
-	letter-spacing: -1px;
+   margin-right: 10px;
+   color: rgb(60,60,60);
+   font-weight: bold;
+   letter-spacing: -1px;
 }
 
 .feedItem .right .highlight {
-	color: rgb(81,81,181);
-	font-weight: bold;
+   color: rgb(81,81,181);
+   font-weight: bold;
 }

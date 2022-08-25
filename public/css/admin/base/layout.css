@@ -1,314 +1,314 @@
 html,body {
-	font-family: Arial;
+    font-family: Arial;
 }
 
 body {
-	background: rgb(235,235,235);
+    background: rgb(235,235,235);
 }
 
 A:link, A:visited, A:active, A:visited {
-	text-decoration: none; color: inherit;
+    text-decoration: none; color: inherit;
 }
 
 A:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 #body-wrapper {
-	width: 100%; height: 100%; text-align: center;
+    width: 100%; height: 100%; text-align: center;
 }
 
 #overlay {
-	position: absolute; width: 100%; height: 0px; top: 0px; left: 0px;
-	z-index: 1500; background: red; display: none;
+    position: absolute; width: 100%; height: 0px; top: 0px; left: 0px;
+    z-index: 1500; background: red; display: none;
 }
 
 #header {
-	width: 100%; height: 120px; background: rgb(81,81,181); 
+    width: 100%; height: 120px; background: rgb(81,81,181); 
 }
 
 #content {
-	width: 960px; margin-left: auto; margin-right: auto; overflow: auto;
-	min-height: 300px; position: relative; 
+    width: 960px; margin-left: auto; margin-right: auto; overflow: auto;
+    min-height: 300px; position: relative; 
 }
 
 /* Modal loading */
 #overlay-loading {
-	width: 250px; height: 90px; position: absolute; z-index: 1000;
-	left: 650px; top: 0px; background: rgb(240,240,240);
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    width: 250px; height: 90px; position: absolute; z-index: 1000;
+    left: 650px; top: 0px; background: rgb(240,240,240);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
-	display: none;
+    border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    display: none;
 }
 
 #overlay-loading .wrapper {
-	width: 220px; height: 60px; margin: 15px;
+    width: 220px; height: 60px; margin: 15px;
 }
 
 #overlay-loading .message {
-	width: 160px; height: 60px; float: left; 
+    width: 160px; height: 60px; float: left; 
 }
 
 #overlay-loading .heading {
-	font-size: 18px; font-weight: bold; letter-spacing: -1px; text-align: left;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px; text-align: left;
 }
 
 #overlay-loading .subheading {
-	font-size: 12px; color: rgb(130,130,130); text-align: left;
+    font-size: 12px; color: rgb(130,130,130); text-align: left;
 }
 
 #overlay-loading .icon {
-	width: 58px; height: 58px; float: left; 
+    width: 58px; height: 58px; float: left; 
 }
 
 /* Debugger */
 #debugger {
-	position: absolute; left: 50%; top: 50%; margin-left: -300px; margin-top: -200px;
-	width: 600px; height: 400px; z-index: 10000; background: rgb(230,230,230);
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    position: absolute; left: 50%; top: 50%; margin-left: -300px; margin-top: -200px;
+    width: 600px; height: 400px; z-index: 10000; background: rgb(230,230,230);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
-	display: none;
+    border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    display: none;
 }
 
 #debugger .header {
-	position: relative; width: 600px; height: 60px; line-height: 60px; text-align: left;
-	border-bottom: 1px rgb(210,210,210) solid; 
+    position: relative; width: 600px; height: 60px; line-height: 60px; text-align: left;
+    border-bottom: 1px rgb(210,210,210) solid; 
 }
 
 #debugger h2 {
-	font-size: 30px; font-weight: bold; padding-left: 30px;
-	letter-spacing: -2px;
+    font-size: 30px; font-weight: bold; padding-left: 30px;
+    letter-spacing: -2px;
 }
 
 #debugger .close {
-	position: absolute; top: 15px; left: 540px; width: 30px; height: 30px;
-	background: url(../../../img/admin/close.png) no-repeat;
+    position: absolute; top: 15px; left: 540px; width: 30px; height: 30px;
+    background: url(../../../img/admin/close.png) no-repeat;
 }
 
 #debugger .close:hover {
-	cursor: pointer; background: url(../../../img/admin/close_over.png) no-repeat;
+    cursor: pointer; background: url(../../../img/admin/close_over.png) no-repeat;
 }
 
 #debugger-content {
-	width: 600px; height: 340px; overflow-y: scroll;
+    width: 600px; height: 340px; overflow-y: scroll;
 }
 
 #debugger .row {
-	width: 580px; border-bottom: 1px rgb(220,220,220) solid;
+    width: 580px; border-bottom: 1px rgb(220,220,220) solid;
 }
 
 #debugger .row .content {
-	padding-left: 35px; padding-right: 35px; padding-top: 10px; padding-bottom: 10px;
-	text-align: left; font-size: 12px;
+    padding-left: 35px; padding-right: 35px; padding-top: 10px; padding-bottom: 10px;
+    text-align: left; font-size: 12px;
 }
 
 /* Delete confirmation */
 #delete-confirmation {
-	position: absolute; left: 50%; top: 0px; width: 450px; height: 280px;
-	margin-left: -225px; z-index: 15000;
-	background: rgb(81,81,181);
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border-radius: 10px; -moz-border-radius: 10px;
-	-webkit-border-radius: 10px; display: none;
+    position: absolute; left: 50%; top: 0px; width: 450px; height: 280px;
+    margin-left: -225px; z-index: 15000;
+    background: rgb(81,81,181);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    border-radius: 10px; -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; display: none;
 }
 
 #delete-confirmation .top {
-	width: 450px; height: 210px;
+    width: 450px; height: 210px;
 }
 
 #delete-confirmation .top .delete-icon {
-	float: left; width: 180px; height: 210px;
-	background: url(../../../img/admin/warning_icon.png) no-repeat;
+    float: left; width: 180px; height: 210px;
+    background: url(../../../img/admin/warning_icon.png) no-repeat;
 }
 
 #delete-confirmation .top .message {
-	float: left; width: 270px; height: 210px;
+    float: left; width: 270px; height: 210px;
 }
 
 #delete-confirmation .top .message .wrapper {
-	width: 250px; margin-top: 55px; text-align: left;
-	color: white; font-size: 20px; font-weight: bold; letter-spacing: -1px;
+    width: 250px; margin-top: 55px; text-align: left;
+    color: white; font-size: 20px; font-weight: bold; letter-spacing: -1px;
 }
 
 #delete-confirmation .bottom {
-	width: 450px; height: 70px;
-	-moz-border-radius-bottomleft: 10px; -moz-border-radius-bottomright: 10px;
-	-webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+    width: 450px; height: 70px;
+    -moz-border-radius-bottomleft: 10px; -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
 }
 
 #delete-confirmation .bottom .item {
-	float: left; width: 225px; height: 70px; line-height: 70px;
-	font-size: 30px; font-weight: bold; letter-spacing: -2px;
+    float: left; width: 225px; height: 70px; line-height: 70px;
+    font-size: 30px; font-weight: bold; letter-spacing: -2px;
 }
 
 #delete-confirmation .bottom .delete {
-	-moz-border-radius-bottomleft: 10px; -webkit-border-bottom-left-radius: 10px;
-	border-bottom-left-radius: 10px; background: rgb(222,222,222); color: rgb(81,81,181);
+    -moz-border-radius-bottomleft: 10px; -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px; background: rgb(222,222,222); color: rgb(81,81,181);
 }
 
 #delete-confirmation .bottom .cancel {
-	-moz-border-radius-bottomright: 10px; -webkit-border-bottom-right-radius: 10px;
-	border-bottom-right-radius: 10px; background: rgb(235,235,235); color: rgb(120,120,120);;
+    -moz-border-radius-bottomright: 10px; -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px; background: rgb(235,235,235); color: rgb(120,120,120);;
 }
 
 #delete-confirmation .bottom .delete:hover,
 #delete-confirmation .bottom .cancel:hover {
-	background: rgb(250,250,250); cursor: pointer;
+    background: rgb(250,250,250); cursor: pointer;
 }
 
 /* Confirmation prompt */
 #confirmation-prompt {
-	position: absolute; left: 50%; top: 0px; width: 450px; height: 280px;
-	margin-left: -225px; z-index: 15000;
-	background: rgb(81,81,181);
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border-radius: 10px; -moz-border-radius: 10px;
-	-webkit-border-radius: 10px; display: none;
+    position: absolute; left: 50%; top: 0px; width: 450px; height: 280px;
+    margin-left: -225px; z-index: 15000;
+    background: rgb(81,81,181);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    border-radius: 10px; -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; display: none;
 }
 
 #confirmation-prompt .top {
-	width: 450px; height: 210px;
+    width: 450px; height: 210px;
 }
 
 #confirmation-prompt .top .prompt-icon {
-	float: left; width: 180px; height: 210px;
-	background: url(../../../img/admin/warning_icon.png) no-repeat;
+    float: left; width: 180px; height: 210px;
+    background: url(../../../img/admin/warning_icon.png) no-repeat;
 }
 
 #confirmation-prompt .top .message {
-	float: left; width: 270px; height: 210px;
+    float: left; width: 270px; height: 210px;
 }
 
 #confirmation-prompt .top .message .wrapper {
-	width: 250px; margin-top: 55px; text-align: left;
-	color: white; font-size: 20px; font-weight: bold; letter-spacing: -1px;
+    width: 250px; margin-top: 55px; text-align: left;
+    color: white; font-size: 20px; font-weight: bold; letter-spacing: -1px;
 }
 
 #confirmation-prompt .bottom {
-	width: 450px; height: 70px;
-	-moz-border-radius-bottomleft: 10px; -moz-border-radius-bottomright: 10px;
-	-webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+    width: 450px; height: 70px;
+    -moz-border-radius-bottomleft: 10px; -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
 }
 
 #confirmation-prompt .bottom .item {
-	float: left; width: 225px; height: 70px; line-height: 70px;
-	font-size: 30px; font-weight: bold; letter-spacing: -2px;
+    float: left; width: 225px; height: 70px; line-height: 70px;
+    font-size: 30px; font-weight: bold; letter-spacing: -2px;
 }
 
 #confirmation-prompt .bottom .process {
-	-moz-border-radius-bottomleft: 10px; -webkit-border-bottom-left-radius: 10px;
-	border-bottom-left-radius: 10px; background: rgb(222,222,222); color: rgb(81,81,181);
+    -moz-border-radius-bottomleft: 10px; -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px; background: rgb(222,222,222); color: rgb(81,81,181);
 }
 
 #confirmation-prompt .bottom .cancel {
-	-moz-border-radius-bottomright: 10px; -webkit-border-bottom-right-radius: 10px;
-	border-bottom-right-radius: 10px; background: rgb(235,235,235); color: rgb(120,120,120);;
+    -moz-border-radius-bottomright: 10px; -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px; background: rgb(235,235,235); color: rgb(120,120,120);;
 }
 
 #confirmation-prompt .bottom .process:hover,
 #confirmation-prompt .bottom .cancel:hover {
-	background: rgb(250,250,250); cursor: pointer;
+    background: rgb(250,250,250); cursor: pointer;
 }
 
 /* Settings form */
 #settings-form {
-	position: absolute; left: 50%; width: 600px; height: 460px;
-	z-index: 5000; margin-left: -300px; display: none;
+    position: absolute; left: 50%; width: 600px; height: 460px;
+    z-index: 5000; margin-left: -300px; display: none;
 }
 
 #settings-form .settings-form {
-	background: rgb(235,235,235);
-	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    background: rgb(235,235,235);
+    border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
 #settings-form-spinner {
-	width: 0px; height: 0px; position: absolute; left: 300px; top: 230px;
-	overflow: hidden; visibility: hidden;
+    width: 0px; height: 0px; position: absolute; left: 300px; top: 230px;
+    overflow: hidden; visibility: hidden;
 }
 
 #settings-form .wrapper {
-	position: relative; width: 600px; height: 460px; left: -300px; top: -230px;
+    position: relative; width: 600px; height: 460px; left: -300px; top: -230px;
 }
 
 #settings-form .heading {
-	position: relative; width: 600px; height: 70px;
-	border-bottom: 1px rgb(215,215,215) solid;
+    position: relative; width: 600px; height: 70px;
+    border-bottom: 1px rgb(215,215,215) solid;
 }
 
 #settings-form .heading .info {
-	float: left; width: 530px; height: 48px; margin-top: 11px;
+    float: left; width: 530px; height: 48px; margin-top: 11px;
 }
 
 #settings-form .heading .label {
-	width: 530px; height: 36px; font-size: 34px; font-weight: bold;
-	text-align: left; padding-left: 25px; letter-spacing: -2px;
+    width: 530px; height: 36px; font-size: 34px; font-weight: bold;
+    text-align: left; padding-left: 25px; letter-spacing: -2px;
 }
 
 #settings-form .heading .sublabel {
-	width: 530px; height: 12px; font-size: 12px; text-align: left;
-	padding-left: 25px; color: rgb(110,110,110);
+    width: 530px; height: 12px; font-size: 12px; text-align: left;
+    padding-left: 25px; color: rgb(110,110,110);
 }
 
 #settings-form .heading .close {
-	float: left; width: 70px; height: 70px;
-	background: url(../../../img/admin/settings_form_close.png) no-repeat;
+    float: left; width: 70px; height: 70px;
+    background: url(../../../img/admin/settings_form_close.png) no-repeat;
 }
 
 #settings-form .heading .close:hover {
-	cursor: pointer; background: url(../../../img/admin/settings_form_close_over.png) no-repeat;
+    cursor: pointer; background: url(../../../img/admin/settings_form_close_over.png) no-repeat;
 }
 
 #settings-form .content {
-	clear: both; width: 600px; height: 389px; overflow-y: scroll;
+    clear: both; width: 600px; height: 389px; overflow-y: scroll;
 }
 
 #settings-form .content .settings-row {
-	clear: both; width: 600px;
+    clear: both; width: 600px;
 }
 
 #settings-form .content .settings-row .legend {
-	float: left; width: 275px; margin-left: 25px;
-	margin-top: 10px; text-align: right;
+    float: left; width: 275px; margin-left: 25px;
+    margin-top: 10px; text-align: right;
 }
 
 #settings-form .content .settings-row .legend .label {
-	font-size: 24px; font-weight: bold;
-	color: rgb(60,60,60); letter-spacing: -1px;
+    font-size: 24px; font-weight: bold;
+    color: rgb(60,60,60); letter-spacing: -1px;
 }
 
 #settings-form .content .settings-row .legend .sublabel {
-	font-size: 11px; color: rgb(130,130,130);
+    font-size: 11px; color: rgb(130,130,130);
 }
 
 #settings-form .content .settings-row .action {
-	float: left; width: 270px; margin-left: 5px;
-	margin-top: 10px;
+    float: left; width: 270px; margin-left: 5px;
+    margin-top: 10px;
 }
 
 #settings-form .content .settings-row .action .process {
-	float: left; width: 125px; height: 35px;
-	margin-left: 60px; margin-top: 5px;
+    float: left; width: 125px; height: 35px;
+    margin-left: 60px; margin-top: 5px;
 }
 
 #settings-form .content .settings-row .action .process .submit {
-	width: 125px; height: 35px; line-height: 1;
-	font-family: Arial; font-size: 20px; font-weight: bold; letter-spacing: -1px;
+    width: 125px; height: 35px; line-height: 1;
+    font-family: Arial; font-size: 20px; font-weight: bold; letter-spacing: -1px;
 }
 
 #settings-form .content .settings-row .action .loading {
-	float: left; width: 50px; height: 50px; display: none; margin-left: 5px;
-	background: url(../../../img/admin/loading_50_50.gif) no-repeat;
+    float: left; width: 50px; height: 50px; display: none; margin-left: 5px;
+    background: url(../../../img/admin/loading_50_50.gif) no-repeat;
 }

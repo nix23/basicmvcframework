@@ -1,33 +1,33 @@
 <?php
-	foreach($pages as $page):
-		if($page == $current_page):
+    foreach($pages as $page):
+        if($page == $current_page):
 ?>
-			<div class="page selected">
+            <div class="page selected">
 
-				<span class="number">
-					<?php echo $page; ?>
-				</span>
+                <span class="number">
+                    <?php echo $page; ?>
+                </span>
 
-			</div>
+            </div>
 <?php
-		else:
+        else:
 ?>
-			<a href="<?php
-							$link  = "dashboard/list/";
-							$link .= "page-$page/";
-							$link .= "days-$current_days_to_fetch/";
-							$link .= "events-$selected_events_to_show";
-							admin_link($link);
-						?>">
-				<div class="page active">
+            <a href="<?php
+                            $link  = "dashboard/list/";
+                            $link .= "page-$page/";
+                            $link .= "days-$current_days_to_fetch/";
+                            $link .= "events-$selected_events_to_show";
+                            admin_link($link);
+                        ?>">
+                <div class="page active">
 
-					<span class="number">
-						<?php echo $page; ?>
-					</span>
+                    <span class="number">
+                        <?php echo $page; ?>
+                    </span>
 
-				</div>
-			</a>
+                </div>
+            </a>
 <?php
-		endif;
-	endforeach;
+        endif;
+    endforeach;
 ?>

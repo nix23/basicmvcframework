@@ -1,45 +1,45 @@
 #header .wrapper {
-	width: 960px; margin-left: auto; margin-right: auto; height: 120px; overflow: hidden;
+    width: 960px; margin-left: auto; margin-right: auto; height: 120px; overflow: hidden;
 }
 
 #header .logo {
-	float: left; width: 270px; height: 120px; background: url(../../../img/admin/logo.jpg);
+    float: left; width: 270px; height: 120px; background: url(../../../img/admin/logo.jpg);
 }
 
 #header .menu {
-	float: left; width: 450px; height: 120px; position: relative; 
+    float: left; width: 450px; height: 120px; position: relative; 
 }
 
 #header .menu .wrapper {
-	position: absolute; left: 0px; top: 50%; margin-top: -45px; width: 450px; height: 90px; 
+    position: absolute; left: 0px; top: 50%; margin-top: -45px; width: 450px; height: 90px; 
 }
 
 #header .menu .item {
-	float: left; width: 150px; height: 30px; line-height: 30px; text-align: left;
+    float: left; width: 150px; height: 30px; line-height: 30px; text-align: left;
 }
 
 #header .menu .name {
-	color: white; font-weight: bold; font-size: 14px; margin-left: 65px; letter-spacing: -1px; 
+    color: white; font-weight: bold; font-size: 14px; margin-left: 65px; letter-spacing: -1px; 
 }
 
 #header .menu .name:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 #header .menu .selected-name {
-	text-decoration: underline; color: white; font-weight: bold; font-size: 14px;
-	padding-left: 65px; letter-spacing: -1px;
+    text-decoration: underline; color: white; font-weight: bold; font-size: 14px;
+    padding-left: 65px; letter-spacing: -1px;
 }
 
 #header .menu .newline {
-	clear: both;
+    clear: both;
 }
 
 #header .actions {
-	float: left; width: 240px; height: 120px; line-height: 120px;
-	font-size: 14px; color: white; font-weight: bold; letter-spacing: -1px;
+    float: left; width: 240px; height: 120px; line-height: 120px;
+    font-size: 14px; color: white; font-weight: bold; letter-spacing: -1px;
 }
 
 #header .actions span:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }

@@ -1,413 +1,413 @@
 #follow {
-	width: 960px;
+    width: 960px;
 }
 
 /******************************************************************/
 /*                           Heading                              */
 /******************************************************************/
 #follow .heading {
-	width: 960px; height: 70px; padding-top: 1px;
+    width: 960px; height: 70px; padding-top: 1px;
 }
 
 #follow .heading .wrapper {
-	width: 930px; height: 60px; margin-top: 5px;
-	margin-left: 15px;
+    width: 930px; height: 60px; margin-top: 5px;
+    margin-left: 15px;
 }
 
 #follow .heading .legend {
-	float: left; width: 660px; height: 60px; text-align: left;
-	border-left: 10px rgb(81,81,181) solid;
+    float: left; width: 660px; height: 60px; text-align: left;
+    border-left: 10px rgb(81,81,181) solid;
 }
 
 #follow .heading .legend .label {
-	width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
-	font-size: 34px; font-weight: bold; letter-spacing: -2px; 
-	margin-top: 2px;
+    width: 650px; height: 36px; line-height: 36px; padding-left: 10px;
+    font-size: 34px; font-weight: bold; letter-spacing: -2px; 
+    margin-top: 2px;
 }
 
 #follow .heading .legend .sublabel {
-	width: 650px; height: 18px; line-height: 18px; 
-	padding-left: 10px; font-size: 18px; 
-	color: rgb(110,110,110);
+    width: 650px; height: 18px; line-height: 18px; 
+    padding-left: 10px; font-size: 18px; 
+    color: rgb(110,110,110);
 }
 
 #follow .heading .actions {
-	position: relative; float: left; width: 260px; height: 60px;
+    position: relative; float: left; width: 260px; height: 60px;
 }
 
 #follow .heading .actions .edit-button {
-	position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
-	left: 50%; margin-left: -90px; color: black; 
-	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+    position: absolute; width: 180px; height: 30px; top: 50%; margin-top: -15px;
+    left: 50%; margin-left: -90px; color: black; 
+    background: rgb(240,240,240); border: 1px rgb(210,210,210) solid; 
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
 }
 
 #follow .heading .actions .edit-button:hover {
-	background: rgb(81,81,181); color: white; cursor: pointer; 
+    background: rgb(81,81,181); color: white; cursor: pointer; 
 }
 
 #follow .heading .actions .edit-button .name {
-	height: 30px; line-height: 30px; font-size: 16px; font-weight: bold; 
+    height: 30px; line-height: 30px; font-size: 16px; font-weight: bold; 
 }
 
 #follow .heading .actions a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /******************************************************************/
 /*                          Controls                              */
 /******************************************************************/
 #follow .controls {
-	width: 960px; height: 60px;
+    width: 960px; height: 60px;
 }
 
 #follow .pagination {
-	position: relative; float: left; width: 300px; height: 60px;
+    position: relative; float: left; width: 300px; height: 60px;
 }
 
 #follow .pagination .wrapper {
-	position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
-	left: 20px; 
+    position: absolute; width: 280px; height: 30px; top: 50%; margin-top: -15px;
+    left: 20px; 
 }
 
 #follow .pagination .page {
-	float: left; margin-left: 5px; width: 30px; height: 30px;
-	border: 1px rgb(210,210,210) solid; 
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-	line-height: 30px; text-align: center;
+    float: left; margin-left: 5px; width: 30px; height: 30px;
+    border: 1px rgb(210,210,210) solid; 
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    line-height: 30px; text-align: center;
 }
 
 #follow .pagination .selected {
-	background: rgb(81,81,181); color: rgb(255,255,255);
+    background: rgb(81,81,181); color: rgb(255,255,255);
 }
 
 #follow .pagination .active {
-	background: rgb(240,240,240); color: black;
+    background: rgb(240,240,240); color: black;
 }
 
 #follow .pagination .active:hover {
-	background: rgb(81,81,181); color: rgb(255,255,255);
+    background: rgb(81,81,181); color: rgb(255,255,255);
 }
 
 #follow .pagination .number {
-	font-size: 16px; font-weight: bold; 
-	letter-spacing: -2px; padding-right: 1px;
+    font-size: 16px; font-weight: bold; 
+    letter-spacing: -2px; padding-right: 1px;
 }
 
 #follow .select-list {
-	float: left; width: 660px; height: 60px;
+    float: left; width: 660px; height: 60px;
 }
 
 #follow .select-list .heading {
-	float: left; width: 100px; height: 60px; line-height: 60px; text-align: right;
-	font-size: 18px; font-weight: bold; letter-spacing: -1px;
+    float: left; width: 100px; height: 60px; line-height: 60px; text-align: right;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px;
 }
 
 #follow .select-list .wrapper {
-	float: left; width: 130px; height: 60px; 
+    float: left; width: 130px; height: 60px; 
 }
 
 #follow .select-list .item {
-	width: 120px; height: 25px; line-height: 25px; color: black;
-	margin-left: 5px; margin-top: 18px; border: 1px rgb(210,210,210) solid;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
-	font-size: 16px; font-weight: bold; letter-spacing: -1px;
+    width: 120px; height: 25px; line-height: 25px; color: black;
+    margin-left: 5px; margin-top: 18px; border: 1px rgb(210,210,210) solid;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+    font-size: 16px; font-weight: bold; letter-spacing: -1px;
 }
 
 #follow .select-list .item:hover,
 #follow .select-list .selected {
-	background: rgb(81,81,181); color: white;
+    background: rgb(81,81,181); color: white;
 }
 
 #follow a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /******************************************************************/
 /*                           Content                              */
 /******************************************************************/
 #follow .content {
-	width: 960px;
+    width: 960px;
 }
 
 #follow .row-highlight {
-	background: rgb(222,222,222);
+    background: rgb(222,222,222);
 }
 
 #follow .post {
-	width: 960px;
+    width: 960px;
 }
 
 #follow .post .item-separator {
-	width: 960px; height: 13px; clear: both;
+    width: 960px; height: 13px; clear: both;
 }
 
 #follow .post .item-wrapper {
-	width: 960px; clear: both;
+    width: 960px; clear: both;
 }
 
 #follow .post .left {
-	float: left; width: 255px; height: 95px;
+    float: left; width: 255px; height: 95px;
 }
 
 #follow .post .left .module-photo {
-	float: left; position: relative;
-	width: 145px; height: 95px; margin-left: 15px;
+    float: left; position: relative;
+    width: 145px; height: 95px; margin-left: 15px;
 }
 
 #follow .post .left .module-photo .photo-label {
-	position: absolute; left: 0px; top: 70px;
-	width: 145px; height: 25px; line-height: 25px;
-	background: rgb(81,81,181); text-align: left;
-	color: white; font-size: 18px; font-weight: bold;
-	letter-spacing: -1px;
+    position: absolute; left: 0px; top: 70px;
+    width: 145px; height: 25px; line-height: 25px;
+    background: rgb(81,81,181); text-align: left;
+    color: white; font-size: 18px; font-weight: bold;
+    letter-spacing: -1px;
 }
 
 #follow .post .left .module-photo .photo-label span {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 #follow .post .left .avatar {
-	float: left; width: 95px; height: 95px;
+    float: left; width: 95px; height: 95px;
 }
 
 #follow .post .left .no-avatar {
-	float: left; width: 95px; height: 95px;
-	background: url(../../img/noavatar_fordrive_95_95_with_limits.jpg) no-repeat;
+    float: left; width: 95px; height: 95px;
+    background: url(../../img/noavatar_fordrive_95_95_with_limits.jpg) no-repeat;
 }
 
 #follow .post .right {
-	float: left; width: 705px;
+    float: left; width: 705px;
 }
 
 #follow .post .right .wrapper {
-	width: 690px; margin-left: 15px;
-	text-align: left;
+    width: 690px; margin-left: 15px;
+    text-align: left;
 }
 
 #follow .post .right .header {
-	width: 690px;
+    width: 690px;
 }
 
 #follow .post .right .header a {
-	color: black; font-size: 34px; font-weight: bold;
-	letter-spacing: -2px;
+    color: black; font-size: 34px; font-weight: bold;
+    letter-spacing: -2px;
 }
 
 #follow .post .right .header a:hover {
-	color: rgb(81,81,181);
+    color: rgb(81,81,181);
 }
 
 #follow .post .right .subheader {
-	width: 690px; line-height: 28px;
+    width: 690px; line-height: 28px;
 }
 
 #follow .post .right .subheader a {
-	color: black; font-size: 20px; font-weight: bold;
-	letter-spacing: -1px; color: rgb(81,81,181);
+    color: black; font-size: 20px; font-weight: bold;
+    letter-spacing: -1px; color: rgb(81,81,181);
 }
 
 #follow .post .right .comment {
-	width: 650px; font-size: 18px; padding-bottom: 2px;
+    width: 650px; font-size: 18px; padding-bottom: 2px;
 }
 
 #follow .post .right .footer {
-	width: 690px; height: 25px; line-height: 25px;
-	font-size: 16px; font-weight: bold; letter-spacing: -1px;
+    width: 690px; height: 25px; line-height: 25px;
+    font-size: 16px; font-weight: bold; letter-spacing: -1px;
 }
 
 #follow .post .right .footer .panel-item {
-	float: left; height: 25px; line-height: 25px;
-	margin-left: 15px;
+    float: left; height: 25px; line-height: 25px;
+    margin-left: 15px;
 }
 
 #follow .post .right .footer .no-margin {
-	margin-left: 0px;
+    margin-left: 0px;
 }
 
 #follow .post .right .footer .highlight {
-	color: rgb(81,81,181);
+    color: rgb(81,81,181);
 }
 
 /******************************************************************/
 /*                            No uploads                          */
 /******************************************************************/
 #follow .no-posts {
-	width: 960px; height: 500px; padding-top: 1px;
+    width: 960px; height: 500px; padding-top: 1px;
 }
 
 #follow .no-posts .message {
-	width: 820px; height: 100px; margin-top: 170px;
-	margin-left: 70px; background: rgb(222,222,222);
+    width: 820px; height: 100px; margin-top: 170px;
+    margin-left: 70px; background: rgb(222,222,222);
 }
 
 #follow .no-posts .icon {
-	float: left; width: 120px; height: 100px; margin-left: 250px;
-	background: url(../../img/no_followed_posts.png);
+    float: left; width: 120px; height: 100px; margin-left: 250px;
+    background: url(../../img/no_followed_posts.png);
 }
 
 #follow .no-posts .label {
-	float: left; width: 450px; height: 100px; line-height: 100px;
-	font-size: 18px; font-weight: bold; letter-spacing: -1px;
-	text-align: left;
+    float: left; width: 450px; height: 100px; line-height: 100px;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px;
+    text-align: left;
 }
 
 /******************************************************************/
 /*                              Form                              */
 /******************************************************************/
 #followed-users-form {
-	position: absolute; left: 50%; width: 680px; height: 420px;
-	z-index: 5000; margin-left: -340px; display: none;
+    position: absolute; left: 50%; width: 680px; height: 420px;
+    z-index: 5000; margin-left: -340px; display: none;
 }
 
 #followed-users-form .followed-users-form {
-	background: rgb(235,235,235); 
-	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border: 1px rgb(220,220,220) solid;
+    background: rgb(235,235,235); 
+    border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25); 
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    border: 1px rgb(220,220,220) solid;
 }
 
 #followed-users-form-spinner {
-	width: 0px; height: 0px; position: absolute; left: 340px; top: 210px;
-	overflow: hidden; visibility: hidden;
+    width: 0px; height: 0px; position: absolute; left: 340px; top: 210px;
+    overflow: hidden; visibility: hidden;
 }
 
 #followed-users-form .spinner-wrapper {
-	position: relative; width: 680px; height: 420px; 
-	left: -340px; top: -210px;
+    position: relative; width: 680px; height: 420px; 
+    left: -340px; top: -210px;
 }
 
 #followed-users-form .form-heading {
-	width: 680px; height: 70px; 
-	border-bottom: 1px rgb(215,215,215) solid;
-	position: relative;
+    width: 680px; height: 70px; 
+    border-bottom: 1px rgb(215,215,215) solid;
+    position: relative;
 }
 
 #followed-users-form .form-heading .info {
-	float: left; width: 610px; height: 50px; margin-top: 10px;
+    float: left; width: 610px; height: 50px; margin-top: 10px;
 }
 
 #followed-users-form .form-heading .label {
-	width: 585px; height: 38px; font-size: 34px; font-weight: bold; 
-	text-align: left; padding-left: 25px; letter-spacing: -2px;
+    width: 585px; height: 38px; font-size: 34px; font-weight: bold; 
+    text-align: left; padding-left: 25px; letter-spacing: -2px;
 }
 
 #followed-users-form .form-heading .sublabel {
-	width: 585px; height: 12px; font-size: 12px; text-align: left; 
-	padding-left: 25px; color: rgb(110,110,110);
+    width: 585px; height: 12px; font-size: 12px; text-align: left; 
+    padding-left: 25px; color: rgb(110,110,110);
 }
 
 #followed-users-form .form-heading .close {
-	float: left; width: 70px; height: 70px; 
-	background: url(../../img/registration_form_close.png) no-repeat;
+    float: left; width: 70px; height: 70px; 
+    background: url(../../img/registration_form_close.png) no-repeat;
 }
 
 #followed-users-form .form-heading .close:hover {
-	cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
+    cursor: pointer; background: url(../../img/registration_form_close_over.png) no-repeat;
 }
 
 #followed-users-form .form-heading .loading {
-	position: absolute; left: 285px; top: 15px; 
-	width: 40px; height: 40px; display: none;
-	background: url(../../img/refresh_active.gif) no-repeat;
+    position: absolute; left: 285px; top: 15px; 
+    width: 40px; height: 40px; display: none;
+    background: url(../../img/refresh_active.gif) no-repeat;
 }
 
 #followed-users-form .content {
-	width: 680px; height: 350px; overflow-y: scroll;
+    width: 680px; height: 350px; overflow-y: scroll;
 }
 
 #followed-users-form .item {
-	padding-top: 1px; clear: both; width: 660px; height: 100px;
+    padding-top: 1px; clear: both; width: 660px; height: 100px;
 }
 
 #followed-users-form .item-wrapper {
-	width: 620px; height: 70px; margin-top: 15px;
-	margin-left: 20px; margin-right: 20px;
+    width: 620px; height: 70px; margin-top: 15px;
+    margin-left: 20px; margin-right: 20px;
 }
 
 #followed-users-form .highlight-column {
-	background: rgb(222,222,222);
+    background: rgb(222,222,222);
 }
 
 #followed-users-form .avatar {
-	float: left; width: 70px; height: 70px;
+    float: left; width: 70px; height: 70px;
 }
 
 #followed-users-form .no-avatar {
-	width: 70px; height: 70px;
-	background: url(../../img/noavatar_70_70_with_limits.jpg) no-repeat;
+    width: 70px; height: 70px;
+    background: url(../../img/noavatar_70_70_with_limits.jpg) no-repeat;
 }
 
 #followed-users-form .legend {
-	float: left; width: 400px; height: 70px;
-	text-align: left;
+    float: left; width: 400px; height: 70px;
+    text-align: left;
 }
 
 #followed-users-form .legend .heading {
-	width: 400px; height: 40px; line-height: 40px; 
-	color: black; overflow: hidden;
+    width: 400px; height: 40px; line-height: 40px; 
+    color: black; overflow: hidden;
 }
 
 #followed-users-form .legend .heading h3 {
-	color: black; font-size: 34px; font-weight: bold; letter-spacing: -2px;
-	margin-left: 15px; display: inline;
+    color: black; font-size: 34px; font-weight: bold; letter-spacing: -2px;
+    margin-left: 15px; display: inline;
 }
 
 #followed-users-form .legend .heading h3:hover {
-	color: rgb(81,81,181); text-decoration: none;
+    color: rgb(81,81,181); text-decoration: none;
 }
 
 #followed-users-form .legend .heading a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #followed-users-form .legend .sublabel {
-	width: 400px; height: 25px; line-height: 25px;
-	margin-left: 15px; color: rgb(110,110,110);
-	font-size: 18px; letter-spacing: -1px;
+    width: 400px; height: 25px; line-height: 25px;
+    margin-left: 15px; color: rgb(110,110,110);
+    font-size: 18px; letter-spacing: -1px;
 }
 
 #followed-users-form .legend .sublabel .highlight {
-	color: rgb(81,81,181); font-weight: bold;
+    color: rgb(81,81,181); font-weight: bold;
 }
 
 #followed-users-form .action {
-	float: left; width: 150px; height: 70px;
+    float: left; width: 150px; height: 70px;
 }
 
 #followed-users-form .action .button {
-	width: 130px; height: 30px; line-height: 30px; text-align: center;
-	margin-left: 10px; margin-top: 15px; color: black;
-	background: rgb(240,240,240); border: 1px rgb(210,210,210) solid;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-	font-weight: bold; letter-spacing: -1px;
+    width: 130px; height: 30px; line-height: 30px; text-align: center;
+    margin-left: 10px; margin-top: 15px; color: black;
+    background: rgb(240,240,240); border: 1px rgb(210,210,210) solid;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    font-weight: bold; letter-spacing: -1px;
 }
 
 #followed-users-form .action .button:hover {
-	background: rgb(81,81,181); color: white; cursor: pointer;
+    background: rgb(81,81,181); color: white; cursor: pointer;
 }
 
 /******************************************************************/
 /*                     Form no followers                          */
 /******************************************************************/
 #followed-users-form .no-followed-users {
-	width: 660px; height: 290px; padding-top: 1px;
+    width: 660px; height: 290px; padding-top: 1px;
 }
 
 #followed-users-form .no-followed-users .message {
-	width: 620px; height: 100px; margin-top: 100px;
-	margin-left: 20px; background: rgb(222,222,222);
+    width: 620px; height: 100px; margin-top: 100px;
+    margin-left: 20px; background: rgb(222,222,222);
 }
 
 #followed-users-form .no-followed-users .icon {
-	float: left; width: 120px; height: 100px; margin-left: 150px;
-	background: url(../../img/no_followed_users.png);
+    float: left; width: 120px; height: 100px; margin-left: 150px;
+    background: url(../../img/no_followed_users.png);
 }
 
 #followed-users-form .no-followed-users .label {
-	float: left; width: 350px; height: 100px; line-height: 100px;
-	font-size: 18px; font-weight: bold; letter-spacing: -1px;
-	text-align: left;
+    float: left; width: 350px; height: 100px; line-height: 100px;
+    font-size: 18px; font-weight: bold; letter-spacing: -1px;
+    text-align: left;
 }

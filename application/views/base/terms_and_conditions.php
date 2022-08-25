@@ -1,63 +1,63 @@
 <div id="info">
-	<!-- Heading -->
-	<div class="heading">
-		<div class="wrapper">
+    <!-- Heading -->
+    <div class="heading">
+        <div class="wrapper">
 
-			<!-- Legend -->
-			<div class="legend">
+            <!-- Legend -->
+            <div class="legend">
 
-				<div class="label">
-					Terms and Conditions
-				</div>
+                <div class="label">
+                    Terms and Conditions
+                </div>
 
-				<div class="sublabel">
-					Thank you for visiting fordrive.net("The Site")
-				</div>
+                <div class="sublabel">
+                    Thank you for visiting fordrive.net("The Site")
+                </div>
 
-			</div>
-			<!-- Legend END -->
+            </div>
+            <!-- Legend END -->
 
-		</div>
-	</div>
-	<!-- Heading END -->
+        </div>
+    </div>
+    <!-- Heading END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Introduction
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Introduction
+            </div>
 
-			<div class="description">
-				This Agreement contains the complete terms and conditions that apply to your participation in our site. The Agreement describes and encompasses the entire agreement between us and you, and supersedes all prior or contemporaneous agreements, representations, warranties and understandings with respect to the Site, the content and computer programs provided by or through the Site, and the subject matter of this Agreement. If you wish to become a member of this social networking website and communicate with other members, please read these terms of use carefully before using our site and its services. By accessing this site or using any part of the site or any content or services hereof, you agree to become bound by these terms and conditions. If you do not agree to all the terms and conditions, then you may not access the site or use the content or any services in the site. Amendments to this agreement can be made and effected by us from time to time without specific notice to your end. Agreement posted on the Site reflects the latest agreement and you should carefully review the same before you use our site.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            <div class="description">
+                This Agreement contains the complete terms and conditions that apply to your participation in our site. The Agreement describes and encompasses the entire agreement between us and you, and supersedes all prior or contemporaneous agreements, representations, warranties and understandings with respect to the Site, the content and computer programs provided by or through the Site, and the subject matter of this Agreement. If you wish to become a member of this social networking website and communicate with other members, please read these terms of use carefully before using our site and its services. By accessing this site or using any part of the site or any content or services hereof, you agree to become bound by these terms and conditions. If you do not agree to all the terms and conditions, then you may not access the site or use the content or any services in the site. Amendments to this agreement can be made and effected by us from time to time without specific notice to your end. Agreement posted on the Site reflects the latest agreement and you should carefully review the same before you use our site.
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Eligibility
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Eligibility
+            </div>
 
-			<div class="description">
-				This website including its tools, applications and services are intended solely for access and use by individual who are at least eighteen (18) years old and above. By accessing and using our website including its tools, applications and services, you warrant and represent that you are at least eighteen (18) years old and with full authority, right, and capacity to enter into this Agreement and to abide by all of the terms and conditions of this Agreement.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            <div class="description">
+                This website including its tools, applications and services are intended solely for access and use by individual who are at least eighteen (18) years old and above. By accessing and using our website including its tools, applications and services, you warrant and represent that you are at least eighteen (18) years old and with full authority, right, and capacity to enter into this Agreement and to abide by all of the terms and conditions of this Agreement.
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Use of the site & Prohibitions
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Use of the site & Prohibitions
+            </div>
 
-			<div class="description">
-				This site allows you to add content, including photos, videos, and text, express your thoughts, and make some comments and discussion, and communicate with other members. You understand and agree, however, that you will use this site including its tools and services with full sense of responsibility and in a manner that is consistent with these Terms and in such a way as to ensure compliance with all applicable laws and regulations. You agree that you will use the site and its services in compliance with all applicable local, state, national, and international laws, rules and regulations, including any laws regarding the transmission of technical data exported from your country of residence and all United States export control laws.
+            <div class="description">
+                This site allows you to add content, including photos, videos, and text, express your thoughts, and make some comments and discussion, and communicate with other members. You understand and agree, however, that you will use this site including its tools and services with full sense of responsibility and in a manner that is consistent with these Terms and in such a way as to ensure compliance with all applicable laws and regulations. You agree that you will use the site and its services in compliance with all applicable local, state, national, and international laws, rules and regulations, including any laws regarding the transmission of technical data exported from your country of residence and all United States export control laws.
 You may view, download for collection purposes only, and print pages or other contents from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms of use.
 <br>(a) you must not use our sites, including its services and or tools if you are not able to form legally binding contracts, are under the age of 18, or are temporarily or indefinitely suspended from using our sites, services, or tools
 <br>(b) you should not post any blogs, items, messages, and or contents that are inappropriate and fails to observe sense of decency and or would offend other persons;
@@ -68,69 +68,69 @@ You may view, download for collection purposes only, and print pages or other co
 <br>(g) you must not take any action that may damage the rating system.
 <br>(h) you must not use our website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website; or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity.
 <br>(i) you must not post any materials, that you dont own, or if you haven't got permission from the owner.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Copyright Notice
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Copyright Notice
+            </div>
 
-			<div class="description">
-				To file a notice of copyright infringement with us, you must do so in writing to the following email address: <?php echo $support_email; ?>. Please provide us the following information in the substance of your email:
+            <div class="description">
+                To file a notice of copyright infringement with us, you must do so in writing to the following email address: <?php echo $support_email; ?>. Please provide us the following information in the substance of your email:
 <br>a. A description and the exact location, including the permanent URL, of the allegedly infringing content;
 <br>b . Contact information, including an email address and telephone number;
 <br>c. A statement as to your claim of ownership of the content;
 <br>d . Proof of copyright;
 <br>e. A sworn statement that, I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.; and
 <br>f . A signature, which may be in the following format: /first name last name/.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Registration / Member Account
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Registration / Member Account
+            </div>
 
-			<div class="description">
+            <div class="description">
 As a condition of becoming a member of this social networking website including the use of its tools, applications and services, you are required to register with the site and be required to provide password and user name. You must complete the full registration process and shall provide the site with accurate, complete, and updated registration information. Failure to do so shall constitute a breach of the Terms of Use, which may result in immediate termination of your account.
 You are entirely responsible for maintaining the confidentiality of your password. You agree not to use the Member Account, Member profile, username, or password of another Member at any time. You agree to notify us immediately if you suspect any unauthorized use of your Member Account or Member profile or access to your password. You are solely responsible for any and all use of your Member Account and Member profile. You must not transmit any worms or viruses or any code of a destructive nature. Any information provided by you or gathered by the site or third parties during any visit to the site shall be subject to the terms of www.fordrive.net’s Privacy Policy.
 In addition, you may not register for more than one Member Account, register for a Member Account on behalf of an individual other than yourself or register a Member Account on behalf of any group or entity. Furthermore, you may not use or attempt to use another's Member Account without authorization from us or create a false identity on our Services.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Non-commercial Use By Members
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Non-commercial Use By Members
+            </div>
 
-			<div class="description">
+            <div class="description">
 Members on this social networking website are prohibited to use the services of the website in connection with any commercial endeavors or ventures. This includes providing links to other websites, whether deemed competitive to this website or not. Juridical persons or entities including but not limited to organizations, companies, and/or businesses may not become Members of www.fordrive.net and should not use the site for any purpose.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Links & Framings
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Links & Framings
+            </div>
 
-			<div class="description">
+            <div class="description">
 Illegal and/or unauthorized uses of the Services, including unauthorized framing of
 or linking to the Sites will be investigated, and appropriate legal action may be
 taken. Some links, however, are welcome to the site and you are allowed to establish
@@ -142,19 +142,19 @@ the link does not state or imply any sponsorship or endorsement of your site and
 However, you must check the copyright notice on the homepage to which you wish to
 link to make sure that one of our content providers does not have its own policies
 regarding direct links to their content on our sites.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Materials Posted By You
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Materials Posted By You
+            </div>
 
-			<div class="description">
+            <div class="description">
 You are responsible for the content of your communications, messages and posts, and
 its consequences. We reserves the right to terminate your registration if we become
 aware, at our sole discretion, that you are violating any of the guidelines set
@@ -176,19 +176,19 @@ whether for legal or for any other reason. Furthermore, we reserve the right to 
 access to anyone who we believe, in our sole discretion, has in any way breached
 these Terms or where we reasonably believe a user does not comply with any relevant
 age restrictions on the site.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Warranty Disclaimer And Exclusions / Limitations Of Liability
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Warranty Disclaimer And Exclusions / Limitations Of Liability
+            </div>
 
-			<div class="description">
+            <div class="description">
 You represent and warrant that (a) all of the information provided by you to our
 website to participate in the Service is correct and current; and (b) you have all
 necessary right, power and authority to enter into this Agreement and to perform the
@@ -219,19 +219,19 @@ interruptions or errors. We may change, restrict access to, suspend or discontin
 the site or any part of it at anytime. The information, content and services on the
 site are provided on an “as is” basis. When you use the site and or participate
 herein, you understand and agree that you participate at your own risk.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Intellectual Property Rights
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Intellectual Property Rights
+            </div>
 
-			<div class="description">
+            <div class="description">
 The Web allows people throughout the world to share valuable information, ideas and
 creative works. To ensure continued open access to such materials, we all need to
 protect the rights of those who share their creations with us. Although we make the
@@ -251,43 +251,43 @@ prepare derivative works from, decompile, reverse engineer, disassemble or other
 attempt to derive source code from any of our services, software, or documentation,
 or create or attempt to create a substitute or similar service or product through
 use of or access to the Program or proprietary information related thereto.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Confidentiality
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Confidentiality
+            </div>
 
-			<div class="description">
+            <div class="description">
 You agree not to disclose information you obtain from us and or from our clients,
 advertisers, suppliers and forum members. All information submitted to by an end-
 user customer pursuant to a Program is proprietary information of www.fordrive.net.
 Such customer information is confidential and may not be disclosed. Publisher agrees
 not to reproduce, disseminate, sell, distribute or commercially exploit any such
 proprietary information in any manner.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Non-assigment Of Rights
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Non-assigment Of Rights
+            </div>
 
-			<div class="description">
+            <div class="description">
 Your rights of whatever nature cannot be assigned nor transferred to anybody, and
 any such attempt may result in termination of this Agreement, without liability to
 us. However, we may assign this Agreement to any person at any time without notice.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 </div>

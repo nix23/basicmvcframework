@@ -2,18 +2,18 @@
 /*                             Form common markup styles                                */
 /****************************************************************************************/
 .form {
-	position: relative; width: 960px;
+    position: relative; width: 960px;
 }
 
 /******************************************************************/
 /*                            Common                              */
 /******************************************************************/
 .form .underline {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .form .hidden {
-	display: none;
+    display: none;
 }
 
 /* Remove button padding in FF */
@@ -23,270 +23,270 @@ button::-moz-focus-inner { border: 0; padding: 0; }
 /*                           Heading                              */
 /******************************************************************/
 .form .backlink {
-	width: 960px; height: 35px; line-height: 35px; text-align: left; 
-	font-size: 16px; background: rgb(222,222,222); font-weight: bold; 
-	letter-spacing: -1px;
+    width: 960px; height: 35px; line-height: 35px; text-align: left; 
+    font-size: 16px; background: rgb(222,222,222); font-weight: bold; 
+    letter-spacing: -1px;
 }
 
 .form .backlink a {
-	margin-left: 30px; color: rgb(60,60,60);
+    margin-left: 30px; color: rgb(60,60,60);
 }
 
 .form .backlink a:hover {
-	color: rgb(81,81,181); text-decoration: none;
+    color: rgb(81,81,181); text-decoration: none;
 }
 
 .form .heading {
-	width: 960px; height: 50px; line-height: 50px; font-size: 28px;
-	font-weight: bold; letter-spacing: -1px; 
-	border-top: 1px rgb(210,210,210) solid;
-	border-bottom: 1px rgb(210,210,210) solid;
+    width: 960px; height: 50px; line-height: 50px; font-size: 28px;
+    font-weight: bold; letter-spacing: -1px; 
+    border-top: 1px rgb(210,210,210) solid;
+    border-bottom: 1px rgb(210,210,210) solid;
 }
 
 /******************************************************************/
 /*              Left & right form element blocks                  */
 /******************************************************************/
 .form .item {
-	clear: both; width: 960px; overflow: hidden; 
+    clear: both; width: 960px; overflow: hidden; 
 }
 
 .form .legend {
-	float: left; width: 460px; margin-top: 20px; text-align: right;
+    float: left; width: 460px; margin-top: 20px; text-align: right;
 }
 
 .form .legend .name {
-	margin-right: 20px;
-	font-size: 24px; font-weight: bold; color: rgb(60,60,60); letter-spacing: -1px;
+    margin-right: 20px;
+    font-size: 24px; font-weight: bold; color: rgb(60,60,60); letter-spacing: -1px;
 }
 
 .form .legend .required {
-	font-size: 24px; color: rgb(81,81,181);
+    font-size: 24px; color: rgb(81,81,181);
 }
 
 .form .legend .description {
-	margin-right: 20px;
-	font-size: 11px; color: rgb(130,130,130); text-align: right;
+    margin-right: 20px;
+    font-size: 11px; color: rgb(130,130,130); text-align: right;
 }
 
 .form .legend .description .small-heading {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .form .legend .description .helper-link {
-	color: rgb(81,81,181); font-weight: bold;
+    color: rgb(81,81,181); font-weight: bold;
 }
 
 .form .legend .description .helper-link:hover {
-	text-decoration: underline; cursor: pointer;
+    text-decoration: underline; cursor: pointer;
 }
 
 .form .element {
-	float: left; text-align: left; width: 500px; margin-top: 20px;
+    float: left; text-align: left; width: 500px; margin-top: 20px;
 }
 
 /******************************************************************/
 /*                      Input styles                              */
 /******************************************************************/
 .form .input {
-	font-family: Arial; font-size: 24px; width: 230px; height: 35px;
-	line-height: 35px; -moz-border-radius: 5px;
-	-webkit-border-radius: 5px; border-radius: 5px;
+    font-family: Arial; font-size: 24px; width: 230px; height: 35px;
+    line-height: 35px; -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; border-radius: 5px;
 }
 
 .form .small {
-	width: 115px !important;
+    width: 115px !important;
 }
 
 .form .long {
-	width: 350px !important;
+    width: 350px !important;
 }
 
 .form .input-border {
-	border: thin solid #CCCCCC; outline: none;
+    border: thin solid #CCCCCC; outline: none;
 }
 
 .form .input-over {
-	border: thin solid rgb(180,180,180);
+    border: thin solid rgb(180,180,180);
 }
 
 .form .input-focus {
-	border: 1px solid rgb(81,81,181);
+    border: 1px solid rgb(81,81,181);
 }
 
 /******************************************************************/
 /*                    Select & radio styles                       */
 /******************************************************************/
 .form .select {
-	width: 230px; height: 35px; line-height: 35px;
-	font-size: 24px; line-height: 1;
-	-moz-border-radius: 5px; font-family: Arial;
-	-webkit-border-radius: 5px; border-radius: 5px;
+    width: 230px; height: 35px; line-height: 35px;
+    font-size: 24px; line-height: 1;
+    -moz-border-radius: 5px; font-family: Arial;
+    -webkit-border-radius: 5px; border-radius: 5px;
 }
 
 .form .radio {
-	float: left;
+    float: left;
 }
 
 .form .radio .padding {
-	padding-left: 5px;
+    padding-left: 5px;
 }
 
 .form .newrow {
-	clear: both; float: left; padding-top: 6px;
+    clear: both; float: left; padding-top: 6px;
 }
 
 /******************************************************************/
 /*                      Textarea styles                           */
 /******************************************************************/
 .form .textarea {
-	width: 350px; height: 120px; font-family: Arial; font-size: 18px; resize: none;
-	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; 
+    width: 350px; height: 120px; font-family: Arial; font-size: 18px; resize: none;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; 
 }
 
 .form .tall {
-	height: 220px !important;
+    height: 220px !important;
 }
 
 .form .redactor {
-	width: 440px; height: 420px;
+    width: 440px; height: 420px;
 }
 
 /******************************************************************/
 /*                          Text styles                           */
 /******************************************************************/
 .form .text {
-	font-size: 24px; font-weight: bold; color: rgb(30,30,30);
-	letter-spacing: -1px;
+    font-size: 24px; font-weight: bold; color: rgb(30,30,30);
+    letter-spacing: -1px;
 }
 
 .form .text .highlight {
-	color: rgb(81,81,181);
+    color: rgb(81,81,181);
 }
 
 /******************************************************************/
 /*             Single photo block(right; avatar,etc...)           */
 /******************************************************************/
 .form .single-photo {
-	width: 150px; height: 100px;
+    width: 150px; height: 100px;
 }
 
 .form .single-photo .add {
-	float: left; width: 75px; height: 75px; line-height: 75px; 
-	color: rgb(100,100,100); text-align: center; font-size: 14px;
-	font-weight: bold; background: rgb(210,210,210);
-	letter-spacing: -1px;
+    float: left; width: 75px; height: 75px; line-height: 75px; 
+    color: rgb(100,100,100); text-align: center; font-size: 14px;
+    font-weight: bold; background: rgb(210,210,210);
+    letter-spacing: -1px;
 }
 
 .form .single-photo .add:hover {
-	cursor: pointer; text-decoration: underline;
+    cursor: pointer; text-decoration: underline;
 }
 
 .form .single-photo .photo-wrapper {
-	position: relative; float: left; width: 75px; height: 75px;
+    position: relative; float: left; width: 75px; height: 75px;
 }
 
 .form .single-photo .no-avatar {
-	width: 75px; height: 75px;
-	background: url(../../../img/noavatar_75_75.jpg) no-repeat;
+    width: 75px; height: 75px;
+    background: url(../../../img/noavatar_75_75.jpg) no-repeat;
 }
 
 .form .single-photo .delete {
-	position: absolute; width: 75px; height: 15px; left: 0px;
-	top: 60px; background: url(../../../img/singlephoto_delete.png) no-repeat;
+    position: absolute; width: 75px; height: 15px; left: 0px;
+    top: 60px; background: url(../../../img/singlephoto_delete.png) no-repeat;
 }
 
 .form .single-photo .delete:hover {
-	background: url(../../../img/singlephoto_delete_over.png) no-repeat;
-	cursor: pointer;
+    background: url(../../../img/singlephoto_delete_over.png) no-repeat;
+    cursor: pointer;
 }
 
 /******************************************************************/
 /*                     Photos block(right)                        */
 /******************************************************************/
 .form .photos {
-	width: 400px; height: 100px;
+    width: 400px; height: 100px;
 }
 
 .form .photos .add {
-	float: left; width: 100px; height: 75px; line-height: 75px; color: rgb(100,100,100);
-	text-align: center; font-size: 14px; font-weight: bold; background: rgb(210,210,210);
-	letter-spacing: -1px;
+    float: left; width: 100px; height: 75px; line-height: 75px; color: rgb(100,100,100);
+    text-align: center; font-size: 14px; font-weight: bold; background: rgb(210,210,210);
+    letter-spacing: -1px;
 }
 
 .form .photos .add:hover {
-	cursor: pointer; text-decoration: underline;
+    cursor: pointer; text-decoration: underline;
 }
 
 .form .photos .previews {
-	line-height: 0px;
+    line-height: 0px;
 }
 
 .form .photos .preview {
-	float: left; position: relative;
+    float: left; position: relative;
 }
 
 .form .photos .preview img:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .form .photos .preview .number {
-	position: absolute; left: 0px; top: 0px; width: 20px; height: 20px;
-	line-height: 20px; text-align: center; background: rgb(81,81,181);
-	color: white; font-weight: bold; font-size: 14px; letter-spacing: -2px;
+    position: absolute; left: 0px; top: 0px; width: 20px; height: 20px;
+    line-height: 20px; text-align: center; background: rgb(81,81,181);
+    color: white; font-weight: bold; font-size: 14px; letter-spacing: -2px;
 }
 
 .form .photos .actions {
-	position: absolute; left: 0px; top: 60px; width: 100px; height: 15px;
+    position: absolute; left: 0px; top: 60px; width: 100px; height: 15px;
 }
 
 .form .photos .actions .main {
-	float: left; width: 50px; height: 15px; 
-	background: url(../../../img/photo_preview_main.png) no-repeat;
+    float: left; width: 50px; height: 15px; 
+    background: url(../../../img/photo_preview_main.png) no-repeat;
 }
 
 .form .photos .actions .main:hover {
-	background: url(../../../img/photo_preview_main_over.png) no-repeat;
-	cursor: pointer;
+    background: url(../../../img/photo_preview_main_over.png) no-repeat;
+    cursor: pointer;
 }
 
 .form .photos .actions .main-selected {
-	float: left; width: 50px; height: 15px;
-	background: url(../../../img/photo_preview_main_over.png) no-repeat;
+    float: left; width: 50px; height: 15px;
+    background: url(../../../img/photo_preview_main_over.png) no-repeat;
 }
 
 .form .photos .actions .delete {
-	float: left; width: 50px; height: 15px; 
-	background: url(../../../img/photo_preview_delete.png) no-repeat;
+    float: left; width: 50px; height: 15px; 
+    background: url(../../../img/photo_preview_delete.png) no-repeat;
 }
 
 .form .photos .actions .delete:hover {
-	background: url(../../../img/photo_preview_delete_over.png) no-repeat;
-	cursor: pointer;
+    background: url(../../../img/photo_preview_delete_over.png) no-repeat;
+    cursor: pointer;
 }
 
 /******************************************************************/
 /*                        Save & Loading                          */
 /******************************************************************/
 .form .save {
-	float: left; text-align: right; width: 570px; height: 60px; margin-top: 15px;
+    float: left; text-align: right; width: 570px; height: 60px; margin-top: 15px;
 }
 
 .form .save .submit {
-	margin-top: 10px; margin-right: 5px; width: 170px; height: 40px; line-height: 1;
-	font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
+    margin-top: 10px; margin-right: 5px; width: 170px; height: 40px; line-height: 1;
+    font-family: Arial; font-size: 22px; font-weight: bold; letter-spacing: -1px;
 }
 
 .form .loading {
-	float: left; width: 390px; height: 60px; margin-top: 15px; display: none;
-	background: url(../../../img/loading_middle.gif) no-repeat;
+    float: left; width: 390px; height: 60px; margin-top: 15px; display: none;
+    background: url(../../../img/loading_middle.gif) no-repeat;
 }
 
 /******************************************************************/
 /*                           Special                              */
 /******************************************************************/
 .form .remoderation-warning {
-	width: 960px; height: 20px; line-height: 20px; background: rgb(81,81,181);
-	color: white; font-size: 14px; letter-spacing: -1px; font-weight: bold;
+    width: 960px; height: 20px; line-height: 20px; background: rgb(81,81,181);
+    color: white; font-size: 14px; letter-spacing: -1px; font-weight: bold;
 }
 
 /****************************************************************************************/
@@ -295,117 +295,117 @@ button::-moz-focus-inner { border: 0; padding: 0; }
 
 /* File uploader ajax iframe */
 .ajax-iframe {
-	width: 0px; height: 0px; display: none;
+    width: 0px; height: 0px; display: none;
 }
 
 /* Form photo uploader */
 #photo-upload-spinner {
-	position: absolute; left: 510px; width: 0px; height: 0px;
-	overflow: hidden; visibility: hidden; background: rgb(230,230,230);
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
-	border: 1px rgb(210,210,210) solid;
-	z-index: 1400;
+    position: absolute; left: 510px; width: 0px; height: 0px;
+    overflow: hidden; visibility: hidden; background: rgb(230,230,230);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    border: 1px rgb(210,210,210) solid;
+    z-index: 1400;
 }
 
 #photo-upload-spinner .spinner-wrapper {
-	position: relative; width: 460px; height: 210px; left: -230px; top: -105px; 
+    position: relative; width: 460px; height: 210px; left: -230px; top: -105px; 
 }
 
 .photo-upload-form .header {
-	position: relative; width: 460px; height: 50px; line-height: 50px;
-	text-align: left; border-bottom: 1px rgb(210,210,210) solid; 
+    position: relative; width: 460px; height: 50px; line-height: 50px;
+    text-align: left; border-bottom: 1px rgb(210,210,210) solid; 
 }
 
 .photo-upload-form .close {
-	position: absolute; left: 400px; top: 10px; width: 30px; height: 30px; 
-	background: url(../../../img/close.png) no-repeat;
+    position: absolute; left: 400px; top: 10px; width: 30px; height: 30px; 
+    background: url(../../../img/close.png) no-repeat;
 }
 
 .photo-upload-form .close:hover { 
-	cursor: pointer; background: url(../../../img/close_over.png) no-repeat;
+    cursor: pointer; background: url(../../../img/close_over.png) no-repeat;
 }
 
 .photo-upload-form .header h2 {
-	font-size: 28px; font-weight: bold; letter-spacing: -2px; margin-left: 30px;
+    font-size: 28px; font-weight: bold; letter-spacing: -2px; margin-left: 30px;
 }
 
 .photo-upload-form .file-select {
-	width: 460px; height: 50px; text-align: left;
+    width: 460px; height: 50px; text-align: left;
 }
 
 .photo-upload-form .file-select input {
-	margin-left: 30px; margin-top: 15px; margin-bottom: 15px; 
+    margin-left: 30px; margin-top: 15px; margin-bottom: 15px; 
 }
 
 .photo-upload-form .description {
-	width: 460px; height: 55px; text-align: left; 
+    width: 460px; height: 55px; text-align: left; 
 }
 
 .photo-upload-form .description p {
-	font-size: 12px; margin-left: 30px; margin-right: 30px; 
+    font-size: 12px; margin-left: 30px; margin-right: 30px; 
 }
 
 .photo-upload-form .actions {
-	width: 460px; height: 30px; 
+    width: 460px; height: 30px; 
 }
 
 .photo-upload-form .uploading {
-	float: left; width: 300px; height: 30px;
+    float: left; width: 300px; height: 30px;
 }
 
 .photo-upload-form .uploading .icon {
-	float: right; width: 30px; height: 30px; margin-right: 5px;
-	background: url(../../../img/loading_small.gif) no-repeat;
-	display: none;
+    float: right; width: 30px; height: 30px; margin-right: 5px;
+    background: url(../../../img/loading_small.gif) no-repeat;
+    display: none;
 }
 
 .photo-upload-form .upload {
-	float: left; width: 160px; height: 30px; text-align: left;
+    float: left; width: 160px; height: 30px; text-align: left;
 }
 
 .photo-upload-form .upload button {
-	width: 130px; height: 30px; line-height: 1;
-	font-family: Arial; font-size: 16px; font-weight: bold; letter-spacing: -1px;
+    width: 130px; height: 30px; line-height: 1;
+    font-family: Arial; font-size: 16px; font-weight: bold; letter-spacing: -1px;
 }
 
 .photo-upload-form .footer {
-	width: 460px; height: 25px;
+    width: 460px; height: 25px;
 }
 
 /****************************************************************************************/
 /*                               Modal helper form                                      */
 /****************************************************************************************/
 #modal-helper-form {
-	position: absolute; left: 50%; width: 940px; height: 420px;
-	z-index: 5000; margin-left: -470px; display: none;
+    position: absolute; left: 50%; width: 940px; height: 420px;
+    z-index: 5000; margin-left: -470px; display: none;
 }
 
 #modal-helper-form .modal-helper-form {
-	background: rgb(235,235,235);
-	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-	-webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    background: rgb(235,235,235);
+    border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
 #modal-helper-form-spinner {
-	width: 0px; height: 0px; position: absolute; left: 470px; top: 210px;
-	overflow: hidden; visibility: hidden;
+    width: 0px; height: 0px; position: absolute; left: 470px; top: 210px;
+    overflow: hidden; visibility: hidden;
 }
 
 #modal-helper-form .spinner-wrapper {
-	position: relative; width: 940px; height: 420px;
-	left: -470px; top: -210px;
+    position: relative; width: 940px; height: 420px;
+    left: -470px; top: -210px;
 }
 
 #modal-helper-form .tags-example {
-	width: 940px; height: 420px;
-	background: url(../../../img/tags_example_940_420v2.jpg);
+    width: 940px; height: 420px;
+    background: url(../../../img/tags_example_940_420v2.jpg);
 }
 
 #modal-helper-form .tags-example:hover {
-	cursor: pointer;
+    cursor: pointer;
 }

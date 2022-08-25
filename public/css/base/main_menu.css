@@ -1,35 +1,35 @@
 #main-menu {
-	width: 960px; height: 70px; border-bottom: 1px rgb(220,220,220) solid; 
+    width: 960px; height: 70px; border-bottom: 1px rgb(220,220,220) solid; 
 }
 
 #main-menu .item {
-	position: relative; float: left; width: 130px; height: 70px;
-	color: rgb(180,180,180);
+    position: relative; float: left; width: 130px; height: 70px;
+    color: rgb(180,180,180);
 }
 
 #main-menu a {
-	text-decoration: none; color: inherit;
+    text-decoration: none; color: inherit;
 }
 
 #main-menu .wrapper {
-	position: absolute; left: 0px; top: 50%; margin-top: -22px;
-	width: 130px; height: 45px;
+    position: absolute; left: 0px; top: 50%; margin-top: -22px;
+    width: 130px; height: 45px;
 }
 
 #main-menu .separator {
-	border-right: 1px rgb(180,180,180) solid;
+    border-right: 1px rgb(180,180,180) solid;
 }
 
 #main-menu .heading {
-	width: 115px; height: 30px; font-size: 30px; font-weight: bold;
-	letter-spacing: -2px; text-align: left; padding-left: 15px; color: black;
+    width: 115px; height: 30px; font-size: 30px; font-weight: bold;
+    letter-spacing: -2px; text-align: left; padding-left: 15px; color: black;
 }
 
 #main-menu .subheading {
-	width: 115px; height: 15px; font-size: 12px; text-align: left;
-	padding-left: 15px; color: rgb(110,110,110); 
+    width: 115px; height: 15px; font-size: 12px; text-align: left;
+    padding-left: 15px; color: rgb(110,110,110); 
 }
 
 #main-menu .highlight {
-	color: rgb(81,81,181);
+    color: rgb(81,81,181);
 }

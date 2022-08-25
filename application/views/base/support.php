@@ -1,37 +1,37 @@
 <div id="info">
-	<!-- Heading -->
-	<div class="heading">
-		<div class="wrapper">
+    <!-- Heading -->
+    <div class="heading">
+        <div class="wrapper">
 
-			<!-- Legend -->
-			<div class="legend">
+            <!-- Legend -->
+            <div class="legend">
 
-				<div class="label">
-					Support
-				</div>
+                <div class="label">
+                    Support
+                </div>
 
-				<div class="sublabel">
-					Thank you for visiting fordrive.net
-				</div>
+                <div class="sublabel">
+                    Thank you for visiting fordrive.net
+                </div>
 
-			</div>
-			<!-- Legend END -->
+            </div>
+            <!-- Legend END -->
 
-		</div>
-	</div>
-	<!-- Heading END -->
+        </div>
+    </div>
+    <!-- Heading END -->
 
-	<!-- Block -->
-	<div class="block">
-		<div class="wrapper">
-			<div class="heading-label">
-				Support Email
-			</div>
+    <!-- Block -->
+    <div class="block">
+        <div class="wrapper">
+            <div class="heading-label">
+                Support Email
+            </div>
 
-			<div class="description">
-				For any questions you can write at <span class="bold">support@fordrive.net</span>.
-			</div>
-		</div>
-	</div>
-	<!-- Block END -->
+            <div class="description">
+                For any questions you can write at <span class="bold">support@fordrive.net</span>.
+            </div>
+        </div>
+    </div>
+    <!-- Block END -->
 </div>
